@@ -55,6 +55,11 @@ Paint-In Cafe is a Cafe based in Dublin, Ireland. Visitors of the cafe are provi
 #### Returning Visitor Goals
 * To be able to find any updates about the cafe on the home page.
 * Find contact details of Cafe in case they have any questions with regarding to their experience at the cafe.
+#### Site Owner's Goals
+* To ensure first time visitors have a good experience navigating through the web.
+* To generate traffic to website so more people know about the cafe. 
+* To ensure visitors understand the concept of the cafe.
+* To provide the visitors all the information they need before visiting the cafe for the first time.
 
 ## Design
 ### Color Scheme
