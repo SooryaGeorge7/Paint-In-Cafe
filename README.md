@@ -65,12 +65,29 @@ Paint-In Cafe is a Cafe based in Dublin, Ireland. Visitors of the cafe are provi
 
 ## Features
 ### General Features Per Page
+The website has 5 pages in total. The pages "Home, About, Cafe, Gallery, Event Enquiry" are placed as navigation links on the first page on the top rightside if the website is displayed on desktop, laptop or tablet. The navgation links to these pages are removed and placed as a dropdown hamburger button when viewed on a mobile.This is done to to save space avoid looking cluttered in mobile-view.The website is designed to be easy to navigate for first time visitors on the site.
 ### Future Implementation
 ### Accessibility
+These are the ways i have ensured to provide accessibility to users:
+* Used HTML semantics
+* Provided navigation links to access other pages.
+* Highlighted the navigation link to the current page you are on.
+* Ensured Colour Contrast so that the websites are easily readable.
+* Provided alt for images incase images do not load.
+* Provided information for icons where no text was provided.
+* Provided a submit button in the contact form which will then give out a pop up message. 
 
 ## Technologies Used
 ### Languages Used
+HTML and CSS was used to build this website
 ### Frameworks, Libraries and Programs Used
+* Balsamiq - For Wireframes
+* Gitpod
+* GitHub
+* Font Awesome
+* Google Fonts
+* Dev Tools
+* Am I Responsive
 
 ## Deployment & Local Development
 ### Deployment
