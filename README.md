@@ -42,7 +42,14 @@ This website is designed to be responsive to allow users from any location to vi
 ### Brief
 Paint-In Cafe is a Cafe based in Dublin, Ireland. Visitors of the cafe are provided with the necessory stationaries to paint with watercolors while having the option to order from our food menu as well.It is the place to go to when you want to do a creative activity to do with any number of people.This website is created for any users/ first time visitors to understand the cafe's concept, get contact details, find location of the cafe or send in an inquiry to the "paint-in cafe's " staff inorder to accomodate their specific needs.
 ### User Objectives
-
+#### Customer Goals
+* To be able to view the site on different device sizes.
+* To allow potential customers to find out about Paint-In Cafe.
+* To allow potential customers about the concept of the cafe and understand what they need to do to visit.
+* To ensure visitors have access to contact details incase they have any questions with regards to the cafe.
+#### First Time Visitor Goals
+* To be able to navigate around the website with ease to find any information.
+* To ensure that the visitor can find the enquiry form to submit in the case of wanting to book a table for an event.
 ## Design
 ### Color Scheme
 ### Typography
