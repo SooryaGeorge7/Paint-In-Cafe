@@ -70,7 +70,18 @@ Paint-In Cafe is a Cafe based in Dublin, Ireland. Visitors of the cafe are provi
 
 ## Features
 ### General Features Per Page
-The website has 5 pages in total. The pages "Home, About, Cafe, Gallery, Event Enquiry" are placed as navigation links on the first page on the top rightside if the website is displayed on desktop, laptop or tablet. The navgation links to these pages are removed and placed as a dropdown hamburger button when viewed on a mobile.This is done to to save space avoid looking cluttered in mobile-view.The website is designed to be easy to navigate for first time visitors on the site.
+The website has 5 pages in total. The pages "Home, About, Cafe, Gallery, Event Enquiry" are placed as navigation links on the first page on the top rightside if the website is displayed on desktop, laptop or tablet. The navgation links to these pages are removed and placed as a dropdown hamburger button when viewed on a mobile.This is done to to save space avoid looking cluttered in mobile-view.Each page will have the header element and footer element that will be consistent thoughout the pages.The website is designed to be easy to navigate for first time visitors on the site.The texts on the pages will appear more centerd in smaller devices like mobile.
+All the pages contain contact details , location and opening hours as part of the footer.
+#### Home Page
+This page should attract first time visitors and want them to keep navigating through the website.It has colourful images and video . Easy to read information about the cafe's concept and how it works. It also Shows contact details, Location and opening times as well as social media part as part of the footer.
+#### About Page
+This page shows how Paint-in cafe came about, information about when it was built, A deep dive into the background story of the owner and even more details about the cafe. A pic of the Owner is included.
+#### Cafe Page
+This page has the food menu for the cafe. It will also show symbols to see which food is vegetarian/ vegan / halaal. Image of a section of the Cafe is included.
+#### Gallery Page
+This page has images of paintings, people and food inorder to attract potential customers to visit the cafe.These are placed in the gallery to inspire potential customers to share the cafe website to their family or friends.
+#### Event Enquiry Page
+This page has a form that should be filled in if you want to host an event at the cafe. The form contains name, email address, contact no., type of event, no. of people, special requests and a submit button. 
 ### Future Implementation
 ### Accessibility
 These are the ways i have ensured to provide accessibility to users:
