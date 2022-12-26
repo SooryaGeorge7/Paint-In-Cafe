@@ -50,8 +50,15 @@ Paint-In Cafe is a Cafe based in Dublin, Ireland. Visitors of the cafe are provi
 #### First Time Visitor Goals
 * To be able to navigate around the website with ease to find any information.
 * To ensure that the visitor can find the enquiry form to submit in the case of wanting to book a table for an event.
+* To allow visitors to see gallery pictures of the cafe and paintings done at the cafe.
+* To allow visitors to view the menu of the cafe on the site to see their options for food.
+#### Returning Visitor Goals
+* To be able to find any updates about the cafe on the home page.
+* Find contact details of Cafe in case they have any questions with regarding to their experience at the cafe.
+
 ## Design
 ### Color Scheme
+![Inserting paint-In cafe color palette](documentation/Paint-In%20Caf%C3%A9%20Color%20Palette.png)
 ### Typography
 ### Imagery
 ### Wireframes
