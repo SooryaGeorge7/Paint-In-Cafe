@@ -67,7 +67,12 @@ Paint-In Cafe is a Cafe based in Dublin, Ireland. Visitors of the cafe are provi
 ### Typography
 ### Imagery
 ### Wireframes
-
+Wireframes for mobile, tablet and desktop view
+[Home page wireframe](documentation/Home%20wireframe.png)
+[About page wireframe](documentation/About%20Wireframe.png)
+[Cafe page wireframe](documentation/Cafe%20Wireframe.png)
+[Gallery page wireframe](documentation/Gallery%20Wireframe.png)
+[Event enquiry page wireframe](documentation/Event%20Enquiry%20wireframe.png)
 ## Features
 ### General Features Per Page
 The website has 5 pages in total. The pages "Home, About, Cafe, Gallery, Event Enquiry" are placed as navigation links on the first page on the top rightside if the website is displayed on desktop, laptop or tablet. The navgation links to these pages are removed and placed as a dropdown hamburger button when viewed on a mobile.This is done to to save space avoid looking cluttered in mobile-view.Each page will have the header element and footer element that will be consistent thoughout the pages.The website is designed to be easy to navigate for first time visitors on the site.The texts on the pages will appear more centerd in smaller devices like mobile.
