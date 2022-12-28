@@ -5,7 +5,34 @@
     border: none;
 }
 body {
-    font-family:Playfair Display, sans-serif;
+    font-family:Open Sans, sans-serif;
     font-weight: 19rem;
+    background-color:;
+    color: #FFFFFF;
+    
+}
+/* Headings and Logos */
+h1 {
+   font-family: Playfair Display, sans-serif;
+   letter-spacing: 0.3rem;
+   color: #FFFFFF;
+
+}
+header {
+    background-color: #67D378;
+}
+#cafelogo {
+    font-size: 150%;
+    
+    
+
+}
+#logoimage {
+    border-radius: 30%;
+    max-width: 15%;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    
     
 }
