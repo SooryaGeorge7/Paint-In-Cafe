@@ -136,7 +136,7 @@ a.active,a:hover {
 }
 #concept-text {
     margin: 0.5rem;
-    border: 0.25rem solid #8C2323;
+    /*border: 0.25rem solid #8C2323;*/
     
     color:#67D378;
     background-color: #FFFFFF;

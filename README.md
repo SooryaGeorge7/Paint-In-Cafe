@@ -65,6 +65,9 @@ Paint-In Cafe is a Cafe based in Dublin, Ireland. Visitors of the cafe are provi
 ### Color Scheme
 ![Inserting paint-In cafe color palette](documentation/Paint-In%20Caf%C3%A9%20Color%20Palette.png)
 ### Typography
+I used these two Google Fonts for headings and other texts:
+* Playfair Display
+* Open Sans
 ### Imagery
 ### Wireframes
 Wireframes for mobile, tablet and desktop view
@@ -75,7 +78,7 @@ Wireframes for mobile, tablet and desktop view
 [Event enquiry page wireframe](documentation/Event%20Enquiry%20wireframe.png)
 ## Features
 ### General Features Per Page
-The website has 5 pages in total. The pages "Home, About, Cafe, Gallery, Event Enquiry" are placed as navigation links on the first page on the top rightside if the website is displayed on desktop, laptop or tablet. The navgation links to these pages are removed and placed as a dropdown hamburger button when viewed on a mobile.This is done to to save space avoid looking cluttered in mobile-view.Each page will have the header element and footer element that will be consistent thoughout the pages.The website is designed to be easy to navigate for first time visitors on the site.The texts on the pages will appear more centerd in smaller devices like mobile.
+The website has 5 pages in total. The pages "Home, About, Cafe, Gallery, Event Enquiry" are placed as navigation links on the first page on the top rightside if the website is displayed on desktop, laptop or tablet. The navgation links to these pages are removed and placed as a hamburger toggler button when viewed on a mobile.This is done to to save space avoid looking cluttered in mobile-view.Each page will have the header element and footer element that will be consistent thoughout the pages.The website is designed to be easy to navigate for first time visitors on the site.The texts on the pages will appear more centerd in smaller devices like mobile.
 All the pages contain contact details , location and opening hours as part of the footer.
 #### Home Page
 This page should attract first time visitors and want them to keep navigating through the website.It has colourful images and video . Easy to read information about the cafe's concept and how it works. It also Shows contact details, Location and opening times as well as social media part as part of the footer.
@@ -109,6 +112,7 @@ HTML and CSS was used to build this website
 * Google Fonts
 * Dev Tools
 * Am I Responsive
+* Favicon
 
 ## Deployment & Local Development
 ### Deployment
@@ -130,6 +134,8 @@ HTML and CSS was used to build this website
 
 ## Credits
 ### Code Used
+* [Code used to make hamburger toggler](https://www.codingnepalweb.com/responsive-navigation-menu-bar-html-css/)
+* [Learnt how to make shadow to a section here](https://www.w3schools.com/css/css3_shadows_box.asp)
 ### Content
 ### Media
 ### Acknowledgement
