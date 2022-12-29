@@ -4,6 +4,7 @@
     padding: 0;
     border: none;
     text-decoration: none;
+    list-style: none;
 }
 body {
     font-family:Open Sans, sans-serif;
@@ -13,7 +14,7 @@ body {
     
 }
 /* Headings and Logos */
-h1 {
+h1, h2 {
    font-family: Playfair Display, sans-serif;
    letter-spacing: 0.3rem;
    color: #67D378;
@@ -24,8 +25,7 @@ h1 {
 
 #cafelogo {
     font-size: 150%;
-    
-    
+    float: left;
 
 }
 #logoimage {
@@ -34,21 +34,51 @@ h1 {
     margin-top: 0.5rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    height: auto;
-    
-    
+     
 }
 /*Naviagtion*/
 nav {
     text-align: center;
+    background-color: #67D378;
 }
 #menu {
     font-size: 110%;
     letter-spacing: 0.3rem;
     margin: auto 0;
-    
+    position: fixed;
+    width: 100%;
+    background-color: #7B9F82;
+    top: 5rem;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
 }
 #menu li {
-    display: inline-block;
+    display: flexbox;
+    margin-right: 0.5rem 0;
+    line-height: 30px;
+}
+.checkbutton {
+    float: right;
+    line-height: 0.5rem;
     margin-right: 0.5rem;
+    cursor: pointer;
+    display: block;
+    font-size: 1.25rem;
+    
+}
+#check {
+    display: none;
+}
+#menu li a {
+    color:#FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+a.active,a:hover {
+    background-color: #67D378;
+    transition: .5s;
+}
+#check:checked ~ ul{
+    left:0;
 }
