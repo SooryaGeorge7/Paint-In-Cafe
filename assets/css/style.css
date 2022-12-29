@@ -3,24 +3,25 @@
     margin: 0;
     padding: 0;
     border: none;
+    text-decoration: none;
 }
 body {
     font-family:Open Sans, sans-serif;
     font-weight: 19rem;
     background-color:;
-    color: #FFFFFF;
+    color: #67D378;
     
 }
 /* Headings and Logos */
 h1 {
    font-family: Playfair Display, sans-serif;
    letter-spacing: 0.3rem;
-   color: #FFFFFF;
+   color: #67D378;
+   
 
 }
-header {
-    background-color: #67D378;
-}
+
+
 #cafelogo {
     font-size: 150%;
     
@@ -29,10 +30,25 @@ header {
 }
 #logoimage {
     border-radius: 30%;
-    max-width: 15%;
+    max-width: 10%;
     margin-top: 0.5rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+    height: auto;
     
     
+}
+/*Naviagtion*/
+nav {
+    text-align: center;
+}
+#menu {
+    font-size: 110%;
+    letter-spacing: 0.3rem;
+    margin: auto 0;
+    
+}
+#menu li {
+    display: inline-block;
+    margin-right: 0.5rem;
 }
