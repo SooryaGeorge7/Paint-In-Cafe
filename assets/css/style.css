@@ -121,3 +121,25 @@ a.active,a:hover {
     left: 2rem;
     position: absolute;
 }
+/* concept of cafe/ section 2*/
+#watercolor-outer {
+    width:100%
+}
+#watercolor {
+    margin: 1rem;
+    width:90%;
+}
+#concept-section {
+    margin-top: 4rem;
+    text-align: center;
+    
+}
+#concept-text {
+    margin: 0.5rem;
+    border: 0.25rem solid #8C2323;
+    
+    color:#67D378;
+    background-color: #FFFFFF;
+    box-shadow: 0.25rem 0.25rem 0.125rem #7B9F82;
+    
+}
