@@ -122,11 +122,12 @@ a.active,a:hover {
 }
 /* concept of cafe/ section 2*/
 #watercolor-outer {
-    width:100%
+    width:100%;
+    height:auto;
 }
 #watercolor {
-    margin: 1rem;
-    width:90%;
+    margin: 0rem;
+    width:100%;
 }
 #concept-section {
     margin-top: 4rem;
@@ -145,12 +146,23 @@ a.active,a:hover {
 /*fixed image section with quote*/
 #splash-image {
     width:100%;
-    background: url('../images/paint-splash.jpg') no-repeat center ;
+    background: url('../images/paint\ splash.jpg') no-repeat center ;
     background-size: 100%;
-    
-    color: #67D378;
     height: 12rem;
-
+    margin-top: -0.25rem;
+    position: relative;
+}
+#splash-quote {
+    font-size: 0.75rem;
+    color: #FFFFFF;
+    bottom: 0.5rem;
+    text-transform: uppercase;
+    width: 16rem;
+    left: 0.5rem;
+    position:absolute;
+    background-color: rgba(140, 35, 35, 0.6);
+    text-align: center;
+    
 }
 #paintbrushes {
     width:100%;
