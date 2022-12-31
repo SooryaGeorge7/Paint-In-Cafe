@@ -156,7 +156,7 @@ a.active,a:hover {
 #splash-quote {
     font-size: 0.75rem;
     color: #FFFFFF;
-    bottom: 2rem;
+    bottom: 0.5rem;
     text-transform: uppercase;
     width: 16rem;
     left: 0.5rem;
@@ -166,10 +166,50 @@ a.active,a:hover {
     
 }
 #paintbrushes {
-    background: url('../images/paintbrushes.jpg') center center no-repeat fixed;
+    background: url('../images/paintbrushes.jpg') center center /cover no-repeat fixed;
     background-size: 100%;
-    height:24rem;
+    height:10rem;
     width: 100%;
-    margin-top: -1.2rem;
+    background-position: top;
     position:relative;
+}
+/*Contact information, opening times and location*/
+.details {
+    text-align: center;
+    border: 0.25rem solid #67D378;
+    margin: 1rem;
+    background-color: #FFFFFF;
+    color: #67D378;
+    
+}
+#times {
+    background-color: #67D378;
+    padding-bottom: 0.5rem;
+    
+}
+#contact-info {
+    background-color: #67D378;
+    padding-bottom: 0.5rem;
+}
+#location {
+   background-color: #67D378;
+   padding-bottom: 0.5rem;
+}
+#maps {
+   background-color: #67D378;
+   color: #FFFFFF;
+   border-style:outset;
+   padding: 0.5rem;
+   margin-bottom: 0.5rem;
+   cursor:pointer;
+   text-transform: uppercase;
+}
+#maps:hover {
+    background-color: #7B9F82;
+    color: #FFFFFF;
+    border-style: inset;
+}
+.details-inner {
+   padding: 0.5rem; 
+   box-shadow: 0.25rem 0.25rem 0.125rem #7b9f82;
 }
