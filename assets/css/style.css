@@ -118,6 +118,7 @@ a.active,a:hover {
     border-radius: 50%;
     top: 7rem;
     left: 2rem;
+    
     position: absolute;
 }
 /* concept of cafe/ section 2*/
@@ -155,7 +156,7 @@ a.active,a:hover {
 #splash-quote {
     font-size: 0.75rem;
     color: #FFFFFF;
-    bottom: 1rem;
+    bottom: 2rem;
     text-transform: uppercase;
     width: 16rem;
     left: 0.5rem;
