@@ -254,3 +254,9 @@ a.active,a:hover {
     padding-top: 6rem;
     padding-bottom: 1rem;
 }
+/*Cage page*/
+
+#cafe-image {
+    width: 20rem;
+    margin-top: 1rem;
+}
