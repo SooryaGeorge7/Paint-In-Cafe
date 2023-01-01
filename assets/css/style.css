@@ -20,7 +20,9 @@ h1, h2 {
    color: #FFFFFF;
 
 }
-
+h2 {
+    font-size:120%;
+}
 
 #cafelogo {
     font-size: 150%;
@@ -136,7 +138,7 @@ a.active,a:hover {
     
 }
 #concept-text {
-    margin: 0.5rem;
+    margin: 1rem;
     /*border: 0.25rem solid #8C2323;*/
     
     color:#67D378;
@@ -234,4 +236,21 @@ a.active,a:hover {
 #copyright {
     text-align: center;
     font-size: 80%;
+}
+
+/* About Page*/
+#sunny-marie {
+    width:20rem;
+}
+#about-text {
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #67D378;
+    box-shadow: 0.25rem 0.25rem 0.125rem #7b9f82;
+    margin: 1rem;
+}
+#about-heading {
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
 }
