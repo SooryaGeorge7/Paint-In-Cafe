@@ -213,3 +213,25 @@ a.active,a:hover {
    padding: 0.5rem; 
    box-shadow: 0.25rem 0.25rem 0.125rem #7b9f82;
 }
+/* social media and copyright */
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    
+}
+
+.social-media li {
+    margin: 0 0.5rem;
+}
+
+.social-media i {
+    color: #FFFFFF;
+    font-size: 220%;
+    
+    
+}
+#copyright {
+    text-align: center;
+    font-size: 80%;
+}
