@@ -14,14 +14,20 @@ body {
     
 }
 /* Headings and Logos */
-h1, h2 {
+h1, h2, h3 {
    font-family: Playfair Display, sans-serif;
    letter-spacing: 0.3rem;
    color: #FFFFFF;
+   
 
 }
 h2 {
     font-size:120%;
+    text-align: center;
+}
+
+h3 {
+    font-size: 90%;
 }
 
 #cafelogo {
@@ -260,3 +266,19 @@ a.active,a:hover {
     width: 20rem;
     margin-top: 1rem;
 }
+.menu {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1rem;
+    background-color: #FFFFFF;
+    color: #67D378;
+    
+    box-shadow: 0.25rem 0.25rem 0.125rem #7b9f82;
+}
+.menu h3 {
+    color: #67D378;
+    margin: 0.5rem;
+    
+}
+
