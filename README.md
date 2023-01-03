@@ -136,6 +136,8 @@ HTML and CSS was used to build this website
 ### Code Used
 * [Code used to make hamburger toggler](https://www.codingnepalweb.com/responsive-navigation-menu-bar-html-css/)
 * [Learnt how to make shadow to a section here](https://www.w3schools.com/css/css3_shadows_box.asp)
+* [Learnt how to make shadow around entire image here for my gallery page poloroid images](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+*[Got the code to make gallery to display as a flexbox so that it is responsive here](https://www.youtube.com/watch?v=Trw_9lisYVY)
 ### Content
 ### Media
 * [Got the home page video from here](https://www.pexels.com/search/videos/watercolor%20paint/)
