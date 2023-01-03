@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,12 +11,14 @@
     <title>Paint-In Cafe</title>
     <link rel="icon" href="assets/favicon/favicon.ico">
 </head>
+
 <body>
-    
+
     <header>
         <a href="index.html">
             <h1 id="cafelogo">
-                <img id="logoimage" src="assets/images/Paint_In Cafe Logo.png" alt="Paint-In Cafe Logoimage" >Paint-In Cafe
+                <img id="logoimage" src="assets/images/Paint_In Cafe Logo.png" alt="Paint-In Cafe Logoimage">Paint-In
+                Cafe
             </h1>
         </a>
         <nav>
@@ -43,48 +46,83 @@
         </nav>
     </header>
     <section>
-        <div></div>
+        <h2>Event Enquiry</h2>
+        <div class="event-enquiry">
+            <p>
+                <strong>If you'd like to host an event at our cafe or you are a group of 10+ people</strong>,
+                Please fill in the form to the right and our staff will contact you with
+                follow up questions or information!
+            </p>
+        </div>
+        <div class="event-enquiry">
+            <form method="POST" action="success.html" class="eventenquiry-form">
+                <fieldset>
+                    <legend>Event Enquiry Form</legend>
+                    <label for="fullname">Full Name</label>
+                    <input id="fullname" class="text-input" name="full_name" type="text" required>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" class="text-input" name="email_address" required>
+                    <label for="contact-no">Contact Number</label>
+                    <input id="contact-no" class="text-input" name="contact_no" type="text" required>
+                    <label for="event-type">Type of Event</label>
+                    <select id="event-type" id="select" name="event_type" required>
+                        <option value="school-outing">School Outing</option>
+                        <option value="bridal-shower">Bridal Shower</option>
+                        <option value="baby-shower">Baby Shower</option>
+                        <option value="team-building">Team Building</option>
+                        <option value="birthday">Birthday</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <label for="special-request" class="request">Special Requests</label>
+                    <br>
+                    <textarea id="special-request" rows="4" cols="4" name="special_request"></textarea>
+                </fieldset>
+        </div>
     </section>
- 
-    
-    
+
+
+
     <section>
-        
+
         <div>
             <div class="details">
-            <h2 id="times"><i class="fa-regular fa-calendar"></i>Opening Times</h2>
-            <p class="details-inner">Friday to Sunday<br>8AM to 8PM</p>
+                <h2 id="times"><i class="fa-regular fa-calendar"></i>Opening Times</h2>
+                <p class="details-inner">Friday to Sunday<br>8AM to 8PM</p>
             </div>
             <div class="details">
-            <h2 id="contact-info"><i class="fa-regular fa-address-book"></i>Contact Us</h2>
-            <p class="details-inner">Email:Paint-inCafe@gmail.com<br>Phone:+353823450924</p>
+                <h2 id="contact-info"><i class="fa-regular fa-address-book"></i>Contact Us</h2>
+                <p class="details-inner">Email:Paint-inCafe@gmail.com<br>Phone:+353823450924</p>
             </div>
             <div class="details">
-            <h2 id="location"><i class="fa-solid fa-location-pin"></i>Location</h2>
-            <p class="details-inner">3 Mayfair Road<br>Dublin 7<br>Ireland<br>Y36 2234<br>
-                <a href="https://www.google.com/maps/d/viewer?ie=UTF8&oe=UTF8&msa=0&mid=1GCCHReNwHntLxVtHRF9ZdRzdppc&ll=53.58372044690462%2C-7.123224799999996&z=9" target="_blank">
-                <button id="maps"><i class="fa-solid fa-map"></i> Maps</button></a>
-            </p>
-            
+                <h2 id="location"><i class="fa-solid fa-location-pin"></i>Location</h2>
+                <p class="details-inner">3 Mayfair Road<br>Dublin 7<br>Ireland<br>Y36 2234<br>
+                    <a href="https://www.google.com/maps/d/viewer?ie=UTF8&oe=UTF8&msa=0&mid=1GCCHReNwHntLxVtHRF9ZdRzdppc&ll=53.58372044690462%2C-7.123224799999996&z=9"
+                        target="_blank">
+                        <button id="maps"><i class="fa-solid fa-map"></i> Maps</button></a>
+                </p>
+
             </div>
         </div>
     </section>
-    <footer> 
+    <footer>
         <ul class="social-media">
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a>
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i
+                        class="fa-brands fa-square-facebook"></i></a>
             </li>
             <li>
                 <a href="https://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-square-instagram"></i></a>
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-square-instagram"></i></a>
             </li>
-            
-            
+
+
         </ul>
         <p id="copyright">2022@Paint-InCafe.All rights reserved</p>
     </footer>
     <!--Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/a8dca34502.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
