@@ -45,27 +45,28 @@
             </ul>
         </nav>
     </header>
-    <section>
+    <section class="event-section">
         <h2>Event Enquiry</h2>
         <div class="event-enquiry">
-            <p>
-                <strong>If you'd like to host an event at our cafe or you are a group of 10+ people</strong>,
+            <p id="enquiry-info">
+                <strong>If you'd like to host an event at our cafe or you are a group of 10+ people</strong>,<br>
                 Please fill in the form to the right and our staff will contact you with
                 follow up questions or information!
             </p>
         </div>
         <div class="event-enquiry">
-            <form method="POST" action="success.html" class="eventenquiry-form">
+            <form method="POST" action="success.html" class="enquiry-form">
                 <fieldset>
                     <legend>Event Enquiry Form</legend>
-                    <label for="fullname">Full Name</label>
+                    <label for="fullname">Full Name<br></label>
                     <input id="fullname" class="text-input" name="full_name" type="text" required>
-                    <label for="email">Email Address</label>
+                    <label for="email"><br>Email Address<br></label>
                     <input type="email" id="email" class="text-input" name="email_address" required>
-                    <label for="contact-no">Contact Number</label>
+                    <label for="contact-no"><br>Contact Number<br></label>
                     <input id="contact-no" class="text-input" name="contact_no" type="text" required>
-                    <label for="event-type">Type of Event</label>
+                    <label for="event-type"><br>Type of Event<br></label>
                     <select id="event-type" id="select" name="event_type" required>
+                        <option value="events"> Events</option>
                         <option value="school-outing">School Outing</option>
                         <option value="bridal-shower">Bridal Shower</option>
                         <option value="baby-shower">Baby Shower</option>
@@ -73,7 +74,8 @@
                         <option value="birthday">Birthday</option>
                         <option value="other">Other</option>
                     </select>
-                    <label for="special-request" class="request">Special Requests</label>
+                    <br>
+                    <label for="special-request" class="request"><br>Special Requests<br></label>
                     <br>
                     <textarea id="special-request" rows="4" cols="4" name="special_request"></textarea>
                 </fieldset>
