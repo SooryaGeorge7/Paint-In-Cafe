@@ -332,12 +332,14 @@ a.active,a:hover {
     justify-content: space-between;
     text-align: center;
     margin: 0.5rem 1rem;
+    box-shadow: 0.25rem 0.25rem 0.125rem #7b9f82;
 }
 #enquiry-info {
     background-color: #FFFFFF;
     color: #67D378;
     margin: ;
     padding: ;
+    
 
 }
 .enquiry-form {
