@@ -341,5 +341,27 @@ a.active,a:hover {
 
 }
 .enquiry-form {
+    background-color: #FFFFFF;
+    color: #67D378;
 
+}
+legend {
+    font-size: 120%;
+    font-weight: bold;
+    padding: 1rem;
+}
+label {
+    font-size: 120%;
+    
+
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    border: 0.125rem solid #67D378;
+    padding: 0.5rem;
+    color: #67D378;
+    margin-bottom: 0.5rem;
 }
