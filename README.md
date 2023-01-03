@@ -138,4 +138,7 @@ HTML and CSS was used to build this website
 * [Learnt how to make shadow to a section here](https://www.w3schools.com/css/css3_shadows_box.asp)
 ### Content
 ### Media
+* [Got the home page video from here](https://www.pexels.com/search/videos/watercolor%20paint/)
+* [Got all the images for the website from this free image source](https://www.pexels.com/search/paintbrush/)
+* [Got the image for favicon here too](https://www.pexels.com/)
 ### Acknowledgement
