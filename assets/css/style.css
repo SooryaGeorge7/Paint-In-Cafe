@@ -39,7 +39,7 @@ header {
     
     width: 17rem;
     padding-top: 0.5rem;
-    /*display: none;*/
+    display: none;
 
 }
 #logoimage {
@@ -122,13 +122,16 @@ a.active,a:hover {
     
 }
 
-.video {
-    text-align: center;
-}
 
-#homevideo {
+
+#paintvideo {
     /*width: 100%;*/
     height: 36rem;
+    object-fit:contain;
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    
     
 }
 
