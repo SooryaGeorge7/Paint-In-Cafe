@@ -30,25 +30,29 @@ h2 {
 h3 {
     font-size: 90%;
 }
-
+header {
+    display: flex;
+    flex-direction: row;
+}
 #cafelogo {
-    font-size: 250%;
-    float:left;
+    font-size: 150%;
+    
     width: 17rem;
     padding-top: 0.5rem;
-    
+    /*display: none;*/
 
 }
 #logoimage {
     border-radius: 30%;
-    width: 6rem;
-    margin: 0.5rem
+    width: 4rem;
+    margin: 0.5rem;
+    float: left;
      
 }
-#logo {
+/*#logo {
     display:flex;
     flex-direction: row;
-}
+}*/
 /*Naviagtion*/
 nav {
     text-align: center;
@@ -75,13 +79,17 @@ nav {
     padding-top: 4rem;
 
 }
+
 .checkbutton {
-    float: right;
-    /*line-height: 0.5rem;*/
-    margin: 1rem 0.7rem 0.5rem 0.5rem;
+    /*float:right*/
+    line-height: 0.5rem;
+    /*margin: 1rem 0.5rem 0.5rem 0.5rem;*/
+    padding: 0.5rem;
     cursor: pointer;
-    display: block;
-    font-size: 1.75rem;
+    /*display: inline;*/
+    font-size: 4rem;
+    right: 0.5rem;
+    position: absolute;
     
 }
 #check {
@@ -99,6 +107,10 @@ a.active,a:hover {
 }
 #check:checked ~ ul{
     left:0;
+}
+#header-position {
+    display: flex;
+    flex-direction: row;
 }
  /*video in main section*/
  #video-outer {
