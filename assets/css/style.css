@@ -32,19 +32,22 @@ h3 {
 }
 
 #cafelogo {
-    font-size: 150%;
+    font-size: 250%;
     float:left;
     width: 17rem;
     padding-top: 0.5rem;
+    
 
 }
 #logoimage {
     border-radius: 30%;
-    max-width: 10%;
-    margin-top: 0.5rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    width: 6rem;
+    margin: 0.5rem
      
+}
+#logo {
+    display:flex;
+    flex-direction: row;
 }
 /*Naviagtion*/
 nav {
