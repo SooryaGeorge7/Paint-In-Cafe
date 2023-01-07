@@ -39,7 +39,8 @@ h3 {
     
     width: 17rem;
     padding-top: 0.5rem;
-    display: none;
+    padding-left: 5rem;
+    position: absolute;
 
 }
 #logoimage {
@@ -47,6 +48,7 @@ h3 {
     width: 4rem;
     margin: 0.5rem;
     float: left;
+    position: absolute;
      
 }
 /*#logo {
