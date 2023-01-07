@@ -251,24 +251,26 @@ a.active,a:hover {
     border: 0.25rem solid #67D378;
     margin: 1rem;
     background-color: #FFFFFF;
-    color: #67D378;
+    color: #8C2323;
+    font-size: 110%;
     
 }
-#times {
+.details h2 {
     background-color: #67D378;
     padding-bottom: 0.5rem;
-    
+    font-size: 200%;
+    text-shadow: 0 0 3px #8C2323, 0 0 5px  #8C2323;
 }
-#contact-info {
+/*#contact-info {
     background-color: #67D378;
     padding-bottom: 0.5rem;
 }
 #location {
    background-color: #67D378;
    padding-bottom: 0.5rem;
-}
+}*/
 #maps {
-   background-color: #67D378;
+   background-color: #8C2323;
    color: #FFFFFF;
    border-style:outset;
    padding: 0.5rem;
@@ -302,6 +304,9 @@ a.active,a:hover {
     font-size: 220%;
     
     
+}
+.social-media i:hover {
+    color: #7B9F82;
 }
 #copyright {
     text-align: center;
