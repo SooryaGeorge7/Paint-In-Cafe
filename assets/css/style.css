@@ -177,18 +177,31 @@ a.active,a:hover {
     margin: 0rem;
     width:100%;
 }
+#concept-heading {
+    margin-top: 1rem;
+    font-size: 250%;
+}
 #concept-section {
-    margin-top: 4rem;
+    margin-top: 1rem;
     text-align: center;
     
 }
-#concept-text {
-    margin: 1rem;
-    /*border: 0.25rem solid #8C2323;*/
-    
+#concept-section div {
     color:#67D378;
     background-color: #FFFFFF;
     box-shadow: 0.25rem 0.25rem 0.125rem #7B9F82;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+#concept-section div h3 {
+    color: #67D378;
+    font-size: 150%;
+    text-decoration: solid;
+}
+
+    
+    
     
 }
 /*fixed image section with quote*/
