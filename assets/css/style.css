@@ -138,22 +138,30 @@ a.active,a:hover {
 #text-outer h1 {
     color:#FFFFFF;
     padding-left: 0.5rem;
-    padding-top: 4rem;
+    padding-top: 1rem;
     padding-right: 0.5rem;
-    
-}
-#text-outer {
-    font-size: 210%;
+    font-size: 280%;
     font-family: Playfair display, sans-serif;
     font-weight: 600;
     text-transform: capitalize;
     text-align: center;
+    
+}
+#text-outer p {
+   color: #FFFFFF;
+   text-align: center;
+   font-size: 150%;
+   padding-left: 0.5rem;
+   padding-right: 0.5rem;
+}
+#text-outer {
+    
     width: 16rem;
     height: 16rem;
     background-color: rgba(103,211,135,.6);
-    border-radius: 50%;
-    bottom: 5rem;
-    left: 2rem;
+    /*border-radius: 50%;*/
+    bottom: 12rem;
+    left: 3.5rem;
     border: 0.125rem solid #FFFFFF;
     
     position: absolute;
