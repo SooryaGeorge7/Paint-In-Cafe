@@ -248,18 +248,18 @@ a.active,a:hover {
 /*Contact information, opening times and location*/
 .details {
     text-align: center;
-    border: 0.25rem solid #67D378;
+    border: 0.125rem solid #FFFFFF;
     margin: 1rem;
-    background-color: #FFFFFF;
-    color: #8C2323;
+    /*background-color: #FFFFFF;*/
+    color: #FFFFFF;
     font-size: 110%;
-    
+    box-shadow: 0.25rem 0.25rem 0.125rem #7b9f82;
 }
 .details h2 {
     background-color: #67D378;
     padding-bottom: 0.5rem;
     font-size: 200%;
-    text-shadow: 0 0 3px #8C2323, 0 0 5px  #8C2323;
+    /*text-shadow: 0 0 3px #8C2323, 0 0 5px  #8C2323;*/
 }
 /*#contact-info {
     background-color: #67D378;
@@ -285,7 +285,7 @@ a.active,a:hover {
 }
 .details-inner {
    padding: 0.5rem; 
-   box-shadow: 0.25rem 0.25rem 0.125rem #7b9f82;
+   
 }
 /* social media and copyright */
 .social-media {

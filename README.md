@@ -130,7 +130,9 @@ HTML and CSS was used to build this website
 #### Full Testing
 ### BUGS
 #### Known Bugs
+
 #### Solved Bugs
+* Making a herovideo that also acts as a background video for header. 
 
 ## Credits
 ### Code Used
