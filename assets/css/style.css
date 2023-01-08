@@ -353,7 +353,7 @@ a.active,a:hover {
 /*Cage page*/
 
 #cafe-image {
-    width: 20rem;
+    width: 22.5rem;
     margin-top: 1rem;
 }
 .menu {
@@ -362,9 +362,14 @@ a.active,a:hover {
     
     margin: 1rem;
     background-color: #FFFFFF;
-    
     padding: 1rem;
+    
     box-shadow: 0.25rem 0.25rem 0.125rem #7b9f82;
+}
+#menu-choice {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
 }
 .menu li{
     
@@ -376,6 +381,9 @@ a.active,a:hover {
     margin: 0.5rem;
     font-size: 150%;
     
+}
+.prices{
+    float: right;
 }
 /*gallery*/
 .container #gallery-heading {
