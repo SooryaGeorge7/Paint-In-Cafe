@@ -115,6 +115,8 @@ This page has images of paintings, people and food inorder to attract potential 
 #### Event Enquiry Page
 This page has a form that should be filled in if you want to host an event at the cafe or if you are a group of 10 people and more. The form contains name, email address, contact no., type of event, no. of people, special requests and a submit button. 
 ### Future Implementation
+* I really wanted to make a slideshow of pictures in the home page but learnt that i would need to use javascript inroder to do so.
+* Need to implement google reviews in the website so that website visitors would be able to understand the experience from the customer's point of view.
 ### Accessibility
 These are the ways i have ensured to provide accessibility to users:
 * Used HTML semantics
