@@ -169,6 +169,19 @@ a.active,a:hover {
     
     position: absolute;
 }
+#text-outer2 {
+    bottom: 1rem;
+    
+    font-size: 100%;
+    width: 14rem;
+    height: 5rem;
+    position: absolute;
+    padding: 0.5rem;
+    left:0.5rem;
+    
+    font-weight: 700;
+    background-color: rgba(255,255,255,.5);
+}
 /* concept of cafe/ section 2*/
 
 #concept-heading {
