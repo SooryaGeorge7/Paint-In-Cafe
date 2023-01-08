@@ -82,6 +82,7 @@ Paint-In Cafe is a Cafe based in Dublin, Ireland. Visitors of the cafe are provi
 ## Design
 ### Color Scheme
 ![Inserting paint-In cafe color palette](documentation/Paint-In%20Caf%C3%A9%20Color%20Palette.png)
+I used pastel green color because green is often calming color and it matches with the actual cafe itself. I thought the dark red gives  a good contrast to the pastel green. The white and grey helps with the flow of the two contrast colors.
 ### Typography
 I used these two Google Fonts for headings and other texts:
 * Playfair Display
