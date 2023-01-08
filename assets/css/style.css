@@ -336,14 +336,17 @@ a.active,a:hover {
 #about-text {
     text-align: center;
     background-color: #FFFFFF;
-    color: #67D378;
+    color: #8C2323;
     box-shadow: 0.25rem 0.25rem 0.125rem #7b9f82;
     margin: 1rem;
+    padding: 1rem;
 }
 #about-heading {
     text-align: center;
-    padding-top: 6rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
+    font-size: 250%;
+    text-shadow: 0 0 3px #8C2323, 0 0 5px  #8C2323;
 }
 /*Cage page*/
 
