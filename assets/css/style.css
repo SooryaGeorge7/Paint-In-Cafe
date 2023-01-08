@@ -23,8 +23,10 @@ h1, h2, h3 {
 
 }
 h2 {
-    font-size:120%;
+    font-size:250%;
     text-align: center;
+    margin:1rem;
+    text-shadow: 0 0 3px #8C2323, 0 0 5px  #8C2323;
 }
 
 h3 {
@@ -273,7 +275,7 @@ a.active,a:hover {
 }
 .details h2 {
     background-color: #67D378;
-    padding-bottom: 0.5rem;
+    
     font-size: 200%;
     /*text-shadow: 0 0 3px #8C2323, 0 0 5px  #8C2323;*/
 }
@@ -300,7 +302,7 @@ a.active,a:hover {
     border-style: inset;
 }
 .details-inner {
-   padding: 0.5rem; 
+   margin-bottom: 1rem; 
    
 }
 /* social media and copyright */
@@ -357,16 +359,22 @@ a.active,a:hover {
 .menu {
     display:flex;
     flex-direction: column;
-    text-align: center;
+    
     margin: 1rem;
     background-color: #FFFFFF;
-    color: #67D378;
     
+    padding: 1rem;
     box-shadow: 0.25rem 0.25rem 0.125rem #7b9f82;
 }
+.menu li{
+    
+    color: #8C2323;
+}
 .menu h3 {
-    color: #67D378;
+    text-align: center;
+    color: #8C2323;
     margin: 0.5rem;
+    font-size: 150%;
     
 }
 /*gallery*/
