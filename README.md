@@ -89,27 +89,31 @@ I used these two Google Fonts for headings and other texts because they pair wel
 * Open Sans-This is a humanist sans serif typeface and i used this for paragraphs and other texts.
 
 ### Imagery
+All images in the website were taken from a free image source called Pexels.
+* [Pexels website](https://www.pexels.com/)
 ### Wireframes
 Wireframes for mobile, tablet and desktop view
-[Home page wireframe](documentation/Home%20wireframe.png)
-[About page wireframe](documentation/About%20Wireframe.png)
-[Cafe page wireframe](documentation/Cafe%20Wireframe.png)
-[Gallery page wireframe](documentation/Gallery%20Wireframe.png)
-[Event enquiry page wireframe](documentation/Event%20Enquiry%20wireframe.png)
+* [Home page wireframe](documentation/Home%20wireframe.png)
+* [About page wireframe](documentation/About%20Wireframe.png)
+* [Cafe page wireframe](documentation/Cafe%20Wireframe.png)
+* [Gallery page wireframe](documentation/Gallery%20Wireframe.png)
+* [Event enquiry page wireframe](documentation/Event%20Enquiry%20wireframe.png)
 ## Features
 ### General Features Per Page
-The website has 5 pages in total. The pages "Home, About, Cafe, Gallery, Event Enquiry" are placed as navigation links on the first page on the top rightside if the website is displayed on desktop, laptop or tablet. The navgation links to these pages are removed and placed as a hamburger toggler button when viewed on a mobile.This is done to to save space avoid looking cluttered in mobile-view.Each page will have the header element and footer element that will be consistent thoughout the pages.The website is designed to be easy to navigate for first time visitors on the site.The texts on the pages will appear more centerd in smaller devices like mobile.
-All the pages contain contact details , location and opening hours as part of the footer.
-#### Home Page
-This page should attract first time visitors and want them to keep navigating through the website.It has colourful images and video . Easy to read information about the cafe's concept and how it works. It also Shows contact details, Location and opening times as well as social media part as part of the footer.
+The website has 5 pages in total. The pages "Home, About, Cafe, Gallery, Event Enquiry" are placed as navigation links on the first page on the top rightside if the website is displayed on desktop, laptop or tablet. The navgation links to these pages are removed and placed as a hamburger toggler button when viewed on a mobile.This is done to to save space avoid looking cluttered in mobile-view.Each page will have the header element and footer element that will be consistent thoughout the pages.The website is designed to be easy to navigate for first time visitors on the site.The texts on the pages will appear more centerd in smaller devices like mobile and will move horizontally when in bigger devices.
+All the pages contain contact details , location, opening hours and socials as part of the footer.
+There is a 6th page that pops up when the submit button is pressed on event enquiry page. That will show a message saying that the staff will get back to them as soon as possible.
+#### Home Page features
+This page should attract first time visitors and want them to keep navigating through the website.It has colourful images and 
+ a background video . Easy to read information about the cafe's concept and how it works- This is broken down into different blocks so that the information isnt too overwhelming and easy to find. The information is layed out in a way so that the common infomration that the first-time users may be looking for can be found without hassle.It also Shows contact details, Location and opening times as well as social media part as part of the footer.
 #### About Page
 This page shows how Paint-in cafe came about, information about when it was built, A deep dive into the background story of the owner and even more details about the cafe. A pic of the Owner is included.
 #### Cafe Page
-This page has the food menu for the cafe. It will also show symbols to see which food is vegetarian/ vegan / halaal. Image of a section of the Cafe is included.
+This page has the food menu for the cafe. It will also show symbols to see which food is vegetarian/ vegan / halaal.Allergens and costs are shown so that the user can be prepared before coming into the cafe. Image of a section of the Cafe is included.
 #### Gallery Page
 This page has images of paintings, people and food inorder to attract potential customers to visit the cafe.These are placed in the gallery to inspire potential customers to share the cafe website to their family or friends.
 #### Event Enquiry Page
-This page has a form that should be filled in if you want to host an event at the cafe. The form contains name, email address, contact no., type of event, no. of people, special requests and a submit button. 
+This page has a form that should be filled in if you want to host an event at the cafe or if you are a group of 10 people and more. The form contains name, email address, contact no., type of event, no. of people, special requests and a submit button. 
 ### Future Implementation
 ### Accessibility
 These are the ways i have ensured to provide accessibility to users:
