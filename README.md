@@ -41,6 +41,17 @@ This website is designed to be responsive to allow users from any location to vi
 ## User Experience
 ### Brief
 Paint-In Cafe is a Cafe based in Dublin, Ireland. Visitors of the cafe are provided with the necessory stationaries to paint with watercolors while having the option to order from our food menu as well.It is the place to go to when you want to do a creative activity to do with any number of people.This website is created for any users/ first time visitors to understand the cafe's concept, get contact details, find location of the cafe or send in an inquiry to the "paint-in cafe's " staff inorder to accomodate their specific needs.
+### Key information 
+* The cost involved (Cafe and experience)
+* Do you need prior experience in painting?
+* Is there an age limit?
+* Do i need to book?
+* Opening times and location
+* Contact details incase you need to get clarification on a specific problem.
+* Allergens included in cafe food, veg and vegan options?
+* Is the food halaal?
+* How to book for an event?- event enquiry
+* Any updates on the cafe?
 ### User Objectives
 #### Customer Goals
 * To be able to view the site on different device sizes.
