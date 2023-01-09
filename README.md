@@ -115,8 +115,13 @@ This page has images of paintings, people and food inorder to attract potential 
 #### Event Enquiry Page
 This page has a form that should be filled in if you want to host an event at the cafe or if you are a group of 10 people and more. The form contains name, email address, contact no., type of event, no. of people, special requests and a submit button. 
 ### Future Implementation
-* I really wanted to make a slideshow of pictures in the home page but learnt that i would need to use javascript inroder to do so.
+* I really wanted to make a slideshow of pictures in the home page and events page but learnt that i would need to use javascript inroder to do so.
 * Need to implement google reviews in the website so that website visitors would be able to understand the experience from the customer's point of view.
+* Change the gallery page outlay to display previous customer's artwork, returning customers will be able to go check out their painting in the gallery.
+* Implement a share button inorder for site visitors to share the website with others. 
+* If this was an actual cafe, i would have liked to include a video of the cafe's concept to help the user understand better.
+* I would also include an art class page for customers who actually want to sign up for evening art classes.
+* It would also be intersting to have best artwork of the month awards section in the home page.
 ### Accessibility
 These are the ways i have ensured to provide accessibility to users:
 * Used HTML semantics
