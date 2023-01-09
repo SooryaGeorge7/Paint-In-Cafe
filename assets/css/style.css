@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +7,9 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
 }
 body {
     font-family:Open Sans, sans-serif;
@@ -387,8 +391,7 @@ a.active,a:hover {
 }
 /*gallery*/
 .container #gallery-heading {
-    padding-top: 6rem;
-    padding-bottom: 1rem;
+    text-shadow: 0 0 3px #8C2323, 0 0 5px  #8C2323;
     text-align: center;
 }
 
@@ -422,6 +425,21 @@ a.active,a:hover {
     box-shadow: 0.25rem 0.25rem 0.25rem #7b9f82, -0.125rem -0.125rem 0.25rem #7b9f82;
     
 
+}
+
+.scroll-button {
+    position:fixed;
+    width:2rem;
+    height: 2rem;
+    color:#8C2323;
+    bottom: 1rem;
+    right: 1rem;
+    text-decoration: none;
+    line-height: 1rem;
+    font-size: 200%;
+}
+.scroll-button:hover {
+    color:#7B9F82;
 }
 /*Event enquiry page*/
 .event-section h2 {
