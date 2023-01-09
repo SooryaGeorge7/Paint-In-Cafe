@@ -359,6 +359,7 @@ a.active,a:hover {
 #cafe-image {
     width: 22.5rem;
     margin-top: 1rem;
+    
 }
 .menu {
     display:flex;
@@ -458,7 +459,7 @@ a.active,a:hover {
 #enquiry-info {
     
     color: #FFFFFF;
-    font-size: 120%;
+    font-size: 130%;
     margin: ;
     padding: 0.5rem;
     
@@ -474,9 +475,10 @@ a.active,a:hover {
 
 }
 legend {
-    font-size: 120%;
+    font-size: 140%;
     font-weight: bold;
     padding: 1rem;
+    font-family: Playfair Display, sans-serif;;
 }
 label {
     font-size: 120%;
