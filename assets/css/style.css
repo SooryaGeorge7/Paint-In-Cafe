@@ -453,15 +453,20 @@ a.active,a:hover {
     text-align: center;
     margin: 1rem 1rem;
     box-shadow: 0.25rem 0.25rem 0.125rem #7b9f82;
+    border: 0.125rem solid #FFFFFF;
 }
 #enquiry-info {
-    border: 0.125rem solid #FFFFFF;
+    
     color: #FFFFFF;
     font-size: 120%;
     margin: ;
     padding: 0.5rem;
     
 
+}
+#event-photo {
+    width:90%;
+    margin: 1rem;
 }
 .enquiry-form {
     background-color: #FFFFFF;
