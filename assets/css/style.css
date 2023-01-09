@@ -443,8 +443,7 @@ a.active,a:hover {
 }
 /*Event enquiry page*/
 .event-section h2 {
-    padding-top: 6rem;
-    padding-bottom: 1rem;
+    
     text-align: center;
 }
 .event-enquiry {
@@ -452,20 +451,21 @@ a.active,a:hover {
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    margin: 0.5rem 1rem;
+    margin: 1rem 1rem;
     box-shadow: 0.25rem 0.25rem 0.125rem #7b9f82;
 }
 #enquiry-info {
-    background-color: #FFFFFF;
-    color: #67D378;
+    border: 0.125rem solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 120%;
     margin: ;
-    padding: ;
+    padding: 0.5rem;
     
 
 }
 .enquiry-form {
     background-color: #FFFFFF;
-    color: #67D378;
+    color: #8C2323;
 
 }
 legend {
@@ -483,9 +483,9 @@ input[type=text],
 input[type=email],
 select,
 textarea {
-    border: 0.125rem solid #67D378;
+    border: 0.125rem solid #8C2323;
     padding: 0.5rem;
-    color: #67D378;
+    color: #8C2323;
     margin-bottom: 0.5rem;
     width: 80%;
     font-size: 100%;
@@ -511,7 +511,7 @@ textarea:focus {
 #submit-button {
     font-size: 120%;
     text-transform: capitalize;
-    background-color: #67D378;
+    background-color: #8C2323;
     color: #FFFFFF;
     margin-bottom: 1rem;
     padding: 0.5rem;
