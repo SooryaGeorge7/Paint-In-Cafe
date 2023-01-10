@@ -396,9 +396,13 @@ a.active,a:hover {
 .menu h3 {
     
     color: #8C2323;
-    margin: 0.5rem;
+    margin-bottom: 0.5rem;
     font-size: 150%;
     
+}
+hr {
+    border-top: 0.125rem solid #8C2323;
+    width:100%;
 }
 .prices{
     float: right;
