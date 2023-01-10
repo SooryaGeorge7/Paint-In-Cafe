@@ -33,9 +33,9 @@ h2 {
     text-shadow: 0 0 3px #8C2323, 0 0 5px  #8C2323;
 }
 
-h3 {
+/*h3 {
     font-size: 90%;
-}
+}*/
 /*header {
     display: flex;
     flex-direction: row;
@@ -201,8 +201,8 @@ a.active,a:hover {
 /*#concept-heading {
     margin: 1rem;
     font-size: 250%;
-    text-shadow: 0 0 3px #8C2323, 0 0 5px  #8C2323;*/
-}
+    text-shadow: 0 0 3px #8C2323, 0 0 5px  #8C2323;
+}*/
 #concept-section {
     /*margin-top: 1rem;*/
     text-align: center;
@@ -210,7 +210,7 @@ a.active,a:hover {
     flex-direction: column;
 }
 #concept-section div {
-    color:#8C2323;
+    
     background-color: #FFFFFF;
     box-shadow: 0.25rem 0.25rem 0.125rem #7B9F82;
     margin: 0rem 1rem 1rem;
@@ -220,10 +220,13 @@ a.active,a:hover {
 #concept-section div h3 {
     color: #8C2323;
     font-size: 150%;
-    text-decoration: solid;
+    /*text-decoration: solid;*/
     padding-bottom: 0.5rem;
 }
-
+#concept-text {
+    color:#8C2323;
+    font-size: 120%;
+}
 #watercolor-outer {
     background: url('../images/painting-concept.jpg')center center no-repeat fixed;
     background-size: 120%;
