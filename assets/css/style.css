@@ -342,7 +342,8 @@ a.active,a:hover {
 }
 #copyright {
     text-align: center;
-    font-size: 80%;
+    font-size: 100%;
+    padding-bottom: 0.25rem;
 }
 
 /* About Page*/
