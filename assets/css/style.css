@@ -124,10 +124,10 @@ a.active,a:hover {
 #check:checked ~ ul{
     left:0;
 }
-#header-position {
+/*#header-position {
     display: flex;
     flex-direction: row;
-}
+}*/
  /*video in main section*/
  #video-outer {
     position: relative;
@@ -152,20 +152,20 @@ a.active,a:hover {
 }
 
 #text-outer h1 {
-    color:#FFFFFF;
+    /*color:#FFFFFF;*/
     text-shadow: 0 0 3px #8C2323, 0 0 5px  #8C2323;
     padding-left: 0.5rem;
     padding-top: 1rem;
     padding-right: 0.5rem;
     font-size: 280%;
-    font-family: Playfair display, sans-serif;
-    font-weight: 600;
-    text-transform: capitalize;
-    text-align: center;
+    /*font-family: Playfair display, sans-serif;*/
+    /*font-weight: 600;*/
+    /*text-transform: capitalize;*/
+    /*text-align: center;*/
     
 }
 #text-outer p {
-   color: #FFFFFF;
+   /*color: #FFFFFF;*/
    text-align: center;
    font-size: 150%;
    padding-left: 0.5rem;
@@ -186,22 +186,22 @@ a.active,a:hover {
 #text-outer2 {
     bottom: 1rem;
     
-    font-size: 100%;
+    /*font-size: 100%;*/
     width: 14rem;
     height: 5rem;
     position: absolute;
     padding: 0.5rem;
     left:0.5rem;
     
-    font-weight: 700;
+    /*font-weight: 600;*/
     background-color: rgba(255,255,255,.4);
 }
 /* concept of cafe/ section 2*/
 
-#concept-heading {
+/*#concept-heading {
     margin: 1rem;
     font-size: 250%;
-    text-shadow: 0 0 3px #8C2323, 0 0 5px  #8C2323;
+    text-shadow: 0 0 3px #8C2323, 0 0 5px  #8C2323;*/
 }
 #concept-section {
     /*margin-top: 1rem;*/
