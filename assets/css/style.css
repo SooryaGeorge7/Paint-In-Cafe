@@ -461,23 +461,25 @@ hr {
     color:#7B9F82;
 }
 /*Event enquiry page*/
-.event-section h2 {
+/*.event-section h2 {
     
     text-align: center;
-}
+}*/
 .event-enquiry {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    margin: 1rem 1rem;
+    margin: 1rem;
     box-shadow: 0.25rem 0.25rem 0.125rem #7b9f82;
     border: 0.125rem solid #FFFFFF;
+    background-color: #FFFFFF;
 }
 #enquiry-info {
     
-    color: #FFFFFF;
-    font-size: 130%;
+    color: #8C2323;
+    
+    font-size: 120%;
     margin: ;
     padding: 0.5rem;
     
