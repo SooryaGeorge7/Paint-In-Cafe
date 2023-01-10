@@ -8,12 +8,12 @@
     list-style: none;
     box-sizing: border-box;
 }
-html{
+html {
     scroll-behavior: smooth;
 }
+
 body {
     font-family:Open Sans, sans-serif;
-    font-weight: 19rem;
     background-color:#67D378;
     color: #FFFFFF;
     
@@ -23,12 +23,12 @@ h1, h2, h3 {
    font-family: Playfair Display, sans-serif;
    letter-spacing: 0.3rem;
    color: #FFFFFF;
+   text-align: center;
    
 
 }
 h2 {
-    font-size:250%;
-    text-align: center;
+    font-size:250%;  
     margin:1rem;
     text-shadow: 0 0 3px #8C2323, 0 0 5px  #8C2323;
 }
@@ -42,12 +42,15 @@ h3 {
 }*/
 #cafelogo {
     font-size: 150%;
-    text-shadow: 0 0 3px #8C2323, 0 0 5px  #8C2323;
+    font-weight: 600;
     width: 17rem;
     padding-top: 0.5rem;
     padding-left: 5rem;
     position: absolute;
-
+    font-family: Playfair Display, sans-serif;
+    letter-spacing: 0.3rem;
+    color: #FFFFFF;
+    text-shadow: 0 0 3px #8C2323, 0 0 5px  #8C2323;
 }
 #logoimage {
     border-radius: 30%;
