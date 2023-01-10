@@ -384,9 +384,10 @@ a.active,a:hover {
     box-shadow: 0.25rem 0.25rem 0.125rem #7b9f82;
 }
 #menu-choice {
-    color: #FFFFFF;
-    font-weight: bold;
+    /*color: #FFFFFF;
+    font-weight: bold;*/
     text-align: center;
+    font-size: 120%;
 }
 .menu li{
     
@@ -408,10 +409,10 @@ hr {
     float: right;
 }
 /*gallery*/
-.container #gallery-heading {
+/*.container #gallery-heading {
     text-shadow: 0 0 3px #8C2323, 0 0 5px  #8C2323;
     text-align: center;
-}
+}*/
 
 /*.container {
     display:flex;
