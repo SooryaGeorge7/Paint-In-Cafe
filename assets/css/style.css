@@ -43,7 +43,6 @@ h3 {
 #cafelogo {
     font-size: 150%;
     font-weight: 600;
-    width: 17rem;
     padding-top: 0.5rem;
     padding-left: 5rem;
     position: absolute;
@@ -70,36 +69,37 @@ nav {
     background-color: #67D378;
 }
 #menu {
-    font-size: 110%;
+    
     letter-spacing: 0.3rem;
-    margin: auto 0;
+    /*margin: auto 0;*/
     position: fixed;
     height: 100%;
     width: 100%;
-    background-color: #7B9F82;
+    background-color: rgba(123, 159, 130, 0.9);
     
     left: -100%;
-    text-align: center;
+    /*text-align: center;*/
     transition: all .5s;
 }
 #menu li {
     display: flexbox;
     justify-content: space-evenly;
-    margin-right: 0.5rem 0;
-    line-height: 30px;
+    /*margin-right: 0.5rem 0;*/
+    line-height: 2rem;
     padding-top: 4rem;
+    
 
 }
 
 .checkbutton {
     /*float:right*/
-    line-height: 0.5rem;
+    line-height: 0.25rem;
     /*margin: 1rem 0.5rem 0.5rem 0.5rem;*/
-    padding: 0.5rem;
+    padding: 0.75rem;
     cursor: pointer;
     /*display: inline;*/
-    font-size: 4rem;
-    right: 0.5rem;
+    font-size: 3rem;
+    right: 0rem;
     position: absolute;
     
 }
@@ -111,13 +111,15 @@ nav {
 }
 #menu li a {
     color:#FFFFFF;
-    font-size: 1.25rem;
-    font-weight: 400;
-    
+    font-size: 2rem;
+    font-weight: 500;
+    text-shadow: 0 0 3px #8C2323, 0 0 5px  #8C2323;
+
 }
 a.active,a:hover {
     background-color: #67D378;
     transition: .5s;
+    padding: 0.25rem;
 }
 #check:checked ~ ul{
     left:0;
