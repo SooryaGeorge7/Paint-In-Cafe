@@ -178,11 +178,12 @@ a.active,a:hover {
     height: 16rem;
     background-color: rgba(103,211,135,.6);
     /*border-radius: 50%;*/
-    bottom: 12rem;
-    left: 2rem;
+    top: 50%;
+    left:50%;
     border: 0.125rem solid #FFFFFF;
-    
     position: absolute;
+    margin:0;
+    transform:translate(-50%,-50%);
 }
 #text-outer2 {
     bottom: 1rem;
@@ -550,4 +551,8 @@ textarea:focus {
     background-color: #7b9f82;
     color: #67D378;
     border-style: inset;
+}
+/* Breakpoint for ipads and tablets*/
+@media screen and (min-width: 481px) {
+
 }
