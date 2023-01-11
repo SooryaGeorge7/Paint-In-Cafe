@@ -223,7 +223,7 @@ a.active,a:hover {
     /*text-decoration: solid;*/
     padding-bottom: 0.5rem;
 }
-#concept-text {
+.concept-text {
     color:#8C2323;
     font-size: 120%;
 }
