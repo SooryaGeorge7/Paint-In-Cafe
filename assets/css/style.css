@@ -350,7 +350,7 @@ a.active,a:hover {
 
 /* About Page*/
 #sunny-marie {
-    width:22.5rem;
+    width:100%;
 }
 #about-text {
     text-align: center;
@@ -371,7 +371,7 @@ a.active,a:hover {
 /*Cage page*/
 
 #cafe-image {
-    width: 22.5rem;
+    width: 100%;
     margin-top: 1rem;
     
 }
@@ -571,7 +571,20 @@ textarea:focus {
         margin:1rem auto;
         max-width: 28rem;
     }
-    #sunny-marie {
+    .details-inner {
+        font-size: 150%;
+    }
+    /*#sunny-marie {
         width: 100%;
+    }*/
+    h2 {
+        font-size: 250%;
+
+    }
+    .menu h3 {
+        font-size: 170%;
+    }
+    .menu li {
+        font-size: 150%;
     }
 }
