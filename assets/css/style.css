@@ -571,4 +571,7 @@ textarea:focus {
         margin:1rem auto;
         max-width: 28rem;
     }
+    #sunny-marie {
+        width: 100%;
+    }
 }
