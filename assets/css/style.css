@@ -554,5 +554,17 @@ textarea:focus {
 }
 /* Breakpoint for ipads and tablets*/
 @media screen and (min-width: 481px) {
-
+    #concept-section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #concept-section div {
+        max-width:40%;
+        margin: 1rem 0rem;
+    }
+    #concept-section div h3 {
+        font-size:130%;
+        padding-bottom: 1rem;
+    }
 }
