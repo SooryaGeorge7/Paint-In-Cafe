@@ -401,7 +401,7 @@ a.active,a:hover {
     font-size: 150%;
     
 }
-hr {
+.line-between {
     border-top: 0.125rem solid #8C2323;
     width:100%;
 }
