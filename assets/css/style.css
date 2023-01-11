@@ -489,7 +489,7 @@ a.active,a:hover {
 }
 #event-photo {
     width:90%;
-    margin: 1rem;
+    margin: 1rem auto;
 }
 .enquiry-form {
     background-color: #FFFFFF;
@@ -587,4 +587,20 @@ textarea:focus {
     .menu li {
         font-size: 150%;
     }
+    legend {
+        font-size: 170%;
+    }
+    label {
+        font-size: 150%;
+    }
+    #enquiry-info {
+        font-size: 130%;
+    }
+    input[type=text],
+    input[type=email],
+    select,
+    textarea {
+        
+        font-size: 130%;
+}
 }
