@@ -13,14 +13,14 @@ html {
 }
 
 body {
-    font-family:Open Sans, sans-serif;
+    font-family:'Open Sans', sans-serif;
     background-color:#67D378;
     color: #FFFFFF;
     
 }
 /* Headings and Logos */
 h1, h2, h3 {
-   font-family: Playfair Display, sans-serif;
+   font-family: 'Playfair Display', sans-serif;
    letter-spacing: 0.3rem;
    color: #FFFFFF;
    text-align: center;
@@ -46,7 +46,7 @@ h2 {
     padding-top: 0.5rem;
     padding-left: 5rem;
     position: absolute;
-    font-family: Playfair Display, sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     letter-spacing: 0.3rem;
     color: #FFFFFF;
     text-shadow: 0 0 3px #8C2323, 0 0 5px  #8C2323;
@@ -82,7 +82,7 @@ nav {
     transition: all .5s;
 }
 #menu li {
-    display: flexbox;
+    display: flex;
     justify-content: space-evenly;
     /*margin-right: 0.5rem 0;*/
     line-height: 2rem;
@@ -480,7 +480,7 @@ a.active,a:hover {
     color: #8C2323;
     
     font-size: 120%;
-    margin: ;
+    /*margin: ;*/
     padding: 0.5rem;
     
 
@@ -498,7 +498,7 @@ legend {
     font-size: 140%;
     font-weight: bold;
     padding: 1rem;
-    font-family: Playfair Display, sans-serif;;
+    font-family: 'Playfair Display', sans-serif;;
 }
 label {
     font-size: 120%;
@@ -529,7 +529,7 @@ input[type=email]:focus,
 select:focus,
 textarea:focus {
     background-color: #FFFFFF;
-    border: 0.125 solid #67D378 !important;
+    border: 0.125rem solid #67D378 !important;
     box-shadow: 0 0 0.5rem #67D378 !important;
 
 }
