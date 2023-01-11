@@ -567,4 +567,8 @@ textarea:focus {
         font-size:130%;
         padding-bottom: 1rem;
     }
+    .details {
+        margin:1rem auto;
+        max-width: 28rem;
+    }
 }
