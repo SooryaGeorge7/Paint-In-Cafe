@@ -383,9 +383,12 @@ a.active,a:hover {
     margin-top: 1rem;
     
 }
-.menu {
+#menu-container {
     display:flex;
     flex-direction: column;
+}
+.menu {
+    
     
     margin: 1rem;
     background-color: #FFFFFF;
@@ -706,4 +709,11 @@ textarea:focus {
         font-size: 120%;
         
     }
+    #menu-container {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
 }
