@@ -517,7 +517,7 @@ textarea {
     color: #8C2323;
     margin-bottom: 0.5rem;
     width: 80%;
-    font-size: 100%;
+    font-size: 90%;
 }
 input[type=text]:hover,
 input[type=email]:hover,
@@ -585,7 +585,7 @@ textarea:focus {
         font-size: 170%;
     }
     .menu li {
-        font-size: 150%;
+        font-size: 120%;
     }
     legend {
         font-size: 170%;
@@ -594,13 +594,22 @@ textarea:focus {
         font-size: 150%;
     }
     #enquiry-info {
-        font-size: 130%;
+        font-size: 120%;
     }
     input[type=text],
     input[type=email],
     select,
     textarea {
         
-        font-size: 130%;
+        font-size: 120%;
 }
+}
+@media screen and (min-width: 768px) {
+    #text-outer {
+        width: 32rem;
+        height: 10rem;
+    }
+    #text-outer h1 {
+        font-size: 300%;
+    }
 }
