@@ -349,9 +349,17 @@ a.active,a:hover {
 }
 
 /* About Page*/
+.about {
+    display:flex;
+    flex-direction: column;
+}
+.about .about-box{
+
+}
 #sunny-marie {
     width:100%;
 }
+
 #about-text {
     text-align: center;
     background-color: #FFFFFF;
@@ -622,13 +630,13 @@ textarea:focus {
     
     #menu {
         
-        letter-spacing: 0.3rem;
+        letter-spacing: 0;
         
         display: flex;
         align-items: center;
         position: absolute;
         background: none;
-        width: 70%;
+        width: 55%;
         left:auto;
         right:0.5rem;
         height:1.5rem;
@@ -666,4 +674,36 @@ textarea:focus {
     /*#check:checked ~ ul{
         left:0;
     }*/
+    .about {
+        display:flex;
+        flex-direction: row;
+        
+        
+    }
+    .about-box1{
+        width:50%;
+    }
+    .about-box2{
+        position:relative;
+        width:50%;
+        overflow: hidden;
+    }
+    #sunny-marie {
+        
+        position:absolute;
+        width: 169%;
+        padding: 1rem 0rem;
+        
+    }
+    
+    #about-text {
+        text-align: center;
+        background-color: #FFFFFF;
+        color: #8C2323;
+        box-shadow: 0.25rem 0.25rem 0.125rem #7b9f82;
+        margin: 1rem;
+        padding: 1rem;
+        font-size: 120%;
+        
+    }
 }
