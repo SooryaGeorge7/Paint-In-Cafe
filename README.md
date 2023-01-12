@@ -103,6 +103,11 @@ Wireframes for mobile, tablet and desktop view
 The website has 5 pages in total. The pages "Home, About, Cafe, Gallery, Event Enquiry" are placed as navigation links on the first page on the top rightside if the website is displayed on desktop, laptop or tablet. The navgation links to these pages are removed and placed as a hamburger toggler button when viewed on a mobile.This is done to to save space avoid looking cluttered in mobile-view.Each page will have the header element and footer element that will be consistent thoughout the pages.The website is designed to be easy to navigate for first time visitors on the site.The texts on the pages will appear more centerd in smaller devices like mobile and will move horizontally when in bigger devices.
 All the pages contain contact details , location, opening hours and socials as part of the footer.
 There is a 6th page that pops up when the submit button is pressed on event enquiry page. That will show a message saying that the staff will get back to them as soon as possible.
+#### Navigation menu
+#### Toggler button
+#### Logo 
+#### Social media links
+#### maps 
 #### Home Page features
 This page should attract first time visitors and want them to keep navigating through the website.It has colourful images and 
  a background video . Easy to read information about the cafe's concept and how it works- This is broken down into different blocks so that the information isnt too overwhelming and easy to find. The information is layed out in a way so that the common infomration that the first-time users may be looking for can be found without hassle.It also Shows contact details, Location and opening times as well as social media part as part of the footer.
@@ -114,6 +119,7 @@ This page has the food menu for the cafe. It will also show symbols to see which
 This page has images of paintings, people and food inorder to attract potential customers to visit the cafe.These are placed in the gallery to inspire potential customers to share the cafe website to their family or friends.
 #### Event Enquiry Page
 This page has a form that should be filled in if you want to host an event at the cafe or if you are a group of 10 people and more. The form contains name, email address, contact no., type of event, no. of people, special requests and a submit button. 
+##### Submit button
 ### Future Implementation
 * I really wanted to make a slideshow of pictures in the home page and events page but learnt that i would need to use javascript inroder to do so.
 * Need to implement google reviews in the website so that website visitors would be able to understand the experience from the customer's point of view.
