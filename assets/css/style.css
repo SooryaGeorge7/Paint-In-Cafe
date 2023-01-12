@@ -612,4 +612,58 @@ textarea:focus {
     #text-outer h1 {
         font-size: 300%;
     }
+    .checkbutton {
+        display: none;
+    }
+    /*nav {
+        text-align: center;
+        background-color: #67D378;
+    }*/
+    
+    #menu {
+        
+        letter-spacing: 0.3rem;
+        
+        display: flex;
+        align-items: center;
+        position: absolute;
+        background: none;
+        width: 70%;
+        left:auto;
+        right:0.5rem;
+        height:1.5rem;
+        top: 1.5rem;
+        
+        transition: all .5s;
+    }
+    #menu li {
+        display: flex;
+        
+        line-height: 1.5rem;
+        padding-top: 0rem;
+        
+    
+    }
+    
+    
+    
+    #check {
+        display: none;
+    }
+    #menu li a {
+        color:#FFFFFF;
+        font-size: 1.25rem;
+        font-weight: 500;
+        text-shadow: 0 0 3px #8C2323, 0 0 5px  #8C2323;
+        padding: 0.5rem 0.5rem;
+    }
+    a.active,a:hover {
+        background-color: rgba(103,211,135,.6);
+        transition: .5s;
+        padding: 0.5rem 0.5rem;
+        border: 0.125rem solid #FFFFFF;
+    }
+    /*#check:checked ~ ul{
+        left:0;
+    }*/
 }
