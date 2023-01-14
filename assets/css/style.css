@@ -731,6 +731,8 @@ textarea:focus {
     
     }
     
-    
+    .event-enquiry {
+        margin: 1rem auto;
+        max-width: 60%;
     }
 }
