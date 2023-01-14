@@ -763,4 +763,7 @@ textarea:focus {
     #concept-section div {
         max-width: 30%;
     }
+    #concept-section div h3 {
+        font-size: 150%;
+    }
 }
