@@ -736,3 +736,12 @@ textarea:focus {
         max-width: 60%;
     }
 }
+@media screen and (min-width: 1024px)  {
+    #menu {
+        justify-content: end;
+        top:1rem;
+    }
+    #menu li a {
+        font-size: 1.5rem;
+    }
+}
