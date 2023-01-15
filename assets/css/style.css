@@ -780,4 +780,7 @@ textarea:focus {
     .menu li {
         font-size: 100%;
     }
+    .container .gallery-images img {
+        box-shadow: 0.5rem 0.5rem 0.5rem #7b9f82, -0.25rem -0.125rem 0.5rem #7b9f82;
+    }
 }
