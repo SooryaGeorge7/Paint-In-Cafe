@@ -916,4 +916,14 @@ textarea:focus {
     #location-container {
         height: 24.25rem;
     }
+    .about-box1 {
+        max-width: 35rem;
+    }
+    .about-box2 {
+        width: 30rem;
+        margin: 1rem;
+    }
+    .about {
+        justify-content: center;
+    }
 }
