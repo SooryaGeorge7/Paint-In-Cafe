@@ -52,7 +52,7 @@ h2 {
     text-shadow: 0 0 3px #8C2323, 0 0 5px  #8C2323;
 }
 #logoimage {
-    border-radius: 30%;
+    border-radius: 1rem;
     width: 4rem;
     margin: 0.5rem;
     float: left;
@@ -120,6 +120,7 @@ a.active,a:hover {
     background-color: #67D378;
     transition: .5s;
     padding: 0.25rem;
+    border-radius: 1rem;
 }
 #check:checked ~ ul{
     left:0;
@@ -177,7 +178,7 @@ a.active,a:hover {
     width: 16rem;
     height: 16rem;
     background-color: rgba(103,211,135,.6);
-    /*border-radius: 50%;*/
+    border-radius: 1rem;
     top: 50%;
     left:50%;
     border: 0.125rem solid #FFFFFF;
@@ -225,7 +226,7 @@ a.active,a:hover {
     flex-direction: column;
 }
 #concept-section div {
-    
+    border-radius: 1rem;
     background-color: #FFFFFF;
     box-shadow: 0.25rem 0.25rem 0.125rem #7B9F82;
     margin: 0rem 1rem 1rem;
@@ -299,6 +300,7 @@ a.active,a:hover {
     color: #FFFFFF;
     /*font-size: 110%;*/
     box-shadow: 0.25rem 0.25rem 0.125rem #7b9f82;
+    border-radius: 1rem;
 }
 .details-inner {
     margin-bottom: 2rem; 
