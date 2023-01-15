@@ -50,9 +50,9 @@
             </div>
             <div id="text-outer">
                 <h1>Event Enquiry Form</h1>
-                
+
             </div>
-            
+
         </div>
         <div id="text-outer2">
             <p>Cafe Update:<br>Now open Friday to Sunday, 8AM to 8PM.</p>
@@ -60,49 +60,58 @@
     </header>
     <section class="event-section">
         <h2>Event Enquiry</h2>
-        <div class="event-enquiry">
-            <p id="enquiry-info">
-                <strong>Would you like to host an event at our cafe or are you a group of 10+ people(max allowed: 30people in a group)?</strong>,<br><br>
-                Please fill in the event enquiry form  and our staff will contact you with
-                follow up questions or information!<br><br><strong>NB:Please make sure to submit a form in advance as there is a limit to 2 events per weekend</strong>
-            </p>
-            <img id="event-photo" src="assets/images/event-photo.jpg" alt="4 people celebrating an eventtogether">
-        </div>
-        <div class="event-enquiry">
-            <form method="POST" action="success.html" class="enquiry-form">
-                <fieldset>
-                    <legend>Event Enquiry Form</legend>
-                    <label for="fullname">Full Name<br></label>
-                    <input id="fullname" class="text-input" name="full_name" type="text" placeholder="Your name & surname" required>
-                    <label for="email"><br>Email Address<br></label>
-                    <input type="email" id="email" class="text-input" name="email_address" placeholder="Paint-InCafe@gmail.com" required>
-                    <label for="contact-no"><br>Contact Number<br></label>
-                    <input id="contact-no" class="text-input" name="contact_no" type="text" placeholder="+353 _ _ _ _ _ _ _ _ _" required>
-                    <label for="people-no"><br>No. of People<br></label>
-                    <input id="people-no" class="text-input" name="no_of_people" type="text" placeholder="How many people are coming?" required>
-                    <label for="event-type"><br>Type of Event<br></label>
-                    <select id="event-type"  name="event_type" required>
-                        <option value="">-Events-</option>
-                        <option value="school-outing">School Outing</option>
-                        <option value="bridal-shower">Bridal Shower</option>
-                        <option value="baby-shower">Baby Shower</option>
-                        <option value="team-building">Team Building</option>
-                        <option value="birthday">Birthday</option>
-                        <option value="other">Other</option>
-                    </select>
-                    <label for="special-request" class="request"><br>Special Requests<br></label>
-                    <textarea id="special-request" rows="4" cols="20" name="special_request" placeholder="Add a message here! :D"></textarea>
-                    <br>
-                    <input id="submit-button"  value="Submit Form" type="submit" >
-                    
-                </fieldset>
-            </form>
+        <div id="event">
+            <div class="event-enquiry">
+                <p id="enquiry-info">
+                    <strong>Would you like to host an event at our cafe or are you a group of 10+ people(max allowed:
+                        30people in a group)?</strong>,<br><br>
+                    Please fill in the event enquiry form and our staff will contact you with
+                    follow up questions or information!<br><br><strong>NB:Please make sure to submit a form in advance
+                        as there is a limit to 2 events per weekend</strong>
+                </p>
+                <img id="event-photo" src="assets/images/event-photo.jpg" alt="4 people celebrating an eventtogether">
+            </div>
+            <div class="event-enquiry">
+                <form method="POST" action="success.html" class="enquiry-form">
+                    <fieldset>
+                        <legend>Event Enquiry Form</legend>
+                        <label for="fullname">Full Name<br></label>
+                        <input id="fullname" class="text-input" name="full_name" type="text"
+                            placeholder="Your name & surname" required>
+                        <label for="email"><br>Email Address<br></label>
+                        <input type="email" id="email" class="text-input" name="email_address"
+                            placeholder="Paint-InCafe@gmail.com" required>
+                        <label for="contact-no"><br>Contact Number<br></label>
+                        <input id="contact-no" class="text-input" name="contact_no" type="text"
+                            placeholder="+353 _ _ _ _ _ _ _ _ _" required>
+                        <label for="people-no"><br>No. of People<br></label>
+                        <input id="people-no" class="text-input" name="no_of_people" type="text"
+                            placeholder="How many people are coming?" required>
+                        <label for="event-type"><br>Type of Event<br></label>
+                        <select id="event-type" name="event_type" required>
+                            <option value="">-Events-</option>
+                            <option value="school-outing">School Outing</option>
+                            <option value="bridal-shower">Bridal Shower</option>
+                            <option value="baby-shower">Baby Shower</option>
+                            <option value="team-building">Team Building</option>
+                            <option value="birthday">Birthday</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <label for="special-request" class="request"><br>Special Requests<br></label>
+                        <textarea id="special-request" rows="4" cols="20" name="special_request"
+                            placeholder="Add a message here! :D"></textarea>
+                        <br>
+                        <input id="submit-button" value="Submit Form" type="submit">
+
+                    </fieldset>
+                </form>
+            </div>
         </div>
     </section>
 
 
 
-    
+
     <footer>
         <div>
             <div class="details">
@@ -116,7 +125,8 @@
             <div class="details">
                 <h2 id="location"><i class="fa-solid fa-location-pin"></i>Location</h2>
                 <p class="details-inner">3 Mayfair Road<br>Dublin 7<br>Ireland<br>Y36 2234<br><br>
-                    <a id="maps" href="https://www.google.com/maps/d/viewer?ie=UTF8&oe=UTF8&msa=0&mid=1GCCHReNwHntLxVtHRF9ZdRzdppc&ll=53.58372044690462%2C-7.123224799999996&z=9"
+                    <a id="maps"
+                        href="https://www.google.com/maps/d/viewer?ie=UTF8&oe=UTF8&msa=0&mid=1GCCHReNwHntLxVtHRF9ZdRzdppc&ll=53.58372044690462%2C-7.123224799999996&z=9"
                         target="_blank"><i class="fa-solid fa-map"></i> Maps</a>
                 </p>
 

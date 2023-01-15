@@ -494,15 +494,19 @@ a.active,a:hover {
     
     text-align: center;
 }*/
-.event-enquiry {
+#event {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.event-enquiry {
+    
     text-align: center;
     margin: 1rem;
     box-shadow: 0.25rem 0.25rem 0.125rem #7b9f82;
     border: 0.125rem solid #FFFFFF;
     background-color: #FFFFFF;
+    border-radius: 1rem;
 }
 #enquiry-info {
     
@@ -521,7 +525,7 @@ a.active,a:hover {
 .enquiry-form {
     background-color: #FFFFFF;
     color: #8C2323;
-
+    border-radius: 1rem;
 }
 legend {
     font-size: 140%;
@@ -747,9 +751,12 @@ textarea:focus {
     
     }
     
-    .event-enquiry {
+    #event {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 70%;
         margin: 1rem auto;
-        max-width: 60%;
     }
 }
 @media screen and (min-width: 1024px)  {
@@ -783,4 +790,14 @@ textarea:focus {
     .container .gallery-images img {
         box-shadow: 0.5rem 0.5rem 0.5rem #7b9f82, -0.25rem -0.125rem 0.5rem #7b9f82;
     }
+    #event {
+        
+        flex-direction: row;
+        max-width: 100%;
+    }
+    .event-enquiry {
+        width: 50%;
+        
+    }
+
 }
