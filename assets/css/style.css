@@ -316,6 +316,10 @@ a:hover {
     position:relative;
 }*/
 /*Contact information, opening times and location*/
+#details-container {
+    display: flex;
+    flex-direction: column;
+}
 .details {
     text-align: center;
     border: 0.125rem solid #FFFFFF;
@@ -898,5 +902,18 @@ textarea:focus {
     }
     #video-outer {
         height: 40rem;
+    }
+    #concept-section div {
+        max-width: 15%;
+    }
+    #details-container {
+        flex-direction: row;
+        justify-content: center;
+    }
+    #details-container > div {
+        width:45%;
+    }
+    #location-container {
+        height: 24.25rem;
     }
 }
