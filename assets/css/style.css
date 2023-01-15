@@ -409,7 +409,7 @@ a.active,a:hover {
     margin: 1rem;
     background-color: #FFFFFF;
     padding: 1rem;
-    
+    border-radius: 1rem;
     box-shadow: 0.25rem 0.25rem 0.125rem #7b9f82;
 }
 #menu-choice {
@@ -772,5 +772,12 @@ textarea:focus {
     #sunny-marie {
         width: 100%;
         height: 100%;
+    }
+    .menu {
+        width:30%;
+        
+    }
+    .menu li {
+        font-size: 100%;
     }
 }
