@@ -1,5 +1,5 @@
 # Paint-in Cafe
-This website is designed to be responsive to allow users from any location to view the cafe website on any device.
+This website is built for all the residents or tourists of Ireland(ROI) looking to do a creative activity in Dublin,Ireland.The website is based on a fictional cafe that allows you the unique experience of painting with watercolors while also eating from the cafe.This website is designed to be responsive to allow users from any location to view the cafe website on any device.
 ## CONTENT
 * [User Experience(UX)](#user-experience(ux))
   * [Brief](#brief)
