@@ -129,11 +129,11 @@ nav {
 
 }
 
-a.active,
-a:hover {
-    background-color: #67D378;
+#menu li a.active,
+#menu li a:hover {
+    background-color: rgba(103, 211, 135, .6);
     transition: .5s;
-    padding: 0.25rem;
+    padding: 0.5rem;
     border-radius: 1rem;
 }
 
@@ -227,7 +227,7 @@ a:hover {
     padding: 0.5rem;
     left: 0rem;
     margin: 1rem auto;
-    border: 0.125rem solid #FFFFFF;
+    border-bottom: 0.125rem solid #FFFFFF;
     /*font-weight: 600;*/
     background-color: rgba(123, 159, 130, .6);
 }
@@ -268,6 +268,11 @@ hr {
 .concept-text {
     color: #8C2323;
     font-size: 120%;
+}
+#event-link {
+    color: #8C2323;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 #watercolor-outer {
@@ -777,8 +782,8 @@ textarea:focus {
         padding: 0.5rem 0.5rem;
     }
 
-    a.active,
-    a:hover {
+    #menu li a.active,
+    #menu li a:hover {
         background-color: rgba(103, 211, 135, .6);
         transition: .5s;
         padding: 0.5rem 0.5rem;
