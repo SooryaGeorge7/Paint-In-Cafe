@@ -89,7 +89,7 @@ I used these two Google Fonts for headings and other texts because they pair wel
 * Open Sans-This is a humanist sans serif typeface and i used this for paragraphs and other texts.
 
 ### Imagery
-All images in the website were taken from a free image source called Pexels.
+All images in the website were taken from a free image source called Pexels.I have included the links to the images in [Credits](#credits) section.
 * [Pexels website](https://www.pexels.com/)
 ### Wireframes
 Wireframes for mobile, tablet and desktop view
@@ -98,6 +98,7 @@ Wireframes for mobile, tablet and desktop view
 * [Cafe page wireframe](documentation/Cafe%20Wireframe.png)
 * [Gallery page wireframe](documentation/Gallery%20Wireframe.png)
 * [Event enquiry page wireframe](documentation/Event%20Enquiry%20wireframe.png)
+The final designs look very different to initial wireframe designs because i started thinking more and more about user experience and design flow and realized i had to change a lot.
 ## Features
 ### General Features Per Page
 The website has 5 pages in total. The pages "Home, About, Cafe, Gallery, Event Enquiry" are placed as navigation links on the first page on the top rightside if the website is displayed on desktop, laptop or tablet. The navgation links to these pages are removed and placed as a hamburger toggler button when viewed on a mobile.This is done to to save space avoid looking cluttered in mobile-view.Each page will have the header element and footer element that will be consistent thoughout the pages.The website is designed to be easy to navigate for first time visitors on the site.The texts on the pages will appear more centerd in smaller devices like mobile and will move horizontally when in bigger devices.
