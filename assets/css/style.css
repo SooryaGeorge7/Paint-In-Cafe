@@ -568,14 +568,18 @@ footer {
 
     font-size: 120%;
     /*margin: ;*/
-    padding: 0.5rem;
+    padding: 2rem;
 
 
 }
 
 #event-photo {
     width: 90%;
+    
+    border: 0.5rem solid #FFFFFF;
     margin: 1rem auto;
+    border-bottom-width: 2rem;
+    box-shadow: 0.25rem 0.25rem 0.25rem #7b9f82, -0.125rem -0.125rem 0.25rem #7b9f82;
 }
 
 .enquiry-form {
