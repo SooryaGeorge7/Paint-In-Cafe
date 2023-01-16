@@ -841,7 +841,7 @@ textarea:focus {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
     }
 
     .container .gallery-images {
@@ -897,7 +897,7 @@ textarea:focus {
     }
 
     .menu {
-        width: 30%;
+        max-width: 30%;
 
     }
 
@@ -963,7 +963,7 @@ textarea:focus {
         width: 25%;
     }
     .event-enquiry {
-        width:35%;
+        max-width:40%;
     }
     #event {
         justify-content: center;
