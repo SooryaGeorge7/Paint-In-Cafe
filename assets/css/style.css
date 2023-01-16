@@ -231,7 +231,11 @@ a:hover {
     /*font-weight: 600;*/
     background-color: rgba(123, 159, 130, .6);
 }
-
+hr {
+    border-top: 1px solid #8C2323;
+    width: 95%;
+    margin: 0.5rem auto;
+}
 /* concept of cafe/ section 2*/
 
 /*#concept-heading {
