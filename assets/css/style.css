@@ -232,8 +232,8 @@ a:hover {
     background-color: rgba(123, 159, 130, .6);
 }
 hr {
-    border-top: 1px solid #8C2323;
-    width: 95%;
+    border-top: 1px solid #FFFFFF;
+    width: 100%;
     margin: 0.5rem auto;
 }
 /* concept of cafe/ section 2*/
@@ -670,11 +670,11 @@ textarea:focus {
         flex:1;
     }
     .details h2 {
-        font-size: 150%;
+        font-size: 200%;
     }
 
     .details-inner {
-        font-size: 150%;
+        font-size: 120%;
     }
 
     /*#sunny-marie {
@@ -924,6 +924,7 @@ textarea:focus {
     
     #details-container > div {
         width:45%;
+        height:17rem;
     }
     #location-container {
         height: 24.25rem;
