@@ -441,9 +441,13 @@ footer {
 /*Cage page*/
 
 #cafe-image {
-    width: 100%;
+    
     margin-top: 1rem;
-
+    background: url('../images/cafe-photo.jpg')center center /cover no-repeat fixed;
+    
+    
+    height: 40rem;
+    position: relative;
 }
 
 #menu-container {
