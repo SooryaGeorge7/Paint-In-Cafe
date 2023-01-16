@@ -320,23 +320,26 @@ hr {
     position:relative;
 }*/
 /*Contact information, opening times and location*/
+footer {
+    background-color: #8C2323;
+}
 #details-container {
     display: flex;
     flex-direction: column;
 }
 .details {
     text-align: center;
-    border: 0.125rem solid #FFFFFF;
+    /*border: 0.125rem solid #FFFFFF;*/
     margin: 1rem;
     /*background-color: #FFFFFF;*/
     color: #FFFFFF;
     /*font-size: 110%;*/
-    box-shadow: 0.25rem 0.25rem 0.125rem #7b9f82;
-    border-radius: 1rem;
+    /*box-shadow: 0.25rem 0.25rem 0.125rem #7b9f82;
+    border-radius: 1rem;*/
 }
 
 .details-inner {
-    margin-bottom: 2rem;
+    /*margin-bottom: 2rem;*/
     font-size: 120%;
 }
 
@@ -664,6 +667,10 @@ textarea:focus {
     .details {
         margin: 1rem auto;
         max-width: 28rem;
+        flex:1;
+    }
+    .details h2 {
+        font-size: 150%;
     }
 
     .details-inner {
@@ -777,6 +784,10 @@ textarea:focus {
     /*#check:checked ~ ul{
         left:0;
     }*/
+    #details-container {
+        display: flex;
+        flex-direction: row;
+    }
     .about {
         display: flex;
         flex-direction: row;
@@ -910,10 +921,7 @@ textarea:focus {
     #concept-section div {
         max-width: 15%;
     }
-    #details-container {
-        flex-direction: row;
-        justify-content: center;
-    }
+    
     #details-container > div {
         width:45%;
     }
