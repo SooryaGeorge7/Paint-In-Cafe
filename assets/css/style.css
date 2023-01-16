@@ -269,7 +269,7 @@ hr {
     color: #8C2323;
     font-size: 120%;
 }
-#event-link {
+.event-link {
     color: #8C2323;
     font-weight: bold;
     cursor: pointer;
@@ -919,6 +919,7 @@ textarea:focus {
 }
 
 @media screen and (min-width: 1200px) {
+
     #paintvideo {
 
         height:40rem;
@@ -947,6 +948,9 @@ textarea:focus {
     }
     .about {
         justify-content: center;
+    }
+    #about-text {
+        width:30rem;
     }
     .menu li{
         font-size: 120%;
