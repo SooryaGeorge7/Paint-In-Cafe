@@ -253,7 +253,7 @@ nav {
     margin: 0rem auto;
     border-bottom: 0.125rem solid #FFFFFF;
     /*font-weight: 600;*/
-    background-color: rgba(123, 159, 130, .6);
+    background-color: #8C2323;
 }
 hr {
     border-top: 1px solid #FFFFFF;
@@ -435,6 +435,9 @@ footer {
 }
 
 /* About Page*/
+#about-section {
+    background-color: #67D378;
+}
 .about {
     display: flex;
     flex-direction: column;
@@ -465,7 +468,9 @@ footer {
     text-shadow: 0 0 3px #8C2323, 0 0 5px  #8C2323;
 }*/
 /*Cage page*/
-
+#menu-section {
+    background-color: #67D378;
+}
 #cafe-image {
     
     margin-top: 1rem;
@@ -535,7 +540,9 @@ footer {
     text-align: center;
     
 }*/
-
+.container {
+    background-color: #67D378;
+}
 .container .gallery-images {
     display: flex;
     flex-direction: column;
@@ -581,6 +588,9 @@ footer {
     
     text-align: center;
 }*/
+.event-section {
+    background-color: #67D378;
+}
 #event {
     display: flex;
     flex-direction: column;
@@ -894,7 +904,7 @@ textarea:focus {
         flex-direction: column;
         justify-content: space-between;
         max-width: 70%;
-        margin: 1rem auto;
+        margin: 0rem auto;
     }
 }
 
