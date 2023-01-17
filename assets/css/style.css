@@ -275,7 +275,7 @@ hr {
 }
 /* concept of cafe/ section 2*/
 #concept {
-    background-color: #67D378;
+    background-color: rgba(103, 211, 135, .6);
 }
 /*#concept-heading {
     margin: 1rem;
