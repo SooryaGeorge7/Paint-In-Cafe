@@ -265,6 +265,7 @@ nav {
     left: 0rem;
     margin: 0rem auto;
     border-top: 0.125rem solid #8C2323;
+    border-bottom: 0.125rem solid #FFFFFF;
     font-weight: bold;
     background-color: rgba(103, 211, 135, .9);
 }
@@ -448,9 +449,7 @@ footer {
 }
 
 /* About Page*/
-#about-section {
-    background-color: #67D378;
-}
+
 .about {
     display: flex;
     flex-direction: column;
@@ -471,6 +470,7 @@ footer {
     padding: 1rem;
     font-size: 120%;
     border-radius: 1rem;
+    border: 0.125rem solid #8C2323;
 }
 
 /*#about-heading {
@@ -481,9 +481,7 @@ footer {
     text-shadow: 0 0 3px #8C2323, 0 0 5px  #8C2323;
 }*/
 /*Cage page*/
-#menu-section {
-    background-color: #67D378;
-}
+
 #cafe-image {
     
     margin-top: 1rem;
@@ -501,7 +499,7 @@ footer {
 
 .menu {
 
-
+    border: 0.125rem solid #8C2323;
     margin: 1rem;
     background-color: #FFFFFF;
     padding: 1rem;
@@ -510,8 +508,8 @@ footer {
 }
 
 #menu-choice {
-    /*color: #FFFFFF;
-    font-weight: bold;*/
+    color: #8C2323;
+    /*font-weight: bold;*/
     text-align: center;
     font-size: 120%;
 }
@@ -554,7 +552,7 @@ footer {
     
 }*/
 .container {
-    background-color: #67D378;
+    background-color: rgba(103, 211, 135, .6);
 }
 .container .gallery-images {
     display: flex;
@@ -601,9 +599,7 @@ footer {
     
     text-align: center;
 }*/
-.event-section {
-    background-color: #67D378;
-}
+
 #event {
     display: flex;
     flex-direction: column;
@@ -611,11 +607,11 @@ footer {
 }
 
 .event-enquiry {
-
+    
     text-align: center;
     margin: 1rem;
     box-shadow: 0.25rem 0.25rem 0.125rem #7b9f82;
-    border: 0.125rem solid #FFFFFF;
+    border: 0.125rem solid #8c2323;
     background-color: #FFFFFF;
     border-radius: 1rem;
 }
