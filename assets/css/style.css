@@ -190,8 +190,8 @@ nav {
 }
 
 #text-outer h1 {
-    /*color:#FFFFFF;*/
-    text-shadow: 0 0 3px #8C2323, 0 0 5px #8C2323;
+    color:#8C2323;
+    text-shadow: 0 0 3px #FFFFFF, 0 0 5px #FFFFFF;
     padding-left: 0.5rem;
     padding-top: 1rem;
     padding-right: 0.5rem;
