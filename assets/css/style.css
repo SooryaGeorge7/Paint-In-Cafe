@@ -274,14 +274,11 @@ hr {
     margin: 0.5rem auto;
 }
 /* concept of cafe/ section 2*/
-#concept {
-    background-color: rgba(103, 211, 135, .6);
+
+#concept-heading {
+    color: #8C2323;
+    text-shadow: none;
 }
-/*#concept-heading {
-    margin: 1rem;
-    font-size: 250%;
-    text-shadow: 0 0 3px #8C2323, 0 0 5px  #8C2323;
-}*/
 #concept-section {
     /*margin-top: 1rem;*/
     text-align: center;
@@ -295,6 +292,7 @@ hr {
     box-shadow: 0.25rem 0.25rem 0.125rem #7B9F82;
     margin: 0rem 1rem 1rem;
     padding: 1rem;
+    border:0.125rem solid #8c2323
 }
 
 #concept-section div h3 {
@@ -302,9 +300,11 @@ hr {
     font-size: 150%;
     /*text-decoration: solid;*/
     padding-bottom: 0.5rem;
+    border-bottom: 0.125rem solid #8c2323;
 }
 
 .concept-text {
+    margin-top: 0.5rem;
     color: #8C2323;
     font-size: 120%;
 }
@@ -976,9 +976,7 @@ textarea:focus {
 @media screen and (min-width: 1200px) {
 
     
-    #concept-section div {
-        max-width: 15%;
-    }
+    
     
     #details-container > div {
         width:45%;
