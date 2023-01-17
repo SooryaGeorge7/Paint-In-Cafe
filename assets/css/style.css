@@ -15,7 +15,7 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #67D378;
+    background-color: #FFFFFF;
     color: #FFFFFF;
 
 }
@@ -34,14 +34,11 @@ h3 {
 
 h2 {
     font-size: 200%;
-    margin: 1rem;
+    margin: 0rem ;
+    padding: 1rem;
     text-shadow: 0 0 3px #8C2323, 0 0 5px #8C2323;
 }
-header {
-    background-color: #FFFFFF;
-    position: relative;
-    z-index: -2;
-}
+
 /*h3 {
     font-size: 90%;
 }*/
@@ -247,7 +244,9 @@ hr {
     margin: 0.5rem auto;
 }
 /* concept of cafe/ section 2*/
-
+#concept {
+    background-color: #67D378;
+}
 /*#concept-heading {
     margin: 1rem;
     font-size: 250%;
