@@ -964,18 +964,16 @@ textarea:focus {
     
     
     #details-container > div {
-        width:45%;
+        
         height:17rem;
     }
-    #location-container {
-        height: 24.25rem;
-    }
-    .about-box1 {
+    
+    /*.about-box1 {
         max-width: 35rem;
-    }
+    }*/
     .about-box2 {
         width: 30rem;
-        margin: 1rem;
+        
     }
     .about {
         justify-content: center;
@@ -983,14 +981,12 @@ textarea:focus {
     #about-text {
         width:30rem;
     }
-    .menu li{
-        font-size: 120%;
-    }
+    
     .container .gallery-images .box {
         width: 25%;
     }
     .event-enquiry {
-        max-width:40%;
+        max-width:35%;
     }
     #event {
         justify-content: center;
