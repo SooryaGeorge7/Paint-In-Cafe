@@ -506,7 +506,7 @@ footer {
 
     border: 0.125rem solid #8C2323;
     margin: 1rem;
-    background-color: #FFFFFF;
+    
     padding: 1rem;
     border-radius: 1rem;
     box-shadow: 0.25rem 0.25rem 0.125rem #7b9f82;
@@ -535,7 +535,7 @@ footer {
 
 .line-between {
     border-top: 0.125rem solid #8C2323;
-    width: 100%;
+    
 }
 
 .prices {
