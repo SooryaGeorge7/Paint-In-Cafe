@@ -292,8 +292,8 @@ hr {
 }
 
 #watercolor-outer {
-    background: url('../images/painting-concept.webp')center center no-repeat fixed;
-    background-size: 150%;
+    background: url('../images/painting-conceptpic.webp')center center /cover no-repeat fixed;
+    /*background-size: 150%;*/
     /*width: 100%;*/
     height: 40rem;
     /*position: relative;*/
