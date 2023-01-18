@@ -475,9 +475,7 @@ footer {
     border-radius: 1rem;
     border: 0.125rem solid #8C2323;
 }
-.about-box2 {
-    height:30rem;
-}
+
 /*#about-heading {
     text-align: center;
     padding-top: 1rem;
@@ -734,9 +732,7 @@ textarea:focus {
         font-size: 200%;
     }
 
-    .details-inner {
-        font-size: 120%;
-    }
+    
 
     /*#sunny-marie {
         width: 100%;
@@ -771,7 +767,7 @@ textarea:focus {
     select,
     textarea {
 
-        font-size: 120%;
+        font-size: 100%;
     }
 }
 
