@@ -611,16 +611,16 @@ footer {
     
     text-align: center;
     margin: 1rem;
-    box-shadow: 0.25rem 0.25rem 0.125rem #7b9f82;
-    border: 0.125rem solid #8c2323;
-    
+    box-shadow: 0.25rem 0.25rem 0.125rem #C4C3C7;
+    /*border: 0.125rem solid #8c2323;*/
+    background-color: #8C2323;
     border-radius: 1rem;
 }
 
 #enquiry-info {
 
-    color: #8C2323;
-
+    color: #FFFFFF;
+    
     font-size: 120%;
     /*margin: ;*/
     padding: 2rem;
@@ -639,7 +639,7 @@ footer {
 
 .enquiry-form {
     
-    color: #8C2323;
+    color: #FFFFFF;
     border-radius: 1rem;
 }
 
@@ -661,9 +661,9 @@ input[type=text],
 input[type=email],
 select,
 textarea {
-    border: 0.125rem solid #8C2323;
+    border: 0.125rem solid #FFFFFF;
     padding: 0.5rem;
-    color: #8C2323;
+    color: #FFFFFF;
     margin-bottom: 0.5rem;
     width: 80%;
     
@@ -673,7 +673,7 @@ input[type=text]:hover,
 input[type=email]:hover,
 select:hover,
 textarea:hover {
-    background-color: #7B9F82;
+    background-color: #C4C3C7;
 
 }
 
@@ -682,8 +682,8 @@ input[type=email]:focus,
 select:focus,
 textarea:focus {
     background-color: #FFFFFF;
-    border: 0.125rem solid #67D378 !important;
-    box-shadow: 0 0 0.5rem #67D378 !important;
+    border: 0.125rem solid #ADD0B3 !important;
+    box-shadow: 0 0 0.5rem #ADD0B3 !important;
 
 }
 
@@ -691,8 +691,8 @@ textarea:focus {
 #submit-button {
     font-size: 120%;
     
-    background-color: #8C2323;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #8C2323;
     margin-bottom: 1rem;
     padding: 0.5rem;
     border-style: outset;
@@ -700,8 +700,8 @@ textarea:focus {
 
 #submit-button:hover {
     cursor: pointer;
-    background-color: #7b9f82;
-    color: #67D378;
+    background-color: #C4C3C7;
+    color: #ADD0B3;
     border-style: inset;
 }
 
