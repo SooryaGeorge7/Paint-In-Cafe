@@ -774,7 +774,7 @@ textarea:focus {
 @media screen and (min-width: 768px) {
     #text-outer {
         width: 32rem;
-        height: 10rem;
+        
     }
 
     #text-outer h1 {
@@ -808,8 +808,7 @@ textarea:focus {
     }
 
     #menu li {
-        display: flex;
-
+        
         line-height: 1.5rem;
         padding-top: 0rem;
 
@@ -818,24 +817,24 @@ textarea:focus {
 
 
 
-    #check {
+    /*#check {
         display: none;
-    }
+    }*/
 
     #menu li a {
         color: #8C2323;
         font-size: 1.25rem;
-        font-weight: 500;
+        
         /*text-shadow: 0 0 3px #8C2323, 0 0 5px #8C2323;*/
         padding: 0.5rem 0.5rem;
     }
 
     #menu li a.active,
     #menu li a:hover {
-        background-color: rgba(103, 211, 135, .6);
+        /*background-color: rgba(103, 211, 135, .6);
         transition: .5s;
         padding: 0.5rem 0.5rem;
-        border: 0.125rem solid #FFFFFF;
+        border: 0.125rem solid #FFFFFF;*/
         color: #FFFFFF;
         
         text-shadow: 0 0 3px #8C2323, 0 0 5px #8C2323;;
@@ -845,11 +844,11 @@ textarea:focus {
         left:0;
     }*/
     #details-container {
-        display: flex;
+        /*display: flex;*/
         flex-direction: row;
     }
     .about {
-        display: flex;
+        
         flex-direction: row;
 
 
@@ -868,20 +867,13 @@ textarea:focus {
     #sunny-marie {
 
         position: absolute;
-        width: 169%;
+        
         padding: 1rem 0rem;
 
     }
 
     #about-text {
-        text-align: center;
-        background-color: #FFFFFF;
-        color: #8C2323;
-        box-shadow: 0.25rem 0.25rem 0.125rem #7b9f82;
-        margin: 1rem;
-        padding: 1rem;
-        font-size: 120%;
-
+        font-size: 90%;
     }
 
     #menu-container {
@@ -892,14 +884,14 @@ textarea:focus {
     }
 
     .container .gallery-images {
-        display: flex;
+        
         flex-direction: row;
-        justify-content: space-between;
+        
         flex-wrap: wrap;
     }
 
     .container .gallery-images .box {
-        display: flex;
+        
         flex-direction: row;
         width: 50%;
         flex-wrap: wrap;
@@ -908,9 +900,9 @@ textarea:focus {
     }
 
     #event {
-        display: flex;
+        /*display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-between;*/
         max-width: 70%;
         margin: 0rem auto;
     }
