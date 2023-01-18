@@ -556,9 +556,7 @@ footer {
     text-align: center;
     
 }*/
-.container {
-    background-color: rgba(103, 211, 135, .6);
-}
+
 .container .gallery-images {
     display: flex;
     flex-direction: column;
