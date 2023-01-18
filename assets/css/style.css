@@ -615,7 +615,7 @@ footer {
     margin: 1rem;
     box-shadow: 0.25rem 0.25rem 0.125rem #7b9f82;
     border: 0.125rem solid #8c2323;
-    background-color: #FFFFFF;
+    
     border-radius: 1rem;
 }
 
@@ -640,7 +640,7 @@ footer {
 }
 
 .enquiry-form {
-    background-color: #FFFFFF;
+    
     color: #8C2323;
     border-radius: 1rem;
 }
@@ -668,7 +668,7 @@ textarea {
     color: #8C2323;
     margin-bottom: 0.5rem;
     width: 80%;
-    font-size: 90%;
+    
 }
 
 input[type=text]:hover,
@@ -692,7 +692,7 @@ textarea:focus {
 
 #submit-button {
     font-size: 120%;
-    text-transform: capitalize;
+    
     background-color: #8C2323;
     color: #FFFFFF;
     margin-bottom: 1rem;
