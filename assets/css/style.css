@@ -139,7 +139,7 @@ nav {
 
 #menu li a.active,
 #menu li a:hover {
-    background-color: rgba(169, 195, 182,.6);
+    background-color: rgba(173, 208, 179,.6);
     transition: .5s;
     padding: 0.5rem;
     border-radius: 1rem;
@@ -214,7 +214,7 @@ nav {
     text-shadow: none;
 }
 #learn:hover {
-    background-color: rgba(169, 195, 182, .6);
+    background-color: rgba(173, 208, 179, .6);
     border: 0.125rem solid #FFFFFF;
     color: #FFFFFF;
 }
@@ -243,7 +243,7 @@ nav {
     border-top: 0.125rem solid #8C2323;
     border-bottom: 0.125rem solid #8C2323;
     font-weight: bold;
-    background-color: rgba(169, 195, 182, .9);
+    background-color: rgba(173, 208, 179, .9);
 }
 hr {
     border-top: 1px solid #FFFFFF;
@@ -266,7 +266,7 @@ hr {
 #concept-section div {
     border-radius: 1rem;
     background-color: #8C2323;
-    box-shadow: 0.25rem 0.25rem 0.125rem #7B9F82;
+    box-shadow: 0.25rem 0.25rem 0.125rem #C4C3C7;
     margin: 0rem 1rem 1rem;
     padding: 1rem;
     border:0.125rem solid #8c2323
@@ -390,7 +390,7 @@ footer {
 }
 
 #maps:hover {
-    background-color: #A9C3B6;
+    background-color: #ADD0B3;
     color: #FFFFFF;
     border-style: inset;
 }
@@ -415,7 +415,7 @@ footer {
 }
 
 .social-media i:hover {
-    color: #A9C3B6;
+    color: #ADD0B3;
 }
 
 #copyright {
@@ -466,14 +466,14 @@ footer {
 
 #about-text {
     text-align: center;
-    background-color: #FFFFFF;
-    color: #8C2323;
-    box-shadow: 0.25rem 0.25rem 0.125rem #7b9f82;
+    background-color: #8C2323;
+    color: #FFFFFF;
+    box-shadow: 0.25rem 0.25rem 0.125rem #C4C3C7;
     margin: 1rem;
     padding: 1rem;
     font-size: 120%;
     border-radius: 1rem;
-    border: 0.125rem solid #8C2323;
+    /*border: 0.125rem solid #8C2323;*/
 }
 
 /*#about-heading {
