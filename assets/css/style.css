@@ -292,7 +292,7 @@ hr {
 }
 
 #watercolor-outer {
-    background: url('../images/painting-concept.jpg')center center no-repeat fixed;
+    background: url('../images/painting-concept.webp')center center no-repeat fixed;
     background-size: 150%;
     /*width: 100%;*/
     height: 40rem;
@@ -488,7 +488,7 @@ footer {
 #cafe-image {
     
     margin-top: 1rem;
-    background: url('../images/cafe-photo.jpg')center center /cover no-repeat fixed;
+    background: url('../images/cafe-photo.webp')center center /cover no-repeat fixed;
     
     
     height: 40rem;
