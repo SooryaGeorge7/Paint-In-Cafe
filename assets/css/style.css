@@ -504,10 +504,10 @@ footer {
 
     border: 0.125rem solid #8C2323;
     margin: 1rem;
-    
+    background-color: #8C2323;
     padding: 1rem;
     border-radius: 1rem;
-    box-shadow: 0.25rem 0.25rem 0.125rem #7b9f82;
+    box-shadow: 0.25rem 0.25rem 0.125rem #C4C3C7;
 }
 
 #menu-choice {
@@ -519,20 +519,20 @@ footer {
 
 .menu li {
 
-    color: #8C2323;
+    color: #FFFFFF;
     font-size: 120%;
 }
 
 .menu h3 {
 
-    color: #8C2323;
+    color: #FFFFFF;
     margin-bottom: 0.5rem;
     font-size: 150%;
 
 }
 
 .line-between {
-    border-top: 0.125rem solid #8C2323;
+    border-top: 0.125rem solid #FFFFFF;
     
 }
 
