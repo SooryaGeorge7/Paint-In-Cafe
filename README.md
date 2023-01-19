@@ -112,12 +112,19 @@ Wireframes for mobile, tablet and desktop view
 * **EVENTS ENQUIRY PAGE**![Event enquiry page wireframe](documentation/event-enquiry-wireframe.png)
 
 The final designs look very different to initial wireframe designs because i started thinking more and more about user experience and design flow and realized i had to change a lot.
+---
 ## Features
+
 ### General Features Per Page
-The website has 5 pages in total. The pages "Home, About, Cafe, Gallery, Event Enquiry" are placed as navigation links on the first page on the top rightside if the website is displayed on desktop, laptop or tablet. The navgation links to these pages are removed and placed as a hamburger toggler button when viewed on a mobile.This is done to to save space avoid looking cluttered in mobile-view.Each page will have the header element and footer element that will be consistent thoughout the pages.The website is designed to be easy to navigate for first time visitors on the site.The texts on the pages will appear more centerd in smaller devices like mobile and will move horizontally when in bigger devices.
-All the pages contain contact details , location, opening hours and socials as part of the footer.
-There is a 6th page that pops up when the submit button is pressed on event enquiry page. That will show a message saying that the staff will get back to them as soon as possible.
-#### Navigation menu
+
+The website has 5 pages in total. The pages `Home`, `About`,`Cafe`, `Gallery`,`Event Enquiry` are placed as navigation links on the first page on the top rightside if the website is displayed on desktop, laptop or tablet. The navgation links to these pages are removed and placed as a hamburger toggler button when viewed on a mobile.This is done to to save space avoid looking cluttered in mobile-view.Each page will have the header element and footer element that will be consistent thoughout the pages.The website is designed to be easy to navigate for first time visitors on the site.The texts on the pages will appear more centerd in smaller devices like mobile and will move horizontally when in bigger devices.
+
+
+#### General Features 
+
+#### Home Page
+### 
+
 #### Toggler button
 #### Logo 
 #### Social media links
