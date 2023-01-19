@@ -90,7 +90,7 @@ nav {
     position: fixed;
     height: 100%;
     width: 100%;
-    background-color: rgba(196, 195, 199, 0.9);
+    background-color: rgba(255, 255, 255,0.9);
 
     left: -100%;
     /*text-align: center;*/
@@ -130,19 +130,21 @@ nav {
 }
 
 #menu li a {
-    color: #FFFFFF;
+    color: #8C2323;
     font-size: 2rem;
-    font-weight: 500;
+    
     /*text-shadow: 0 0 3px #8C2323, 0 0 5px #8C2323;*/
 
 }
 
 #menu li a.active,
 #menu li a:hover {
-    background-color: rgba(173, 208, 179,.6);
+    background-color: rgba(173, 208, 179,.9);
     transition: .5s;
     padding: 0.5rem;
     border-radius: 1rem;
+    color: #FFFFFF;
+    text-shadow: 0 0 3px #8C2323, 0 0 5px #8C2323;
     border: 0.125rem solid #FFFFFF;
 }
 
@@ -257,7 +259,7 @@ hr {
     /*text-shadow: none;*/
 }
 #concept-section {
-    /*margin-top: 1rem;*/
+    margin-top: 1rem;
     text-align: center;
     display: flex;
     flex-direction: column;
