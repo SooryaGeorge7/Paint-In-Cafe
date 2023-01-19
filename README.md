@@ -126,6 +126,7 @@ The website has 5 pages in total. The pages `Home`, `About`,`Cafe`, `Gallery`,`E
 ![Header mobile view](documentation/header-smallscreens.png)
 * For all the pages there will be a header consisting of navigation links that allow you to move from one page to another.
 * The header element will also have Cafe's logo and name on far left. When hovered over, the cursor becomes pointer and allows you to press the logo and name which then takes you directly to the footer of the page where location , opening times and contact details are shown.  
+* For smaller screen the navigation links appear when you press on toggler button that is displayed as 3 red bars top right on the smaller screen.
 ![Nav links](documentation/navlinks-largescreens.png)
 ![Nav links](documentation/navlinks-smallscreen.png)
 * The navigation links when hovered ontop or when clicked, the background color and color of text changes to #ADD0B3 and white.
@@ -136,18 +137,20 @@ The website has 5 pages in total. The pages `Home`, `About`,`Cafe`, `Gallery`,`E
 * The maps button takes you directly to google maps.
 * The social media links take you directly to facebook and instagram.
 * When hovered on the social media links and maps button, the color changes to #ADD0B3, allowing the user to know that they can be clicked on.
+---
 #### Home Page
-### 
-
-#### Toggler button
-#### Logo 
-#### Social media links
-#### maps 
-#### Home Page features
 This page should attract first time visitors and want them to keep navigating through the website.It has colourful images and 
  a background video . Easy to read information about the cafe's concept and how it works- This is broken down into different blocks so that the information isnt too overwhelming and easy to find. The information is layed out in a way so that the common infomration that the first-time users may be looking for can be found without hassle.It also Shows contact details, Location and opening times as well as social media part as part of the footer.
+In addition to header and footer, the home page shows the following:
+* A background video with text overlying with a button-When hovered on it turns the same color as the nav links.This button takes you to the main section of home page which tells the user about the concept of cafe and all the information that they might look for when visiting the site. 
+* There is a cafe updates feature just below the background video that shows and updates.
+* The main section of the page is divided into divs. Each div contains information that would be useful to the user, one of the div also allows you to access event enquiry page directly by allowing you to click on the text that says event enquiry page. 
+
+
+
 #### About Page
 This page shows how Paint-in cafe came about, information about when it was built, A deep dive into the background story of the owner and even more details about the cafe. A pic of the Owner is included.
+
 #### Cafe Page
 This page has the food menu for the cafe. It will also show symbols to see which food is vegetarian/ vegan / halaal.Allergens and costs are shown so that the user can be prepared before coming into the cafe. Image of a section of the Cafe is included.
 #### Gallery Page
