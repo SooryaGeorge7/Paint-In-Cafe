@@ -526,11 +526,11 @@ footer {
     font-size: 120%;
 }
 
-.menu h3 {
+.menu h2 {
 
     color: #FFFFFF;
     margin-bottom: 0.5rem;
-    font-size: 150%;
+    font-size: 200%;
 
 }
 
@@ -745,9 +745,7 @@ textarea:focus {
 
     }
 
-    .menu h3 {
-        font-size: 170%;
-    }
+    
 
     .menu li {
         font-size: 120%;
