@@ -638,7 +638,7 @@ footer {
     border: 0.5rem solid #FFFFFF;
     margin: 1rem auto;
     border-bottom-width: 2rem;
-    box-shadow: 0.25rem 0.25rem 0.25rem #7b9f82, -0.125rem -0.125rem 0.25rem #7b9f82;
+    box-shadow: 0.25rem 0.25rem 0.125rem #C4C3C7;
 }
 
 .enquiry-form {

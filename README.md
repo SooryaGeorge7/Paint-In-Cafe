@@ -1,5 +1,7 @@
 # Paint-in Cafe
 This website is built for all the residents or tourists of Ireland(ROI) looking to do a creative activity in Dublin,Ireland.The website is based on a fictional cafe that allows you the unique experience of painting with watercolors while also eating from the cafe.This website is designed to be responsive to allow users from any location to view the cafe website on any device.
+
+![Website shown in different devices](documentation/am-i-responsive.png)
 ## CONTENT
 * [User Experience(UX)](#user-experience(ux))
   * [Brief](#brief)
@@ -38,7 +40,7 @@ This website is built for all the residents or tourists of Ireland(ROI) looking 
   * [Media](#media)
   * [Acknowledgement](#acknowledgement)
 
-## User Experience
+## User Experience(UX)
 ### Brief
 Paint-In Cafe is a Cafe based in Dublin, Ireland. Visitors of the cafe are provided with the necessory stationaries to paint with watercolors while having the option to order from our food menu as well.It is the place to go to when you want to do a creative activity to do with any number of people.This website is created for any users/ first time visitors to understand the cafe's concept, get contact details, find location of the cafe or send in an inquiry to the "paint-in cafe's " staff inorder to accomodate their specific needs.
 ### Key information 
@@ -82,7 +84,16 @@ Paint-In Cafe is a Cafe based in Dublin, Ireland. Visitors of the cafe are provi
 ## Design
 ### Color Scheme
 ![Inserting paint-In cafe color palette](documentation/Paint-In%20Caf%C3%A9%20Color%20Palette.png)
-I used pastel green color because green is often calming color and it matches with the actual cafe itself. I thought the dark red gives  a good contrast to the pastel green. The white and grey helps with the flow of the two contrast colors.
+I initially inserted the color palette above thinking that the colors appear the same(atleast almost) on all devices.After finishing the website and i checked my website on other devices i  realised that my colors looked very different my own laptop. 
+I thought the color **#67D387** was a pastel mint green color but it appeared bright green on other devices.The **#7B9F82** was supposed to be a grey color which turned out to be a shsade of green in other devices. I decided to change these two colors to accomodate my device and other devices. I tested the color **#C4C3C7** and **#ADD0B3** below and they looked more like the colors i wanted in all the other devices.
+I used pastel green color because green is often calming color and it matches with the actual cafe itself. I thought the dark red gives  a good contrast to the pastel green and it may also be reminscent of the cafe interior and dark furniture. The white and grey helps with the flow and balance of the two contrast colors.I decided againt using the **#F0996A** because the color ddnt flow nicely with the design and i ddnt know how to incorporate without it clashing with the other colors.
+
+**Final Color Palette**
+![Inserting changed color palette](documentation/final-color-palette.png)
+
+
+---
+
 ### Typography
 I used these two Google Fonts for headings and other texts because they pair well together.
 * Playfair Display-This is a transitional serif typeface and i used this for headings.
