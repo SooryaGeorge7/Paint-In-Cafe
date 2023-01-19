@@ -149,8 +149,10 @@ In addition to header and footer, the home page shows the following:
 
 
 #### About Page
-This page shows how Paint-in cafe came about, information about when it was built, A deep dive into the background story of the owner and even more details about the cafe. A pic of the Owner is included.
-
+This page shows how Paint-in cafe came about, information about when it was built, A deep dive into the background story of the owner and even more details about the cafe. 
+In addition to the general features of all page , the about page has the following:
+* It has a background video with text overlying that specifies that this is the `About` page.
+* A section that serves the user information in **bite** size portions. The picture of owner is included(fictional charector)
 #### Cafe Page
 This page has the food menu for the cafe. It will also show symbols to see which food is vegetarian/ vegan / halaal.Allergens and costs are shown so that the user can be prepared before coming into the cafe. Image of a section of the Cafe is included.
 #### Gallery Page
