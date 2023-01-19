@@ -122,6 +122,20 @@ The website has 5 pages in total. The pages `Home`, `About`,`Cafe`, `Gallery`,`E
 
 #### General Features 
 
+![Header](documentation/header-largescreens.png)
+![Header mobile view](documentation/header-smallscreens.png)
+* For all the pages there will be a header consisting of navigation links that allow you to move from one page to another.
+* The header element will also have Cafe's logo and name on far left. When hovered over, the cursor becomes pointer and allows you to press the logo and name which then takes you directly to the footer of the page where location , opening times and contact details are shown.  
+![Nav links](documentation/navlinks-largescreens.png)
+![Nav links](documentation/navlinks-smallscreen.png)
+* The navigation links when hovered ontop or when clicked, the background color and color of text changes to #ADD0B3 and white.
+* The colors match both in small screens and large screens. 
+![Footer](documentation/footer-layout.png)
+![Footer small screen](documentation/footer-smallscreen.png)
+* The footer contains social media links, opening times, contact details, and location of cafe.
+* The maps button takes you directly to google maps.
+* The social media links take you directly to facebook and instagram.
+* When hovered on the social media links and maps button, the color changes to #ADD0B3, allowing the user to know that they can be clicked on.
 #### Home Page
 ### 
 
