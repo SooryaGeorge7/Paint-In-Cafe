@@ -869,9 +869,9 @@ textarea:focus {
 
     #sunny-marie {
 
-        position: absolute;
+        margin-top: 1rem;
         
-        padding: 1rem 0rem;
+        padding: 1rem;
 
     }
 
@@ -932,10 +932,7 @@ textarea:focus {
     #about-text {
         font-size: 120%;
     }
-    #sunny-marie {
-        
-        height: 100%;
-    }
+    
 
     .menu {
         max-width: 30%;
@@ -983,6 +980,10 @@ textarea:focus {
     }
     #about-text {
         width:30rem;
+    }
+    #sunny-marie {
+        
+        margin-top:2rem;
     }
     
     .container .gallery-images .box {
