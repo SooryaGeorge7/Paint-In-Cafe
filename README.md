@@ -152,11 +152,17 @@ In addition to header and footer, the home page shows the following:
 This page shows how Paint-in cafe came about, information about when it was built, A deep dive into the background story of the owner and even more details about the cafe. 
 In addition to the general features of all page , the about page has the following:
 * It has a background video with text overlying that specifies that this is the `About` page.
-* A section that serves the user information in **bite** size portions. The picture of owner is included(fictional charector)
+* A section that serves the user information in **bite** size portions. The picture of owner is included(fictional charector) in this section.
 #### Cafe Page
-This page has the food menu for the cafe. It will also show symbols to see which food is vegetarian/ vegan / halaal.Allergens and costs are shown so that the user can be prepared before coming into the cafe. Image of a section of the Cafe is included.
+This page has the food menu for the cafe. It will also show information that shows that halaal, vegan and gluten free options are available on request.Costs are shown so that the user can be prepared before coming into the cafe. Image of a section of the Cafe is included.
+In addition to the general features of all page , the about page has the following:
+* It has a background video with text overlying that specifies that this is the `Cafe` page which contains the Cafe Menu.
+* It has a section containing 3 blocks that has the menu for the cafe. 
 #### Gallery Page
 This page has images of paintings, people and food inorder to attract potential customers to visit the cafe.These are placed in the gallery to inspire potential customers to share the cafe website to their family or friends.
+In addition to the general features of all page , the about page has the following:
+* It has a background video with text overlying that specifies that this is the `Gallery` page which contains the Gallery images.
+* It has a section contains all the photos i have saved from [Pexels](https://www.pexels.com/search/paintbrushes/). 
 #### Event Enquiry Page
 This page has a form that should be filled in if you want to host an event at the cafe or if you are a group of 10 people and more. The form contains name, email address, contact no., type of event, no. of people, special requests and a submit button. 
 ##### Submit button
