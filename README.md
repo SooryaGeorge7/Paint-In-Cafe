@@ -83,10 +83,10 @@ Paint-In Cafe is a Cafe based in Dublin, Ireland. Visitors of the cafe are provi
 
 ## Design
 ### Color Scheme
-![Inserting paint-In cafe color palette](documentation/Paint-In%20Caf%C3%A9%20Color%20Palette.png)
-I initially inserted the color palette above thinking that the colors appear the same(atleast almost) on all devices.After finishing the website and i checked my website on other devices i  realised that my colors looked very different my own laptop. 
-I thought the color **#67D387** was a pastel mint green color but it appeared bright green on other devices.The **#7B9F82** was supposed to be a grey color which turned out to be a shsade of green in other devices. I decided to change these two colors to accomodate my device and other devices. I tested the color **#C4C3C7** and **#ADD0B3** below and they looked more like the colors i wanted in all the other devices.
-I used pastel green color because green is often calming color and it matches with the actual cafe itself. I thought the dark red gives  a good contrast to the pastel green and it may also be reminscent of the cafe interior and dark furniture. The white and grey helps with the flow and balance of the two contrast colors.I decided againt using the **#F0996A** because the color ddnt flow nicely with the design and i ddnt know how to incorporate without it clashing with the other colors.
+![Inserting paint-In cafe color palette](documentation/paint-in-caf%C3%A9-color-palette.png)
+I initially inserted the color palette above thinking that the colors appear the same(atleast almost) on all devices.After finishing the website and i checking my website on other devices i realised that my colors looked very different from my own laptop. 
+I thought the color **#67D387** was a pastel mint green color but it appeared bright green on other devices.The **#7B9F82** was supposed to be a grey color which turned out to be a shade of green on other devices. I decided to change these two colors to accomodate my device and other devices. I tested the color **#C4C3C7** and **#ADD0B3** below and they looked more like the colors i wanted in all the other devices.
+I used pastel green color because i find green to be a calming color and i found that a lot of art websites used **pastel** colors. I thought the dark red gives a good contrast to the pastel green and it may also be reminscent of the cafe interior and dark furniture. The white and grey helps with the flow and balance of the two contrast colors.I decided againt using the **#F0996A** because the color ddnt flow nicely with the design and i ddnt know how to incorporate without it clashing with the other colors.
 
 **Final Color Palette**
 ![Inserting changed color palette](documentation/final-color-palette.png)
@@ -96,19 +96,21 @@ I used pastel green color because green is often calming color and it matches wi
 
 ### Typography
 I used these two Google Fonts for headings and other texts because they pair well together.
-* Playfair Display-This is a transitional serif typeface and i used this for headings.
-* Open Sans-This is a humanist sans serif typeface and i used this for paragraphs and other texts.
+* [Playfair Display](https://fonts.google.com/specimen/Playfair+Display)-This is a transitional serif typeface and i used this for headings.
+* [Open Sans](https://fonts.google.com/specimen/Open+Sans)-This is a humanist sans serif typeface and i used this for paragraphs and other texts.
 
 ### Imagery
 All images in the website were taken from a free image source called Pexels.I have included the links to the images in [Credits](#credits) section.
-* [Pexels website](https://www.pexels.com/)
+* [Pexels website](https://www.pexels.com/)-Used for all images and videos in website.
+* [svgrepo](https://www.svgrepo.com/svg/105795/paintbrush-and-palette)-Used for the logo and favicon.
 ### Wireframes
 Wireframes for mobile, tablet and desktop view
-* [Home page wireframe](documentation/Home%20wireframe.png)
-* [About page wireframe](documentation/About%20Wireframe.png)
-* [Cafe page wireframe](documentation/Cafe%20Wireframe.png)
-* [Gallery page wireframe](documentation/Gallery%20Wireframe.png)
-* [Event enquiry page wireframe](documentation/Event%20Enquiry%20wireframe.png)
+* **HOME PAGE**![Home page wireframe](documentation/home-wireframe.png)
+* **ABOUT PAGE** ![About page wireframe](documentation/about-wireframe.png)
+* **CAFE PAGE** ![Cafe page wireframe](documentation/cafe-wireframe.png)
+* **GALLERY PAGE** ![Gallery page wireframe](documentation/gallery-wireframe.png)
+* **EVENTS ENQUIRY PAGE**![Event enquiry page wireframe](documentation/event-enquiry-wireframe.png)
+
 The final designs look very different to initial wireframe designs because i started thinking more and more about user experience and design flow and realized i had to change a lot.
 ## Features
 ### General Features Per Page
