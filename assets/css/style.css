@@ -573,7 +573,8 @@ footer {
 }
 
 .container .gallery-images img {
-    width: 90%;
+    width: 100%;
+    height:auto;
     border: 0.5rem solid #FFFFFF;
     margin: 1rem auto;
     border-bottom-width: 2rem;
@@ -894,7 +895,7 @@ textarea:focus {
     .container .gallery-images .box {
         
         flex-direction: row;
-        width: 50%;
+        width: 48%;
         flex-wrap: wrap;
         justify-content: space-between;
 
@@ -985,7 +986,7 @@ textarea:focus {
     }
     
     .container .gallery-images .box {
-        width: 25%;
+        width: 24%;
     }
     .event-enquiry {
         max-width:35%;
