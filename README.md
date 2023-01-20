@@ -197,14 +197,18 @@ These are the ways i have ensured to provide accessibility to users:
 ### Languages Used
 HTML and CSS was mainly used to build this website. Javascript was only used for On click function for submit form.
 ### Frameworks, Libraries and Programs Used
-* Balsamiq - For Wireframes
-* Gitpod
-* GitHub
-* Font Awesome
-* Google Fonts
-* Dev Tools
-* Am I Responsive
-* Favicon
+* Balsamiq - For Wireframes for planning of design.
+* Gitpod - To edit code/ code editor.
+* GitHub - for version control, storage and deployment
+* Font Awesome - For icons in all the pages.
+* Typ.io - To choose pairing of fonts.
+* Google Fonts - To choose Heading font and body font.
+* Dev Tools - To help with troubleshoot, testing , checking for responsiveness and styling.
+* Am I Responsive - To show a display of website on a variety of devices.
+* Favicon - To generate favicon
+* Birme - To change image format to webp
+* Tiny PNG - To compress images.
+* Coolors - To pick color palette.
 
 ## Deployment & Local Development
 
