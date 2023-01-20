@@ -557,7 +557,9 @@ footer {
     text-align: center;
     
 }*/
-
+.container {
+    background-color: #8C2323;
+}
 .container .gallery-images {
     display: flex;
     flex-direction: column;
@@ -578,7 +580,7 @@ footer {
     border: 0.5rem solid #FFFFFF;
     margin: 1rem auto;
     border-bottom-width: 2rem;
-    box-shadow: 0.25rem 0.25rem 0.25rem #C4C3C7, -0.125rem -0.125rem 0.25rem #C4C3C7;
+    
 
 
 }
@@ -638,7 +640,7 @@ footer {
     border: 0.5rem solid #FFFFFF;
     margin: 1rem auto;
     border-bottom-width: 2rem;
-    box-shadow: 0.25rem 0.25rem 0.125rem #C4C3C7;
+    
 }
 
 .enquiry-form {
@@ -951,9 +953,7 @@ select option:focus {
 
     
 
-    .container .gallery-images img {
-        box-shadow: 0.5rem 0.5rem 0.5rem #C4C3C7, -0.25rem -0.125rem 0.5rem #C4C3C7;
-    }
+    
 
     #event {
 
