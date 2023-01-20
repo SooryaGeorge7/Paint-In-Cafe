@@ -16,7 +16,7 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #FFFFFF;
-    color: #FFFFFF;
+    color: #8C2323;
 
 }
 
@@ -53,7 +53,7 @@ h2 {
     padding-left: 5rem;
     position: absolute;
     font-family: 'Playfair Display', sans-serif;
-    letter-spacing: ;
+    
     color: #8C2323;
     /*text-shadow: 0 0 3px #8C2323, 0 0 5px #8C2323;*/
 }
@@ -183,7 +183,7 @@ nav {
 
 
 #text-outer p {
-    /*color: #FFFFFF;*/
+    color: #FFFFFF;
     text-align: center;
     font-size: 150%;
     padding: 1rem;
@@ -245,6 +245,7 @@ nav {
     border-top: 0.125rem solid #FFFFFF;
     font-weight: bold;
     background-color: #8C2323;
+    color:#FFFFFF;
 }
 hr {
     border-top: 1px solid #FFFFFF;
@@ -364,6 +365,7 @@ footer {
 .details-inner {
     /*margin-bottom: 2rem;*/
     font-size: 120%;
+    color: #FFFFFF;
 }
 
 /*.details h2 {
@@ -422,7 +424,7 @@ footer {
 
 #copyright {
     text-align: center;
-    
+    color:#FFFFFF;
     padding-bottom: 0.5rem;
 }
 
