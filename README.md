@@ -161,32 +161,40 @@ In addition to the general features of all page , the about page has the followi
 #### Gallery Page
 This page has images of paintings, people and food inorder to attract potential customers to visit the cafe.These are placed in the gallery to inspire potential customers to share the cafe website to their family or friends.
 In addition to the general features of all page , the about page has the following:
-* It has a background video with text overlying that specifies that this is the `Gallery` page which contains the Gallery images.
+* It has a background video with text overlying that specifies that this is the `Gallery` page which contains the title **Make Memories**.
 * It has a section contains all the photos i have saved from [Pexels](https://www.pexels.com/search/paintbrushes/). 
 #### Event Enquiry Page
 This page has a form that should be filled in if you want to host an event at the cafe or if you are a group of 10 people and more. The form contains name, email address, contact no., type of event, no. of people, special requests and a submit button. 
-##### Submit button
+In addition to the general features of all page , the about page has the following:
+* It has a background video with text overlying that specifies that this is the `Event Enquiry` page which contains the title **Host An Event**.
+* The main section has 2  divs , one containing information on when and how to send enquiry on the form and the other containing the form itself where certain information needs to be filled in or selected to submit form.
+* I did use Onclick function of Javascript to have a pop up message ensuring the user that the message has been sent.
+
 ### Future Implementation
 * I really wanted to make a slideshow of pictures in the home page and events page but learnt that i would need to use javascript inroder to do so.
-* Need to implement google reviews in the website so that website visitors would be able to understand the experience from the customer's point of view.
+* I wanted to make another "Thank you"html page that the submit button in enquiry form redirects you towards instead  of using Onclick function to have a pop up message but i ran out of time to do this. The thankyou.html will display the message "Thank you for submitting our event enquiry form, Our staff will be intouch with you in less than 24hours!"
+If this was a real cafe:-
+* Id want to implement google reviews in the website so that website visitors would be able to understand the experience from the customer's point of view.
 * Change the gallery page outlay to display previous customer's artwork, returning customers will be able to go check out their painting in the gallery.
 * Implement a share button inorder for site visitors to share the website with others. 
-* If this was an actual cafe, i would have liked to include a video of the cafe's concept to help the user understand better.
+* I would have liked to include a video of the cafe's concept to help the user understand better.
 * I would also include an art class page for customers who actually want to sign up for evening art classes.
 * It would also be intersting to have best artwork of the month awards section in the home page.
 ### Accessibility
 These are the ways i have ensured to provide accessibility to users:
-* Used HTML semantics
+* Used HTML semantics.
 * Provided navigation links to access other pages.
 * Highlighted the navigation link to the current page you are on.
-* Ensured Colour Contrast so that the websites are easily readable.
+* Ensured Colour Contrast so that the websites are easily readable in light and dark mode.
 * Provided alt for images incase images do not load.
 * Provided information for icons where no text was provided.
 * Provided a submit button in the contact form which will then give out a pop up message. 
+* Aria labela and aria properties were implemented.
+* Google font "Playfair display" was chosen carefully and i chose the pairing to this font "Open Sans" here [Playfair display pairing](https://typ.io/fonts/playfair_display#:~:text=Playfair%20Display%20is%20a%20serif,Work%20Sans%2C%20Circular%20and%20Georgia.)
 
 ## Technologies Used
 ### Languages Used
-HTML and CSS was used to build this website
+HTML and CSS was mainly used to build this website. Javascript was only used for On click function for submit form.
 ### Frameworks, Libraries and Programs Used
 * Balsamiq - For Wireframes
 * Gitpod
