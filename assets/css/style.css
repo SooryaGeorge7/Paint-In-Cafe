@@ -637,7 +637,7 @@ footer {
 #event-photo {
     width: 90%;
     
-    border: 0.5rem solid #FFFFFF;
+    border: 0.5rem solid #FFFFFF!important;
     margin: 1rem auto;
     border-bottom-width: 2rem;
     
