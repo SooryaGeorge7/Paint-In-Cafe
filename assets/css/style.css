@@ -456,6 +456,9 @@ footer {
     /*text-align: center;*/
 
 }
+#about-section h2{
+    color:#8C2323;
+}
 .about {
     display: flex;
     flex-direction: column;
@@ -487,6 +490,9 @@ footer {
     text-shadow: 0 0 3px #8C2323, 0 0 5px  #8C2323;
 }*/
 /*Cage page*/
+#menu-section h2{
+    color:#8C2323;
+}
 
 #cafe-image {
     
@@ -560,6 +566,7 @@ footer {
 .container {
     background-color: #8C2323;
 }
+
 .container .gallery-images {
     display: flex;
     flex-direction: column;
@@ -602,10 +609,10 @@ footer {
 }
 
 /*Event enquiry page*/
-/*.event-section h2 {
+.event-section h2 {
     
-    text-align: center;
-}*/
+    color:#8C2323;
+}
 
 #event {
     display: flex;
