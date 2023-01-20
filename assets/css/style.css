@@ -661,16 +661,20 @@ label {
 
 }
 
+
 input[type=text],
 input[type=email],
 select,
 textarea {
     border: 0.125rem solid #FFFFFF;
     padding: 0.5rem;
-    color: #FFFFFF;
+    
     margin-bottom: 0.5rem;
     width: 80%;
     
+}
+textarea {
+    height: 10rem;
 }
 
 input[type=text]:hover,
@@ -690,8 +694,17 @@ textarea:focus {
     box-shadow: 0 0 0.5rem #ADD0B3 !important;
 
 }
-
-
+select option {
+   background-color: #C4C3C7;
+}
+select option:hover {
+    background-color: #ADD0B3;
+    color: #FFFFFF;
+}
+select option:focus {
+    background-color: #ADD0B3;
+    color: #FFFFFF;
+}
 #submit-button {
     font-size: 120%;
     
@@ -704,8 +717,8 @@ textarea:focus {
 
 #submit-button:hover {
     cursor: pointer;
-    background-color: #C4C3C7;
-    color: #ADD0B3;
+    background-color: #ADD0B3;
+    color: #FFFFFF;
     border-style: inset;
 }
 
@@ -756,9 +769,7 @@ textarea:focus {
         font-size: 170%;
     }
 
-    label {
-        font-size: 150%;
-    }
+    
 
     #enquiry-info {
         font-size: 120%;
