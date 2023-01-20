@@ -185,6 +185,7 @@ If this was a real cafe:-
 These are the ways i have ensured to provide accessibility to users:
 * Used HTML semantics.
 * Provided navigation links to access other pages.
+* Used rem and % for font sizes and image sizes throughout website because it can scale up or down according to user's device.
 * Highlighted the navigation link to the current page you are on.
 * Ensured Colour Contrast so that the websites are easily readable in light and dark mode.
 * Provided alt for images incase images do not load.
@@ -197,18 +198,18 @@ These are the ways i have ensured to provide accessibility to users:
 ### Languages Used
 HTML and CSS was mainly used to build this website. Javascript was only used for On click function for submit form.
 ### Frameworks, Libraries and Programs Used
-* Balsamiq - For Wireframes for planning of design.
-* Gitpod - To edit code/ code editor.
-* GitHub - for version control, storage and deployment
-* Font Awesome - For icons in all the pages.
-* Typ.io - To choose pairing of fonts.
-* Google Fonts - To choose Heading font and body font.
-* Dev Tools - To help with troubleshoot, testing , checking for responsiveness and styling.
-* Am I Responsive - To show a display of website on a variety of devices.
-* Favicon - To generate favicon
-* Birme - To change image format to webp
-* Tiny PNG - To compress images.
-* Coolors - To pick color palette.
+* [Balsamiq](https://balsamiq.com/) - For Wireframes for planning of design.
+* [Gitpod](https://www.gitpod.io/) - To edit code/ code editor.
+* [GitHub](https://github.com/) - for version control, storage and deployment
+* [Font Awesome](https://fontawesome.com/) - For icons in all the pages.
+* [Typ.io](https://typ.io/) - To choose pairing of fonts.
+* [Google Fonts](https://fontawesome.com/v4/icons/) - To choose Heading font and body font.
+* [Dev Tools](https://developer.chrome.com/docs/devtools/) - To help with troubleshoot, testing , checking for responsiveness and styling.
+* [Am I Responsive](https://ui.dev/amiresponsive) - To show a display of website on a variety of devices.
+* [Favicon](https://favicon.io/favicon-converter/) - To generate favicon
+* [Birme](https://www.birme.net/) - To change image format to webp
+* [Tiny PNG](https://tinypng.com/) - To compress images.
+* [Coolors](https://coolors.co/) - To pick color palette.
 
 ## Deployment & Local Development
 
