@@ -198,7 +198,7 @@ nav {
     /*background-color: rgba(103, 211, 135, .6);*/
     
     /*border-radius: 1rem;*/
-    top: 50%;
+    top: 22rem;
     left: 50%;
     /*border: 0.125rem solid #FFFFFF;*/
     position: absolute;
@@ -637,7 +637,7 @@ footer {
 #event-photo {
     width: 90%;
     
-    border: 0.5rem solid #FFFFFF!important;
+    border: 0.5rem solid #FFFFFF;
     margin: 1rem auto;
     border-bottom-width: 2rem;
     
