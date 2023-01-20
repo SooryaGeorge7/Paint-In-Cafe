@@ -1,7 +1,7 @@
 # Paint-in Cafe
 This website is built for all the residents or tourists of Ireland(ROI) looking to do a creative activity in Dublin,Ireland.The website is based on a fictional cafe that allows you the unique experience of painting with watercolors while also eating from the cafe.This website is designed to be responsive to allow users from any location to view the cafe website on any device.
 
-![Website shown in different devices](documentation/am-i-responsive.png)
+![Website shown in different devices](documentation/am-i-responsive-final.png)
 ## CONTENT
 * [User Experience(UX)](#user-experience(ux))
   * [Brief](#brief)
@@ -141,30 +141,40 @@ The website has 5 pages in total. The pages `Home`, `About`,`Cafe`, `Gallery`,`E
 #### Home Page
 This page should attract first time visitors and want them to keep navigating through the website.It has colourful images and 
  a background video . Easy to read information about the cafe's concept and how it works- This is broken down into different blocks so that the information isnt too overwhelming and easy to find. The information is layed out in a way so that the common infomration that the first-time users may be looking for can be found without hassle.It also Shows contact details, Location and opening times as well as social media part as part of the footer.
+
+ ![Home page features](documentation/home-page-features.png)
 In addition to header and footer, the home page shows the following:
 * A background video with text overlying with a button-When hovered on it turns the same color as the nav links.This button takes you to the main section of home page which tells the user about the concept of cafe and all the information that they might look for when visiting the site. 
 * There is a cafe updates feature just below the background video that shows and updates.
 * The main section of the page is divided into divs. Each div contains information that would be useful to the user, one of the div also allows you to access event enquiry page directly by allowing you to click on the text that says event enquiry page. 
 
 
-
 #### About Page
 This page shows how Paint-in cafe came about, information about when it was built, A deep dive into the background story of the owner and even more details about the cafe. 
+
+![About page features](documentation/about-page-features.png)
 In addition to the general features of all page , the about page has the following:
 * It has a background video with text overlying that specifies that this is the `About` page.
 * A section that serves the user information in **bite** size portions. The picture of owner is included(fictional charector) in this section.
 #### Cafe Page
 This page has the food menu for the cafe. It will also show information that shows that halaal, vegan and gluten free options are available on request.Costs are shown so that the user can be prepared before coming into the cafe. Image of a section of the Cafe is included.
+
+![Cafe page features](documentation/cafe-page-features.png)
 In addition to the general features of all page , the about page has the following:
 * It has a background video with text overlying that specifies that this is the `Cafe` page which contains the Cafe Menu.
 * It has a section containing 3 blocks that has the menu for the cafe. 
+
 #### Gallery Page
 This page has images of paintings, people and food inorder to attract potential customers to visit the cafe.These are placed in the gallery to inspire potential customers to share the cafe website to their family or friends.
+
+![Gallery page features](documentation/gallery-page-features.png)
 In addition to the general features of all page , the about page has the following:
 * It has a background video with text overlying that specifies that this is the `Gallery` page which contains the title **Make Memories**.
 * It has a section contains all the photos i have saved from [Pexels](https://www.pexels.com/search/paintbrushes/). 
 #### Event Enquiry Page
-This page has a form that should be filled in if you want to host an event at the cafe or if you are a group of 10 people and more. The form contains name, email address, contact no., type of event, no. of people, special requests and a submit button. 
+This page has a form that should be filled in if you want to host an event at the cafe or if you are a group of 10 people and more. The form contains name, email address, contact no., type of event, no. of people, special requests and a submit button.
+
+![Events page features](documentation/events-page-features.png)
 In addition to the general features of all page , the about page has the following:
 * It has a background video with text overlying that specifies that this is the `Event Enquiry` page which contains the title **Host An Event**.
 * The main section has 2  divs , one containing information on when and how to send enquiry on the form and the other containing the form itself where certain information needs to be filled in or selected to submit form.
