@@ -173,6 +173,7 @@ In addition to the general features of all page , the about page has the followi
 ### Future Implementation
 * I really wanted to make a slideshow of pictures in the home page and events page but learnt that i would need to use javascript inroder to do so.
 * I wanted to make another "Thank you"html page that the submit button in enquiry form redirects you towards instead  of using Onclick function to have a pop up message but i ran out of time to do this. The thankyou.html will display the message "Thank you for submitting our event enquiry form, Our staff will be intouch with you in less than 24hours!"
+* Id add shadowing around all the images that has border to look like polaroid photos to make the images stand out more. Unfortunately my colors that chose in my color palette wasnt dark enough to cause enough contrast in dark more so i opted to remove the gray shadowing i had initially.
 If this was a real cafe:-
 * Id want to implement google reviews in the website so that website visitors would be able to understand the experience from the customer's point of view.
 * Change the gallery page outlay to display previous customer's artwork, returning customers will be able to go check out their painting in the gallery.
