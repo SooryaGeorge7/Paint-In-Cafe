@@ -532,7 +532,7 @@ footer {
     font-size: 120%;
 }
 
-.menu h2 {
+.menu h3 {
 
     color: #FFFFFF;
     margin-bottom: 0.5rem;
@@ -954,11 +954,13 @@ select option:focus {
     
 
     .menu {
-        max-width: 30%;
+        width: 30%;
 
     }
 
-    
+    .menu li {
+        font-size: 110%;
+    }
 
     
 
@@ -1002,7 +1004,9 @@ select option:focus {
         
         margin-top:2rem;
     }
-    
+    .menu {
+        max-width: 27%;
+    }
     .container .gallery-images .box {
         width: 24%;
     }
