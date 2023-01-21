@@ -584,7 +584,7 @@ footer {
 }
 
 .container .gallery-images img {
-    width: 100%;
+    width: 90%;
     height:auto;
     object-fit: cover;
     border: 0.5rem solid #FFFFFF;
@@ -918,7 +918,7 @@ select option:focus {
     .container .gallery-images .box {
         
         flex-direction: row;
-        width: 48%;
+        width: 50%;
         flex-wrap: wrap;
         justify-content: space-between;
 
@@ -1011,7 +1011,7 @@ select option:focus {
         max-width: 27%;
     }
     .container .gallery-images .box {
-        width: 24%;
+        width: 25%;
     }
     .event-enquiry {
         max-width:35%;
