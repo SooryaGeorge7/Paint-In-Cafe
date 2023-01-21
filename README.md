@@ -191,6 +191,7 @@ If this was a real cafe:-
 * I would have liked to include a video of the cafe's concept to help the user understand better.
 * I would also include an art class page for customers who actually want to sign up for evening art classes.
 * It would also be intersting to have best artwork of the month awards section in the home page.
+
 ### Accessibility
 These are the ways i have ensured to provide accessibility to users:
 * Used HTML semantics.
@@ -201,7 +202,7 @@ These are the ways i have ensured to provide accessibility to users:
 * Provided alt for images incase images do not load.
 * Provided information for icons where no text was provided.
 * Provided a submit button in the contact form which will then give out a pop up message. 
-* Aria labela and aria properties were implemented.
+* Aria labels and aria properties were implemented.
 * Google font "Playfair display" was chosen carefully and i chose the pairing to this font "Open Sans" here [Playfair display pairing](https://typ.io/fonts/playfair_display#:~:text=Playfair%20Display%20is%20a%20serif,Work%20Sans%2C%20Circular%20and%20Georgia.)
 
 ## Technologies Used
@@ -250,13 +251,14 @@ To clone the Paint-In-Cafe Repository:
 6. In the terminal type in "git clone" and paste the link you copied in step 4 above. Press enter.
 7. Cloning is now completed.
 ## Testing
-### Automated Testing
+
 #### W3C Validator
 #### Lighthouse
 #### Wave
 ### Manual Testing
 #### Testing User Stories
 #### Full Testing
+
 ### BUGS
 #### Known Bugs
 
@@ -265,6 +267,7 @@ To clone the Paint-In-Cafe Repository:
 * I could not fit navigation links in the smaller screens without it looking too cluttered or the font-size being ineligable.I decided to make a hamburger toggler for smaller screen which will show navigation links when clicked on.
 * My menu of naviagtion links in smaller screens were not displaying properly because all the elements were on the same level, then i used z-index to make my menu higher than the other elements on the screen to make sure menu is displayed ontop of the other elements without the other elements showing through. 
 * The background video did not want to center itself as the screensizes increased or decreased- this was fixed by adding a outer div to video and setting the position of div to relative while you position the video itself to obsolute. Set the object-fit of video to cover. Set the bottom attribute of video to be 0.
+* The images in gallery did not have the correct aspect ratio while doing lighthouse testing- I solved this by adding the css attribute object with value of cover to every image in the gallery.
 ## Credits
 ### Code Used
 * [Code used to make hamburger toggler](https://www.codingnepalweb.com/responsive-navigation-menu-bar-html-css/)
