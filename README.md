@@ -220,6 +220,7 @@ HTML and CSS was mainly used to build this website. Javascript was only used for
 * [Birme](https://www.birme.net/) - To change image format to webp
 * [Tiny PNG](https://tinypng.com/) - To compress images.
 * [Coolors](https://coolors.co/) - To pick color palette.
+* [SVG repo](https://www.svgrepo.com/) - To help pick logoimage and image for favicon. 
 
 ## Deployment & Local Development
 
@@ -285,7 +286,7 @@ All videos were downloaded from free open source [pexels](https://www.pexels.com
 * [Gallery background video](https://www.pexels.com/video/playing-morning-music-view-4306403/)
 * [Event enquiry background video](https://www.pexels.com/video/bouquet-of-helium-colored-balloons-3905909/)
 #### Images 
-All images were downloaded fromm free open source [pexels](https://www.pexels.com/)
+All images were downloaded fromm free open source [pexels](https://www.pexels.com/), the exception being the logo image that appears in top left corner of every page which was downloaded from [SVG repo](https://www.svgrepo.com/)
 
 Fixed images shown in home page and cafe page.
 * [Concept photo in home page](https://www.pexels.com/photo/art-materials-on-blue-surface-5554775/)
@@ -293,6 +294,7 @@ Fixed images shown in home page and cafe page.
 
 Other images.
 * [Sunny Marie Photo(fictional owner)](https://www.pexels.com/photo/woman-in-black-sweater-holding-brush-watercolor-set-and-notebook-7181836/)
+* [Paint-in Cafe logo image](https://www.svgrepo.com/)
 
 Gallery images 
 * [Mother helping her child with painting](https://www.pexels.com/photo/a-woman-in-white-long-sleeves-standing-near-her-student-painting-on-white-paper-7898456/)
