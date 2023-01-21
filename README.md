@@ -278,14 +278,37 @@ To clone the Paint-In-Cafe Repository:
 
 #### Videos
 All videos were downloaded from free open source [pexels](https://www.pexels.com/)
+
 * [Home background video](https://www.pexels.com/video/abstract-painting-using-water-colors-4379020/)
-* [About background video](https://www.pexels.com/video/blending-colors-7507915/)
+* [About background video](https://www.pexels.com/video/flowing-color-mixture-7507908/)
 * [Cafe background video](https://www.pexels.com/video/coffee-making-art-by-a-bartender-2909914/)
 * [Gallery background video](https://www.pexels.com/video/playing-morning-music-view-4306403/)
 * [Event enquiry background video](https://www.pexels.com/video/bouquet-of-helium-colored-balloons-3905909/)
-#### Gallery images 
+#### Images 
+All images were downloaded fromm free open source [pexels](https://www.pexels.com/)
 
-* [Got the home page video from here](https://www.pexels.com/search/videos/watercolor%20paint/)
-* [Got all the images for the website from this free image source](https://www.pexels.com/search/paintbrush/)
-* [Got the image for favicon here too](https://www.pexels.com/)
+Fixed images shown in home page and cafe page.
+* [Concept photo in home page](https://www.pexels.com/photo/art-materials-on-blue-surface-5554775/)
+* [Fixed image in Cafe page](https://www.pexels.com/photo/espresso-machine-dispensing-on-two-mugs-2067628/)
+
+Other images.
+* [Sunny Marie Photo(fictional owner)](https://www.pexels.com/photo/woman-in-black-sweater-holding-brush-watercolor-set-and-notebook-7181836/)
+
+Gallery images 
+* [Mother helping her child with painting](https://www.pexels.com/photo/a-woman-in-white-long-sleeves-standing-near-her-student-painting-on-white-paper-7898456/)
+* [3 friends at the cafe](https://www.pexels.com/photo/3-women-at-the-painting-class-6925357/)
+* [Kid with paint on hands](https://www.pexels.com/photo/a-kid-with-multicolored-hand-paint-1148998/)
+* [Little girl holding up a rainbow painting](https://www.pexels.com/photo/little-girl-holding-white-paper-with-rainbow-drawing-8363769/)
+* [Lady painting a flower](https://www.pexels.com/photo/a-person-painting-on-a-paper-4860078/)
+* [Lady with paint on her hands and eating food](https://www.pexels.com/photo/woman-happily-eating-a-croissant-5641782/)
+* [Some cafe food](https://www.pexels.com/photo/espresso-on-teal-saucer-beside-baked-cake-2068296/)
+* [Cafe interior](https://www.pexels.com/photo/top-view-photo-of-restaurant-2253643/)
+* [Cafe coffee station](https://www.pexels.com/photo/coffee-bar-1995010/)
+* [Watercolor brush in palette](https://www.pexels.com/photo/pain-palette-3551723/)
+* [Painting pad](https://www.pexels.com/photo/blank-white-paper-beside-a-water-color-brush-8058580/)
+* [Pancakes](https://www.pexels.com/photo/pancakes-with-sliced-strawberries-on-top-2965413/)
+* [Two girls painting](https://www.pexels.com/photo/a-young-woman-painting-in-an-art-class-6925366/)
+* [Someone cleaning their brush in glass container](https://www.pexels.com/photo/a-person-holding-blue-paintbrush-7898620/)
+* [Couple taking a selfie](https://www.pexels.com/photo/couple-taking-selfie-while-eating-4046771/)
+* [Bakery food](https://www.pexels.com/photo/overhead-shot-of-slices-of-cake-on-saucers-9795914/)
 ### Acknowledgement
