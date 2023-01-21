@@ -263,13 +263,14 @@ To clone the Paint-In-Cafe Repository:
 * Making a herovideo that also acts as a background video. I couldnt use the background attribute in css  to add the background videos and make changes in that way. I had to insert video in a div in html and adjust the video using css to make it appear as a background video/gif rather than a video that stands alone.
 * I could not fit navigation links in the smaller screens without it looking too cluttered or the font-size being ineligable.I decided to make a hamburger toggler for smaller screen which will show navigation links when clicked on.
 * My menu of naviagtion links in smaller screens were not displaying properly because all the elements were on the same level, then i used z-index to make my menu higher than the other elements on the screen to make sure menu is displayed ontop of the other elements without the other elements showing through. 
-* 
+* The background video did not want to center itself as the screensizes increased or decreased- this was fixed by adding a outer div to video and setting the position of div to relative while you position the video itself to obsolute. Set the object-fit of video to cover. Set the bottom attribute of video to be 0.
 ## Credits
 ### Code Used
 * [Code used to make hamburger toggler](https://www.codingnepalweb.com/responsive-navigation-menu-bar-html-css/)
 * [Learnt how to make shadow to a section here](https://www.w3schools.com/css/css3_shadows_box.asp)
-* [Learnt how to make shadow around entire image here for my gallery page poloroid images](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+* [Learnt about flexbox here](https://www.youtube.com/watch?v=JJSoEo8JSnc&t=859s)
 * [Got the code to make gallery to display as a flexbox so that it is responsive here](https://www.youtube.com/watch?v=Trw_9lisYVY)
+* [learnt how to center the background video so that the video doesnt shrink according to screensizes here](https://www.youtube.com/watch?v=znqUwx0b0HI&t=8s)
 ### Content
 ### Media
 * [Got the home page video from here](https://www.pexels.com/search/videos/watercolor%20paint/)
