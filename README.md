@@ -271,8 +271,20 @@ To clone the Paint-In-Cafe Repository:
 * [Learnt about flexbox here](https://www.youtube.com/watch?v=JJSoEo8JSnc&t=859s)
 * [Got the code to make gallery to display as a flexbox so that it is responsive here](https://www.youtube.com/watch?v=Trw_9lisYVY)
 * [learnt how to center the background video so that the video doesnt shrink according to screensizes here](https://www.youtube.com/watch?v=znqUwx0b0HI&t=8s)
+
 ### Content
+
 ### Media
+
+#### Videos
+All videos were downloaded from free open source [pexels](https://www.pexels.com/)
+* [Home background video](https://www.pexels.com/video/abstract-painting-using-water-colors-4379020/)
+* [About background video](https://www.pexels.com/video/blending-colors-7507915/)
+* [Cafe background video](https://www.pexels.com/video/coffee-making-art-by-a-bartender-2909914/)
+* [Gallery background video](https://www.pexels.com/video/playing-morning-music-view-4306403/)
+* [Event enquiry background video](https://www.pexels.com/video/bouquet-of-helium-colored-balloons-3905909/)
+#### Gallery images 
+
 * [Got the home page video from here](https://www.pexels.com/search/videos/watercolor%20paint/)
 * [Got all the images for the website from this free image source](https://www.pexels.com/search/paintbrush/)
 * [Got the image for favicon here too](https://www.pexels.com/)
