@@ -203,7 +203,9 @@ These are the ways i have ensured to provide accessibility to users:
 * Provided information for icons where no text was provided.
 * Provided a submit button in the contact form which will then give out a pop up message. 
 * Aria labels and aria properties were implemented.
-* Google font "Playfair display" was chosen carefully and i chose the pairing to this font "Open Sans" here [Playfair display pairing](https://typ.io/fonts/playfair_display#:~:text=Playfair%20Display%20is%20a%20serif,Work%20Sans%2C%20Circular%20and%20Georgia.)
+* Google font "Playfair display" was chosen carefully and i chose the pairing to this font "Open Sans" here [Playfair display pairing](https://typ.io/fonts/playfair_display#:~:text=Playfair%20Display%20is%20a%20serif,Work%20Sans%2C%20Circular%20and%20Georgia.).
+
+---
 
 ## Technologies Used
 ### Languages Used
@@ -275,7 +277,7 @@ To clone the Paint-In-Cafe Repository:
 * [Learnt about flexbox here](https://www.youtube.com/watch?v=JJSoEo8JSnc&t=859s)
 * [Got the code to make gallery to display as a flexbox so that it is responsive here](https://www.youtube.com/watch?v=Trw_9lisYVY)
 * [learnt how to center the background video so that the video doesnt shrink according to screensizes here](https://www.youtube.com/watch?v=znqUwx0b0HI&t=8s)
-
+* [Learnt to add scroll button in gallery using css and html only](https://www.youtube.com/watch?v=Vef9bxTilCU)
 ### Content
 
 ### Media
