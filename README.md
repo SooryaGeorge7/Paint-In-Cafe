@@ -285,12 +285,24 @@ Final Lighthouse score of Home page:
  Link to initial testing on desktop and mobile:
  * [About page initial lighthouse testing](documentation/aboutpage-initial-lighthouse.png)
 
- Oppurtunities/suggestions:
+ Opportunities/suggestions:
  * 
 
  Final lighthouse score of About page:
  * ![About page final lighthouse score for desktop(light and dark mode)](documentation/aboutpage-desktop-final.png)
  * ![About page final lighthouse score for mobile(light and dark mode)](documentation/aboutpage-mobile-final.png)
+
+ #### Cafe page
+
+ Link to initial testing on desktop and mobile:
+ * [Cafe page initial lighthouse testing](documentation/cafepage-initial-lighthouse.png)
+
+ Opportunities/suggestions:
+ * 
+
+ Final lighthouse score of Cafe page:
+ * ![About page final lighthouse score for desktop(light and dark mode)](documentation/cafe-desktop-final.png)
+ * ![About page final lighthouse score for mobile(light and dark mode)](d)
 #### Wave
 ### Manual Testing
 #### Testing User Stories
