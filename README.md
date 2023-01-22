@@ -302,7 +302,19 @@ Final Lighthouse score of Home page:
 
  Final lighthouse score of Cafe page:
  * ![About page final lighthouse score for desktop(light and dark mode)](documentation/cafe-desktop-final.png)
- * ![About page final lighthouse score for mobile(light and dark mode)](d)
+ * ![About page final lighthouse score for mobile(light and dark mode)](documentation/Cafe-mobile-final.png)
+
+ #### Gallery page
+
+ Link to initial testing on desktop and mobile:
+ * [About page initial lighthouse testing](documentation/gallery-initial-lighthouse.png)
+
+ Opportunities/suggestions:
+ * 
+
+ Final lighthouse score of About page:
+ * ![About page final lighthouse score for desktop(light and dark mode)](documentation/galler-desktop-final.png)
+ * ![About page final lighthouse score for mobile(light and dark mode)](documentation/)
 #### Wave
 ### Manual Testing
 #### Testing User Stories
