@@ -274,7 +274,8 @@ Link to Initial testing on desktop and mobile:
 * [Home page initial lighthouse testing](documentation/home-page-initial-lighthouse.png)
 
 Opportunities/suggestions:
-* 
+* Consider adding `preconnect` or `dns-prefetch` resource hints to establish early connections to important third-party origins.
+* Back ground and foreground don’t have enough sufficient contrast ratio.-Lighthouse suggested changing color of cafe updates div background color.
 
 Final Lighthouse score of Home page:
 * Desktop(Light & Dark mode)-
@@ -290,7 +291,9 @@ Final Lighthouse score of Home page:
  * [About page initial lighthouse testing](documentation/aboutpage-initial-lighthouse.png)
 
  Opportunities/suggestions:
- * 
+ * Displays images with incorrect aspect ratio.Image display dimensions should match natural aspect ratio.- I changed the height and width attributes of about page image to ensure correct aspect ratio of image in all screens.
+
+
 
  Final lighthouse score of About page:
  * Desktop(Light & Dark mode)-
@@ -306,7 +309,8 @@ Final Lighthouse score of Home page:
  * [Cafe page initial lighthouse testing](documentation/cafepage-initial-lighthouse.png)
 
  Opportunities/suggestions:
- * 
+ * Heading elements are not in a sequentially-descending order- My cafe menu divs's headings were h3 and the page heading was h1, i added another h2 between the two heading to compensate.
+
 
  Final lighthouse score of Cafe page:
  * Desktop(Light & Dark mode)-
@@ -322,7 +326,9 @@ Final Lighthouse score of Home page:
  * [Gallery page initial lighthouse testing](documentation/gallery-initial-lighthouse.png)
 
  Opportunities/suggestions:
- * 
+ * Links do not have a discernible name- I added aria-label to scroll button a tag in gallery.html
+ * Image display dimensions should match natural aspect ratio- The images stretched  when displayed in bigger devices and i added object-fit attribute with value cover to fix this issue.
+
 
  Final lighthouse score of Gallery page:
  * Desktop(Light & Dark mode)- 
@@ -338,7 +344,7 @@ Final Lighthouse score of Home page:
  * [Event Enquiry page initial lighthouse testing](documentation/eventpage-initial-lighthouse.png)
 
  Opportunities/suggestions:
- * 
+ * Serve images that are appropriately-sized to save cellular data and improve load time- I compressed the images in the website using tiny.png and changed format of images to WebP format.
 
  Final lighthouse score of Event Enquiry page:
  * Desktop(Light & Dark mode)-
