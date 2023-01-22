@@ -277,8 +277,12 @@ Opportunities/suggestions:
 * 
 
 Final Lighthouse score of Home page:
-* ![Home page final lighthouse score for desktop(light and dark mode)](documentation/homepage-desktop-final-lighthouse.png)
-* ![Home page final lighthouse score for mobile(light and dark mode)](documentation/homepage-mobile-final-lighthouse.png)
+* Desktop(Light & Dark mode)-
+
+![Home page final lighthouse score for desktop(light and dark mode)](documentation/homepage-desktop-final-lighthouse.png)
+* Mobile(Light & Dark mode)-
+
+![Home page final lighthouse score for mobile(light and dark mode)](documentation/homepage-mobile-final-lighthouse.png)
 
  #### About page
 
@@ -289,8 +293,12 @@ Final Lighthouse score of Home page:
  * 
 
  Final lighthouse score of About page:
- * ![About page final lighthouse score for desktop(light and dark mode)](documentation/aboutpage-desktop-final.png)
- * ![About page final lighthouse score for mobile(light and dark mode)](documentation/aboutpage-mobile-final.png)
+ * Desktop(Light & Dark mode)-
+ 
+ ![About page final lighthouse score for desktop(light and dark mode)](documentation/aboutpage-desktop-final.png)
+ * Mobile(Light & Dark mode)-
+ 
+ ![About page final lighthouse score for mobile(light and dark mode)](documentation/aboutpage-mobile-final.png)
 
  #### Cafe page
 
@@ -301,20 +309,44 @@ Final Lighthouse score of Home page:
  * 
 
  Final lighthouse score of Cafe page:
- * ![About page final lighthouse score for desktop(light and dark mode)](documentation/cafe-desktop-final.png)
- * ![About page final lighthouse score for mobile(light and dark mode)](documentation/Cafe-mobile-final.png)
+ * Desktop(Light & Dark mode)-
+ 
+ ![Cafe page final lighthouse score for desktop(light and dark mode)](documentation/cafe-desktop-final.png)
+ * Mobile(Light & Dark mode)-
+ 
+ ![Cafe page final lighthouse score for mobile(light and dark mode)](documentation/Cafe-mobile-final.png)
 
  #### Gallery page
 
  Link to initial testing on desktop and mobile:
- * [About page initial lighthouse testing](documentation/gallery-initial-lighthouse.png)
+ * [Gallery page initial lighthouse testing](documentation/gallery-initial-lighthouse.png)
 
  Opportunities/suggestions:
  * 
 
- Final lighthouse score of About page:
- * ![About page final lighthouse score for desktop(light and dark mode)](documentation/galler-desktop-final.png)
- * ![About page final lighthouse score for mobile(light and dark mode)](documentation/)
+ Final lighthouse score of Gallery page:
+ * Desktop(Light & Dark mode)- 
+ 
+ ![Gallery page final lighthouse score for desktop(light and dark mode)](documentation/galler-desktop-final.png)
+ * Mobile(Light & Dark mode)-
+ 
+ ![Gallery page final lighthouse score for mobile(light and dark mode)](documentation/)
+
+ #### Event Enquiry page
+
+ Link to initial testing on desktop and mobile:
+ * [Event Enquiry page initial lighthouse testing](documentation/eventpage-initial-lighthouse.png)
+
+ Opportunities/suggestions:
+ * 
+
+ Final lighthouse score of Event Enquiry page:
+ * Desktop(Light & Dark mode)-
+ 
+ ![Event enquiry page final lighthouse score for desktop(light and dark mode)](documentation/events-desktop-final.png)
+ * Mobile(Light & Dark mode)-
+ 
+ ![Event enquiry page final lighthouse score for mobile(light and dark mode)](documentation/events-mobile-final.png)
 #### Wave
 ### Manual Testing
 #### Testing User Stories
