@@ -280,6 +280,17 @@ Final Lighthouse score of Home page:
 * ![Home page final lighthouse score for desktop(light and dark mode)](documentation/homepage-desktop-final-lighthouse.png)
 * ![Home page final lighthouse score for mobile(light and dark mode)](documentation/homepage-mobile-final-lighthouse.png)
 
+ #### About page
+
+ Link to initial testing on desktop and mobile:
+ * [About page initial lighthouse testing](documentation/aboutpage-initial-lighthouse.png)
+
+ Oppurtunities/suggestions:
+ * 
+
+ Final lighthouse score of About page:
+ * ![About page final lighthouse score for desktop(light and dark mode)](documentation/aboutpage-desktop-final.png)
+ * ![About page final lighthouse score for mobile(light and dark mode)](documentation/aboutpage-mobile-final.png)
 #### Wave
 ### Manual Testing
 #### Testing User Stories
