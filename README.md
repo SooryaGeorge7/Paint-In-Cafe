@@ -254,7 +254,7 @@ To clone the Paint-In-Cafe Repository:
 7. Cloning is now completed.
 ## Testing
 
-#### W3C Validator
+### W3C Validator
 
 I used W3C validator website to validate HTML and CSS of my website. The image links of each page is listed down below:
 
@@ -265,7 +265,21 @@ I used W3C validator website to validate HTML and CSS of my website. The image l
 * [Events page html validation](documentation/w3c-eventshtml.png)
 * [Style.css CSS](documentation/Jigsaw-cssvalidation.png)
 
-#### Lighthouse
+### Lighthouse
+
+I used lighthouse testing that is within chrome developer tools for testing the cafe's performance, accessibility, best practices and SEO(Search Engine Optimisation)
+#### Home page
+
+Link to Initial testing on desktop and mobile:
+* [Home page initial lighthouse testing](documentation/home-page-initial-lighthouse.png)
+
+Opportunities/suggestions:
+* 
+
+Final Lighthouse score of Home page:
+* ![Home page final lighthouse score for desktop(light and dark mode)](documentation/homepage-desktop-final-lighthouse.png)
+* ![Home page final lighthouse score for mobile(light and dark mode)](documentation/homepage-mobile-final-lighthouse.png)
+
 #### Wave
 ### Manual Testing
 #### Testing User Stories
