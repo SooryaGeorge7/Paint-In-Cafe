@@ -255,6 +255,16 @@ To clone the Paint-In-Cafe Repository:
 ## Testing
 
 #### W3C Validator
+
+I used W3C validator website to validate HTML and CSS of my website. The image links of each page is listed down below:
+
+* [Home page html validation](documentation/w3c-homepage.png)
+* [About page html validation](documentation/w3c-abouthtml.png)
+* [Cafe page html validation](documentation/w3c-cafehtml.png)
+* [Gallery page html validation](documentation/w3c-galleryhtml.png)
+* [Events page html validation](documentation/w3c-eventshtml.png)
+* [Style.css CSS](documentation/Jigsaw-cssvalidation.png)
+
 #### Lighthouse
 #### Wave
 ### Manual Testing
