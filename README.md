@@ -405,7 +405,9 @@ Final Lighthouse score of Home page:
 
 
 #### Full Testing
-I did full testing of all the links, buttons and on a number of browsers and i have displayed the results of each of them below:
+I did full testing of all the links, buttons, the form on a number of browsers and i have displayed the results of each of them below:
+
+&check;- Works correctly.
 
 |                 | Microsoft Edge | Google Chrome | Mozilla firefox | Safari |
 | :---:           | :---| :--- | :--- | :---|
@@ -414,6 +416,16 @@ I did full testing of all the links, buttons and on a number of browsers and i h
 | Cafe Page | *Links - &check; <br>*Buttons - &check;<br>*Form - &check;<br>*Appearance -&check; |*Links - &check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links -&check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links - &check;<br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |
 | Gallery Page | *Links - &check; <br>*Buttons - &check;<br>*Form - &check;<br>*Appearance -&check; |*Links - &check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links -&check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links - &check;<br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |
 | Event Enquiry Page | *Links - &check; <br>*Buttons - &check;<br>*Form - &check;<br>*Appearance -&check; |*Links - &check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links -&check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links - &check;<br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |
+
+I did test on a variety of devices as well and displayed below is a table showing results of each device:
+
+|                 | S20 ultra | iPhone 12 Pro | Dell inspiron 3593 | Lenovo Thinkpad W541 |
+| :---:           | :---| :--- | :--- | :---|
+| Home Page | *Appearance -&check; |*Appearance -&check; |*Appearance -&check; |*Appearance -&check; |
+| About Page | *Appearance -&check; |*Appearance -&check; |*Appearance -&check; |*Appearance -&check; |
+| Cafe Page | *Appearance -&check; |*Appearance -&check; |*Appearance -&check; |*Appearance -&check; |
+| Gallery Page | *Appearance -&check; |*Appearance -&check; |*Appearance -&check; |*Appearance -&check; |
+| Event Enquiry Page | *Appearance -&check; |*Appearance -&check; |*Appearance -&check; |*Appearance -&check; |
 
 ### BUGS
 #### Known Bugs
