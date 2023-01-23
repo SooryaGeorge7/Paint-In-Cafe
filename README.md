@@ -408,9 +408,12 @@ Final Lighthouse score of Home page:
 I did full testing of all the links, buttons and on a number of browsers and i have displayed the results of each of them below:
 
 |                 | Microsoft Edge | Google Chrome | Mozilla firefox | Safari |
-| :---:           | :---:| :---: | :---: | :---:|
-| Home Page(index.html) | *Links - [x] <br>*buttons -[x] <br>*Form - [x]
-
+| :---:           | :---| :--- | :--- | :---|
+| Home Page | *Links - &check; <br>*Buttons - &check;<br>*Form - &check;<br>*Appearance -&check; |*Links - &check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links -&check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links - &check;<br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |
+| About Page | *Links - &check; <br>*Buttons - &check;<br>*Form - &check;<br>*Appearance -&check; |*Links - &check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links -&check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links - &check;<br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |
+| Cafe Page | *Links - &check; <br>*Buttons - &check;<br>*Form - &check;<br>*Appearance -&check; |*Links - &check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links -&check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links - &check;<br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |
+| Gallery Page | *Links - &check; <br>*Buttons - &check;<br>*Form - &check;<br>*Appearance -&check; |*Links - &check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links -&check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links - &check;<br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |
+| Event Enquiry Page | *Links - &check; <br>*Buttons - &check;<br>*Form - &check;<br>*Appearance -&check; |*Links - &check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links -&check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links - &check;<br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |
 
 ### BUGS
 #### Known Bugs
