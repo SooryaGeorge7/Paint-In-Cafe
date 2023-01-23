@@ -405,6 +405,12 @@ Final Lighthouse score of Home page:
 
 
 #### Full Testing
+I did full testing of all the links, buttons and on a number of browsers and i have displayed the results of each of them below:
+
+|                 | Microsoft Edge | Google Chrome | Mozilla firefox | Safari |
+| :---:           | :---:| :---: | :---: | :---:|
+| Home Page(index.html) | *Links - [x] <br>*buttons -[x] <br>*Form - [x]
+
 
 ### BUGS
 #### Known Bugs
