@@ -55,31 +55,29 @@ Paint-In Cafe is a Cafe based in Dublin, Ireland. Visitors of the cafe are provi
 * How to book for an event?- event enquiry
 * Any updates on the cafe?
 ### User Objectives
-#### Customer Goals
+#### Website Owner's Goals
 * To be able to view the site on different device sizes.
 * To allow potential customers to find out about Paint-In Cafe and where its located.
 * To allow potential customers about the concept of the cafe and understand what they need to do to visit.
 * To ensure visitors have access to contact details incase they have any questions with regards to the cafe.
 * To ensure customers know exactly what they get out of the experience.
 * To allow customers to be able to book tables in case of events.
+* To provide the visitors all the information they need before visiting the cafe for the first time.
+* To be able to view the site in dark or lightmode with ease.
+* To ensure that the visitor can easily naviagte through the site.
 
 #### First Time Visitor Goals
 * To be able to navigate around the website with ease to find any information.
 * To ensure that the visitor can find the enquiry form to submit in the case of wanting to book a table for an event.
 * To allow visitors to see gallery pictures of the cafe and paintings done at the cafe.
-* To allow visitors to view the menu of the cafe on the site to see their options for food.
+* To allow visitors to view the menu of the cafe on the site to see their options for food and prices.
 * To allow visitors to have contact information incase they have any questions. 
 * Ensure visitors can find out about location and opening times.
+
 #### Returning Visitor Goals
 * To be able to find any updates about the cafe on the home page.
 * Find contact details of Cafe in case they have any questions with regarding to their experience at the cafe.
-* To be able to find their own pictures in the gallery
-#### Site Owner's Goals
-* To ensure first time visitors have a good experience navigating through the web.
-* To generate traffic to website so more people know about the cafe. 
-* To ensure visitors understand the concept of the cafe and how it works.
-* To provide the visitors all the information they need before visiting the cafe for the first time.
-* To ensure visitors know that visitors do not need any prior experience in painting to visit.
+* To be able to find their own pictures in the gallery.
 
 ## Design
 ### Color Scheme
@@ -355,7 +353,32 @@ Final Lighthouse score of Home page:
  ![Event enquiry page final lighthouse score for mobile(light and dark mode)](documentation/events-mobile-final.png)
 #### Wave
 ### Manual Testing
-#### Testing User Stories
+#### Testing User Stories(UX)
+#### Owner's Goals
+* To be able to view the site on different device sizes.
+* To allow potential customers to find out about Paint-In Cafe and where its located.
+* To allow potential customers about the concept of the cafe and understand what they need to do to visit.
+* To ensure visitors have access to contact details incase they have any questions with regards to the cafe.
+* To ensure customers know exactly what they get out of the experience.
+* To allow customers to be able to book tables in case of events.
+* To provide the visitors all the information they need before visiting the cafe for the first time.
+* To be able to view the site in dark or lightmode with ease.
+* To ensure that the visitor can easily naviagte through the site.
+
+#### First Time Visitor Goals
+* To be able to navigate around the website with ease to find any information.
+* To ensure that the visitor can find the enquiry form to submit in the case of wanting to book a table for an event.
+* To allow visitors to see gallery pictures of the cafe and paintings done at the cafe.
+* To allow visitors to view the menu of the cafe on the site to see their options for food and prices.
+* To allow visitors to have contact information incase they have any questions. 
+* Ensure visitors can find out about location and opening times.
+
+#### Returning Visitor Goals
+* To be able to find any updates about the cafe on the home page.
+* Find contact details of Cafe in case they have any questions with regarding to their experience at the cafe.
+* To be able to find their own pictures in the gallery.
+
+
 #### Full Testing
 
 ### BUGS
