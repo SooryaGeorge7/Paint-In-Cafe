@@ -358,7 +358,7 @@ Final Lighthouse score of Home page:
 * To be able to view the site on different device sizes.
   * Responsiveness was achieved though media queries and chrome dev tools were used to help inspect the site in varying sizes.
 * To allow potential customers to find out about Paint-In Cafe and where its located.
-  * The footer contains information about location. The home page has a text overlying the background video that asks the site visitor a question and the button below says "learn more". If you click on the button, the site will take the visitor to the concept section of home page where the visitor can learn more about Paint-in Cafe.
+  * The footer contains information about location.The location section in the footer also has a maps button that will direct you to google maps location. The home page has a text overlying the background video that asks the site visitor a question and the button below says "learn more". If you click on the button, the site will take the visitor to the concept section of home page where the visitor can learn more about Paint-in Cafe.
 * To allow potential customers learnabout the concept of the cafe and understand what they need to do to visit.
   * In the section under the heading "How does it work?", There are 6 divs that contain headings and information that the website visitor most likely would want to know more about. Eg: Bookings, experience, cafe. 
   * Gallery shows a few images from the cafe and experience so that the visitors know what to expect before visiting.
@@ -372,19 +372,36 @@ Final Lighthouse score of Home page:
   * The colors chosen for website have sufficient contrast and the website was tested for lighthouse score in darkmode as well. 
 * To ensure that the visitor can easily navigate through the site.
   * Navgation links are easy to find in both big and small screens and they change color when hovered or focused on a specific link.
+* To ensure visitors can access the site's social media pages.
+  * Social media icons that can be clicked are provided in the footer of each page.
+* To generate traffic to website.
+  * This was done by having social media pages of the website which are then shareable. 
 
 #### First Time Visitor Goals
-* To be able to navigate around the website with ease to find any information.
-* To ensure that the visitor can find the enquiry form to submit in the case of wanting to book a table for an event.
-* To allow visitors to see gallery pictures of the cafe and paintings done at the cafe.
-* To allow visitors to view the menu of the cafe on the site to see their options for food and prices.
-* To allow visitors to have contact information incase they have any questions. 
-* Ensure visitors can find out about location and opening times.
+* To be able to find any information that is needed before visiting cafe.
+  * The home page has all the information that visitors would need.For example, concept, price, bookings etc.
+* To find the enquiry form to submit in the case of wanting to book a table for an event.
+  * The navigation link on top has a link t event enquiry page where there is a form to submit incase of bookings needed.
+* To be able to view gallery pictures of the cafe and paintings done at the cafe.
+  * The images from the cafe are displayed in gallery page which can be viewed from the naviagtion links.
+* To  view the menu of the cafe on the site to see their options for food and prices.
+  * The cafe page has the cafe menu and prices so that the visitor would be able to plan accordingly before coming to cafe.
+* To find out about prices.
+  * The pricing is explained in the home page in the boxes under the heading "How does it work?" and in the cafe page as well.
+* To  have contact information incase they have any questions. 
+  * Contact information is provided in the footer of each page for user to access.
+* To find out about location and opening times.
+  * Location and Opening times are provided in the footer of each page for user to access.
 
 #### Returning Visitor Goals
 * To be able to find any updates about the cafe on the home page.
+ * There is a `Cafe updates` section in home page where updates of cafe can be seen.
 * Find contact details of Cafe in case they have any questions with regarding to their experience at the cafe.
+ * Contact information is provided in the footer of each page.
 * To be able to find their own pictures in the gallery.
+  * Gallery images can be viewed in gallery page.
+* To find social media pages of the website.
+  * The social media pages can be accessed through their icons in the footer of each page.
 
 
 #### Full Testing
