@@ -356,14 +356,22 @@ Final Lighthouse score of Home page:
 #### Testing User Stories(UX)
 #### Owner's Goals
 * To be able to view the site on different device sizes.
+  * Responsiveness was achieved though media queries and chrome dev tools were used to help inspect the site in varying sizes.
 * To allow potential customers to find out about Paint-In Cafe and where its located.
-* To allow potential customers about the concept of the cafe and understand what they need to do to visit.
+  * The footer contains information about location. The home page has a text overlying the background video that asks the site visitor a question and the button below says "learn more". If you click on the button, the site will take the visitor to the concept section of home page where the visitor can learn more about Paint-in Cafe.
+* To allow potential customers learnabout the concept of the cafe and understand what they need to do to visit.
+  * In the section under the heading "How does it work?", There are 6 divs that contain headings and information that the website visitor most likely would want to know more about. Eg: Bookings, experience, cafe. 
+  * Gallery shows a few images from the cafe and experience so that the visitors know what to expect before visiting.
 * To ensure visitors have access to contact details incase they have any questions with regards to the cafe.
+  * Contact details are shown in footer of each page of website.
 * To ensure customers know exactly what they get out of the experience.
+  * Provide sufficient information about the experience, price of everything and also allow images of cafe and experence to be seen by potential customer.
 * To allow customers to be able to book tables in case of events.
-* To provide the visitors all the information they need before visiting the cafe for the first time.
+  * The navigation bar has an `Event Enquiry` page which takes visitors to a page that allows customers to fill in a form and submit the form. The page also has information as to when booking's are required.
 * To be able to view the site in dark or lightmode with ease.
-* To ensure that the visitor can easily naviagte through the site.
+  * The colors chosen for website have sufficient contrast and the website was tested for lighthouse score in darkmode as well. 
+* To ensure that the visitor can easily navigate through the site.
+  * Navgation links are easy to find in both big and small screens and they change color when hovered or focused on a specific link.
 
 #### First Time Visitor Goals
 * To be able to navigate around the website with ease to find any information.
