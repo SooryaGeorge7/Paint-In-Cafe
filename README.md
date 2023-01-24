@@ -429,6 +429,8 @@ I did test on a variety of devices as well and displayed below is a table showin
 
 ### BUGS
 #### Known Bugs
+* 
+
 
 #### Solved Bugs
 * Making a herovideo that also acts as a background video. I couldnt use the background attribute in css  to add the background videos and make changes in that way. I had to insert video in a div in html and adjust the video using css to make it appear as a background video/gif rather than a video that stands alone.
