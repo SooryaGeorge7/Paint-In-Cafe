@@ -443,12 +443,16 @@ Final Lighthouse score of Home page:
 #### Full Testing
 
 1. When the site opens in your device, the home page is displayed.
-2. The home page consists of a header that has a logo on top left side and navigation links on the top right side.
+2. The home page consists of a header that has a logo on top left side and navigation links `Home` `About` `Cafe` `Gallery` `Event enquiry` on the top right side.
 3. The header is consistent through all the pages of the site.
 4. The logo can be clicked on any page and the site will direct you back to home page.
 5. The navigation links on top right corner are clicked to jump between the different pages of the website.
 6. If a naviagtion link is hovered over or focused on, the color of the naviagtion link changes. The link you clicked on will direct you to the specific page that you want to go to.
 7. If you look at the main home page, there is a background video with text overlying it with a button that says "learn more" which can be clicked on to be directed to the main section of home page.
+8. The main section has a 6 boxes, 1 box called bookings has events enquiry link that can be clicked on to be directed to the event enquiry page directly.This link should work.
+9. If you scroll down to the footer of page, the location div has a button that can be clicked on for you to be directed to Google maps.
+10. The footer also has facebook and instagram icons which can be accessed when clicked on. The color of the icons and button in footer should change when hovered on and focused on.
+11. 
 I did full testing of all the links, buttons, the form on a number of browsers and i have displayed the results of each of them below:
 
 &check;- Works correctly.
