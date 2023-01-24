@@ -452,7 +452,10 @@ Final Lighthouse score of Home page:
 8. The main section has a 6 boxes, 1 box called bookings has events enquiry link that can be clicked on to be directed to the event enquiry page directly.This link should work.
 9. If you scroll down to the footer of page, the location div has a button that can be clicked on for you to be directed to Google maps.
 10. The footer also has facebook and instagram icons which can be accessed when clicked on. The color of the icons and button in footer should change when hovered on and focused on.
-11. 
+11. Once on the `About` page or `Cafe` page  , it has same layout like the home page.The pages contain the logo, navigation links and footer containing opening times, location, and contact details. Check these links and buttons in the `About` and `Cafe` page.Both pages have a section inbetween the footer and header.The headers also contain a background video and overlying text.
+12. The `Gallery` page has the same links as the home page, with the addition of a scroll button. When clicked up, it should direct you back to the top of the page.
+13. The `Event Enquiry` page has the same links ,and buttons as homepage except for the "learn more" button.Click all to see if they work. The event page also has a event enquiry form. The form has 3 text input types, 1 email input type, 1 submit input type , a textarea and select input type. Test each of these input fields to see if required attribute works.(The text area does not have required attribute).CLick submit button to see if you will be directed towards a page that is code institute's form dump page.
+
 I did full testing of all the links, buttons, the form on a number of browsers and i have displayed the results of each of them below:
 
 &check;- Works correctly.
