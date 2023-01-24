@@ -50,11 +50,12 @@ Paint-In Cafe is a Cafe based in Dublin, Ireland. Visitors of the cafe are provi
 * Do i need to book?
 * Opening times and location
 * Contact details incase you need to get clarification on a specific problem.
-* Allergens included in cafe food, veg and vegan options?
+* Extras included in cafe food, veg and vegan options?
 * Is the food halaal?
 * How to book for an event?- event enquiry
 * Any updates on the cafe?
-### User Objectives
+
+### User Stories
 #### Website Owner's Goals
 * To be able to view the site on different device sizes.
 * To allow potential customers to find out about Paint-In Cafe and where its located.
@@ -259,6 +260,8 @@ HTML and CSS was mainly used to build this website. Javascript was only used for
 * [Coolors](https://coolors.co/) - To pick color palette.
 * [SVG repo](https://www.svgrepo.com/) - To help pick logoimage and image for favicon. 
 
+---
+
 ## Deployment & Local Development
 
 ### Deployment
@@ -286,6 +289,9 @@ To clone the Paint-In-Cafe Repository:
 5. Open the terminal in your code editor(eg. Gitpod) and change the current working directory to the location you want to use for cloned directory.
 6. In the terminal type in "git clone" and paste the link you copied in step 4 above. Press enter.
 7. Cloning is now completed.
+
+---
+
 ## Testing
 
 ### W3C Validator
@@ -302,6 +308,7 @@ I used W3C validator website to validate HTML and CSS of my website. The image l
 ### Lighthouse
 
 I used lighthouse testing that is within chrome developer tools for testing the cafe's performance, accessibility, best practices and SEO(Search Engine Optimisation)
+
 #### Home page
 
 Link to Initial testing on desktop and mobile:
@@ -388,8 +395,12 @@ Final Lighthouse score of Home page:
  
  ![Event enquiry page final lighthouse score for mobile(light and dark mode)](documentation/events-mobile-final.png)
 #### Wave
+
+---
+
 ### Manual Testing
 #### Testing User Stories(UX)
+
 #### Owner's Goals
 * To be able to view the site on different device sizes.
   * Responsiveness was achieved though media queries and chrome dev tools were used to help inspect the site in varying sizes.
@@ -439,6 +450,7 @@ Final Lighthouse score of Home page:
 * To find social media pages of the website.
   * The social media pages can be accessed through their icons in the footer of each page.
 
+--- 
 
 #### Full Testing
 
@@ -487,8 +499,9 @@ I did test on a variety of devices as well and displayed below is a table showin
 * Making a herovideo that also acts as a background video. I couldnt use the background attribute in css  to add the background videos and make changes in that way. I had to insert video in a div in html and adjust the video using css to make it appear as a background video/gif rather than a video that stands alone.
 * I could not fit navigation links in the smaller screens without it looking too cluttered or the font-size being ineligable.I decided to make a hamburger toggler for smaller screen which will show navigation links when clicked on.
 * My menu of naviagtion links in smaller screens were not displaying properly because all the elements were on the same level, then i used z-index to make my menu higher than the other elements on the screen to make sure menu is displayed ontop of the other elements without the other elements showing through. 
-* The background video did not want to center itself as the screensizes increased or decreased- this was fixed by adding a outer div to video and setting the position of div to relative while you position the video itself to obsolute. Set the object-fit of video to cover. Set the bottom attribute of video to be 0.
+* The background video did not want to center itself as the screensizes increased or decreased- this was fixed by adding a outer div to video and setting the position of div to relative while you position the video itself to absolute. Set the object-fit of video to cover. Set the bottom attribute of video to be 0.
 * The images in gallery did not have the correct aspect ratio while doing lighthouse testing- I solved this by adding the css attribute object with value of cover to every image in the gallery.
+
 ## Credits
 ### Code Used
 * [Code used to make hamburger toggler](https://www.codingnepalweb.com/responsive-navigation-menu-bar-html-css/)
@@ -498,6 +511,10 @@ I did test on a variety of devices as well and displayed below is a table showin
 * [learnt how to center the background video so that the video doesnt shrink according to screensizes here](https://www.youtube.com/watch?v=znqUwx0b0HI&t=8s)
 * [Learnt to add scroll button in gallery using css and html only](https://www.youtube.com/watch?v=Vef9bxTilCU)
 ### Content
+* All content in the website was written by me but i did draw inspiration from the websites below: 
+
+1. [Clay Cafe](https://claycafeinthecity.com/)
+2. [Color Cafe](https://www.colorcafe.co.za/)
 
 ### Media
 
@@ -537,4 +554,5 @@ Gallery images
 * [Someone cleaning their brush in glass container](https://www.pexels.com/photo/a-person-holding-blue-paintbrush-7898620/)
 * [Couple taking a selfie](https://www.pexels.com/photo/couple-taking-selfie-while-eating-4046771/)
 * [Bakery food](https://www.pexels.com/photo/overhead-shot-of-slices-of-cake-on-saucers-9795914/)
+
 ### Acknowledgement
