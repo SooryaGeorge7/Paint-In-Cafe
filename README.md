@@ -441,6 +441,14 @@ Final Lighthouse score of Home page:
 
 
 #### Full Testing
+
+1. When the site opens in your device, the home page is displayed.
+2. The home page consists of a header that has a logo on top left side and navigation links on the top right side.
+3. The header is consistent through all the pages of the site.
+4. The logo can be clicked on any page and the site will direct you back to home page.
+5. The navigation links on top right corner are clicked to jump between the different pages of the website.
+6. If a naviagtion link is hovered over or focused on, the color of the naviagtion link changes. The link you clicked on will direct you to the specific page that you want to go to.
+7. If you look at the main home page, there is a background video with text overlying it with a button that says "learn more" which can be clicked on to be directed to the main section of home page.
 I did full testing of all the links, buttons, the form on a number of browsers and i have displayed the results of each of them below:
 
 &check;- Works correctly.
