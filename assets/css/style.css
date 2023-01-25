@@ -335,15 +335,16 @@ footer {
     padding-right: 0.5rem;
     font-size: 280%;
 }
+/*About section*/
 #about-section h2{
     color:#8C2323;
 }
+
+/*About section div that will display the information and pic differently in bigger screens using flexbox*/
 .about {
     display: flex;
     flex-direction: column;
 }
-
-.about .about-box {}
 
 #sunny-marie {
     width: 100%;
@@ -361,18 +362,13 @@ footer {
 }
 
 
-/*Cage page*/
+/*Cafe page*/
+/* Cafe section*/
 #menu-section h2{
     color:#8C2323;
 }
 
-#cafe-image {
-    margin-top: 1rem;
-    background: url('../images/cafe-photo.webp')center center /cover no-repeat fixed;
-    height: 40rem;
-    position: relative;
-}
-
+/*Div containing divs that have lists of menu options-use flexbox to display differently in bigger screens*/
 #menu-container {
     display: flex;
     flex-direction: column;
@@ -410,13 +406,23 @@ footer {
 .prices {
     float: right;
 }
+/*fixed image in cafe page*/
+#cafe-image {
+    margin-top: 1rem;
+    background: url('../images/cafe-photo.webp')center center /cover no-repeat fixed;
+    height: 40rem;
+    position: relative;
+}
 
-/*gallery*/
+/*Gallery page*/
 
+/*Gallery section*/
+/*Set background color of section to #8C2323 to give sufficient contrast from the polaroid image border*/
 .container {
     background-color: #8C2323;
 }
 
+/*Learnt to create responsive gallery here url(https://www.youtube.com/watch?v=Trw_9lisYVY)*/
 .container .gallery-images {
     display: flex;
     flex-direction: column;
@@ -437,7 +443,7 @@ footer {
     margin: 1rem auto;
     border-bottom-width: 2rem;
 }
-
+/*Learnt how to include a scroll button in html here url(https://www.youtube.com/watch?v=Vef9bxTilCU)*/
 .scroll-button {
     position: fixed;
     width: 2rem;
@@ -455,10 +461,13 @@ footer {
 }
 
 /*Event enquiry page*/
+
+/*events section*/
 .event-section h2 {
     color:#8C2323;
 }
 
+/*Form div and information div displayed with flexbox inorder to change display easily in bigger screens*/
 #event {
     display: flex;
     flex-direction: column;
@@ -560,6 +569,8 @@ select option:focus {
     color: #FFFFFF;
     border-style: inset;
 }
+/*Thank you page -page takes user to when clicking submit button*/
+
 #thankyou {
     color: #8C2323 !important;
     text-shadow: none !important;
@@ -568,6 +579,7 @@ select option:focus {
 
 /* Breakpoint for ipads and tablets*/
 @media screen and (min-width: 481px) {
+    /*change display to row so that more concept divs is shown in a row than just 1*/
     #concept-section {
         flex-direction: row;
         flex-wrap: wrap;
@@ -589,16 +601,14 @@ select option:focus {
         max-width: 28rem;
         flex:1;
     }
+    /*Change font sizes to accomodate for bigger screen*/
     .details h2 {
         font-size: 200%;
     }
 
-    
     h2 {
         font-size: 250%;
-
     }
-
 
     .cafemenu li {
         font-size: 120%;
@@ -620,7 +630,7 @@ select option:focus {
         font-size: 100%;
     }
 }
-
+/*Breakpoint for small screens and laptop*/
 @media screen and (min-width: 768px) {
     #text-outer {
         width: 32rem;    
@@ -629,13 +639,12 @@ select option:focus {
     #text-outer h1 {
         font-size: 300%;
     }
-
+    /*Change display of nav bar from hamburger toggler to displaying the menu on top right corner*/
     .checkbutton {
         display: none;
     }
 
     #menu {
-
         letter-spacing: 0;
         display: flex;
         align-items: center;
@@ -652,7 +661,6 @@ select option:focus {
     }
 
     #menu li {
-        
         line-height: 1.5rem;
         padding-top: 0rem;
     }
@@ -668,9 +676,12 @@ select option:focus {
         color: #FFFFFF;
         text-shadow: 0 0 3px #8C2323, 0 0 5px #8C2323;;
     } 
+    /*Change direction of display of divs in footer */
     #details-container {
         flex-direction: row;
     }
+    /*About page*/
+    /*Chnage direction of display of divs to row*/
     .about {     
         flex-direction: row;
     }
@@ -688,14 +699,16 @@ select option:focus {
         font-size: 90%;
         width: 50%;
     }
-
+    /*Cafe page*/
+    /*Change direction of menu display*/
     #menu-container {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
     }
-
+    /* Gallery page */
+    /*Change direction of gallery iamges display*/
     .container .gallery-images { 
         flex-direction: row;
         flex-wrap: wrap;
@@ -707,13 +720,13 @@ select option:focus {
         flex-wrap: wrap;
         justify-content: space-between;
     }
-
+    /*events page*/
     #event {
         max-width: 70%;
         margin: 0rem auto;
     }
 }
-
+/*Breakpoint for desktop and larger screens*/
 @media screen and (min-width: 1024px) {
     
     #menu li a {
