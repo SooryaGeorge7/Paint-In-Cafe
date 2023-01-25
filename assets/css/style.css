@@ -1,5 +1,7 @@
+/*Google fonts import link*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display&display=swap');
 
+/*Starting point CSS*/
 * {
     margin: 0;
     padding: 0;
@@ -8,44 +10,34 @@
     list-style: none;
     box-sizing: border-box;
 }
-
+/* got the idea for this code from url(https://www.youtube.com/watch?v=Vef9bxTilCU)*/
 html {
     scroll-behavior: smooth;
 }
 
+/*body css font family, background-color and color set here*/
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #FFFFFF;
     color: #8C2323;
-
 }
 
-/* Headings and Logos */
+/* Headings and Logos  */
 h1,
 h2,
 h3 {
     font-family: 'Playfair Display', sans-serif;
-    /*letter-spacing: 0.3rem;*/
     color: #FFFFFF;
     text-align: center;
-
-
 }
 
 h2 {
     font-size: 200%;
     margin: 0rem ;
     padding: 1rem;
-    /*text-shadow: 0 0 3px #8C2323, 0 0 5px #8C2323;*/
+    
 }
-
-/*h3 {
-    font-size: 90%;
-}*/
-/*header {
-    display: flex;
-    flex-direction: row;
-}*/
+/* logo that appears top left of each page*/
 #cafelogo {
     font-size: 170%;
     font-weight: 600;
@@ -60,7 +52,6 @@ h2 {
     border-radius: 1rem;
     width: 4rem;
     margin: 1rem 0.5rem;
-    /*float: left;*/
     position: absolute;
 
 }
@@ -79,16 +70,12 @@ nav {
 }
 
 #menu {
-
     letter-spacing: 0.3rem;
-    /*margin: auto 0;*/
     position: fixed;
     height: 100%;
     width: 100%;
     background-color: rgba(255, 255, 255,0.9);
-
     left: -100%;
-    /*text-align: center;*/
     transition: all .5s;
     z-index: 1;
 }
@@ -96,13 +83,10 @@ nav {
 #menu li {
     display: flex;
     justify-content: space-evenly;
-    /*margin-right: 0.5rem 0;*/
-    /*line-height: 2rem;*/
     padding-top: 4rem;
-
-
 }
-
+/*toggler button icon*/
+/* Learnt how to display menu with hamburger toggler in smaller devices from this youtube video url(https://www.codingnepalweb.com/responsive-navigation-menu-bar-html-css/)*/
 .checkbutton {
     padding: 1rem;
     cursor: pointer;
@@ -123,9 +107,6 @@ nav {
 #menu li a {
     color: #8C2323;
     font-size: 2rem;
-    
-    /*text-shadow: 0 0 3px #8C2323, 0 0 5px #8C2323;*/
-
 }
 
 #menu li a.active,
@@ -143,20 +124,13 @@ nav {
     left: 0;
 }
 
-/*#header-position {
-    display: flex;
-    flex-direction: row;
-}*/
-/*video in main section*/
+/*Background video*/
+/*Learnt how to center background video here url(https://www.youtube.com/watch?v=znqUwx0b0HI&t=8s)*/
 #video-outer {
     position: relative;
     height: 40rem;
     z-index: -1;
-
-
 }
-
-
 
 #paintvideo {
     width: 100%;
@@ -168,18 +142,17 @@ nav {
 
 }
 
-
-
-
+/*Text overlying background video*/
 #text-outer p {
     color: #FFFFFF;
     text-align: center;
     font-size: 150%;
-    padding: 1rem;
-    
+    padding: 1rem; 
+    /*Learnt to do text shadowing here url(https://www.w3schools.com/cssref/css3_pr_text-shadow.php)*/
     text-shadow: 0 0 3px #8C2323, 0 0 5px #8C2323;
 }
 
+/*Learnt how to center a div inside a div here url(https://blog.hubspot.com/website/center-div-css)*/
 #text-outer {
     width: 16rem;
     height: 16rem;
@@ -189,6 +162,7 @@ nav {
     margin: 0;
     transform: translate(-50%, -50%);
 }
+/*Button below the text overlying background video*/
 #learn {
     background-color: rgba(255,255,255, 0.9);
     font-weight: bold;
@@ -205,6 +179,7 @@ nav {
     color: #FFFFFF;
 }
 
+/*Cafe updates */
 #text-outer2 {
     bottom: 1rem;
     width: 100%;
@@ -218,23 +193,27 @@ nav {
     background-color: #8C2323;
     color:#FFFFFF;
 }
+
 hr {
     border-top: 1px solid #FFFFFF;
     width: 100%;
     margin: 0.5rem auto;
 }
-/* concept of cafe/ section 2*/
 
+/* concept of cafe/ section of home page*/
 #concept-heading {
     color: #8C2323;
     border-bottom: 0.125rem solid #8C2323;
 }
+/*Learnt about flexbox here url(https://www.youtube.com/watch?v=JJSoEo8JSnc&t=859s)*/
 #concept-section {
     margin-top: 1rem;
     text-align: center;
     display: flex;
     flex-direction: column;
 }
+
+/*Learnt how to do box shadowing here url(https://www.w3schools.com/css/css3_shadows_box.asp)*/
 
 #concept-section div {
     border-radius: 1rem;
@@ -257,61 +236,26 @@ hr {
     color: #FFFFFF;
     font-size: 120%;
 }
+
+/*shortcut to event enquiry page*/
 .event-link {
     color: #FFFFFF;
     font-weight: bold;
     cursor: pointer;
 }
 
+/*fixed image in home page*/
 #watercolor-outer {
     background: url('../images/painting-conceptpic.webp')center center /cover no-repeat fixed;
     height: 40rem;
 }
 
-/*#watercolor {
-    
-    height: 40rem;
-    width:100%;
-    position: absolute;
-    top: 0;
-    left:0;
-}   */
 
-
-
-/*fixed image section with quote*/
-/*#splash-image {
-    width:100%;
-    background: url('../images/paint\ splash.jpg') no-repeat center ;
-    background-size: 100%;
-    height: 12rem;
-    margin-top: -0.25rem;
-    position: relative;
-}
-#splash-quote {
-    font-size: 0.75rem;
-    color: #FFFFFF;
-    bottom: 0.5rem;
-    text-transform: uppercase;
-    width: 16rem;
-    left: 0.5rem;
-    position:absolute;
-    background-color: rgba(140, 35, 35, 0.6);
-    text-align: center;
-    
-}
-#paintbrushes {
-    background: url('../images/paintbrushes.jpg') center center /cover no-repeat fixed;
-    background-size: 100%;
-    height:10rem;
-    width: 100%;
-    background-position: top;
-    position:relative;
-}*/
 /*Contact information, opening times and location*/
 footer {
     background-color: #8C2323;
 }
+/*Div containing opening times div, location div and contact details div*/
 #details-container {
     display: flex;
     flex-direction: column;
@@ -326,26 +270,11 @@ footer {
     color: #FFFFFF;
 }
 
-/*.details h2 {
-    background-color: #67D378;
-    
-    font-size: 200%;
-    /*text-shadow: 0 0 3px #8C2323, 0 0 5px  #8C2323;
-}*/
-/*#contact-info {
-    background-color: #67D378;
-    padding-bottom: 0.5rem;
-}
-#location {
-   background-color: #67D378;
-   padding-bottom: 0.5rem;
-}*/
 #maps {
     background-color: #8C2323;
     color: #FFFFFF;
     border-style: outset;
     padding: 0.5rem;
-    /*margin-bottom: 0.5rem;*/
     cursor: pointer;
     text-transform: uppercase;
     font-size: 100%;
@@ -483,8 +412,6 @@ footer {
 }
 
 /*gallery*/
-
-
 
 .container {
     background-color: #8C2323;
@@ -667,14 +594,11 @@ select option:focus {
     }
 
     
-
-    
     h2 {
         font-size: 250%;
 
     }
 
-    
 
     .cafemenu li {
         font-size: 120%;
@@ -683,8 +607,6 @@ select option:focus {
     legend {
         font-size: 170%;
     }
-
-    
 
     #enquiry-info {
         font-size: 120%;
@@ -712,11 +634,6 @@ select option:focus {
         display: none;
     }
 
-    /*nav {
-        text-align: center;
-        background-color: #67D378;
-    }*/
-
     #menu {
 
         letter-spacing: 0;
@@ -738,49 +655,30 @@ select option:focus {
         
         line-height: 1.5rem;
         padding-top: 0rem;
-
-
     }
-
-
-
-    
 
     #menu li a {
         color: #8C2323;
         font-size: 1.25rem;
-        
-        /*text-shadow: 0 0 3px #8C2323, 0 0 5px #8C2323;*/
         padding: 0.5rem 0.5rem;
     }
 
     #menu li a.active,
     #menu li a:hover {
-        /*background-color: rgba(103, 211, 135, .6);
-        transition: .5s;
-        padding: 0.5rem 0.5rem;
-        border: 0.125rem solid #FFFFFF;*/
         color: #FFFFFF;
-        
         text-shadow: 0 0 3px #8C2323, 0 0 5px #8C2323;;
-    }
-
-    
+    } 
     #details-container {
         flex-direction: row;
     }
     .about {     
         flex-direction: row;
     }
-
-    
-
     #about-box2 {
         position: relative;
         width: 50%;
         overflow: hidden;
     }
-
     #sunny-marie {
         margin-top: 1rem;
         padding: 1rem;
@@ -818,7 +716,6 @@ select option:focus {
 
 @media screen and (min-width: 1024px) {
     
-
     #menu li a {
         font-size: 1.5rem;
     }
@@ -838,7 +735,6 @@ select option:focus {
         font-size: 120%;
     }
     
-
     .cafemenu {
         width: 30%;
     }
@@ -848,7 +744,6 @@ select option:focus {
     }
 
     
-
     #event {
         flex-direction: row;
         max-width: 100%;
@@ -862,9 +757,6 @@ select option:focus {
 
 @media screen and (min-width: 1200px) {
 
-    
-    
-    
     #details-container > div { 
         height:17rem;
     }
