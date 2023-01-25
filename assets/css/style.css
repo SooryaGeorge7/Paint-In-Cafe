@@ -728,11 +728,11 @@ select option:focus {
 }
 /*Breakpoint for desktop and larger screens*/
 @media screen and (min-width: 1024px) {
-    
+    /*Increase font-size for menu in navbar*/
     #menu li a {
         font-size: 1.5rem;
     }
-
+    /*Increase fontsizes of texts to accomodate larger screens*/
     #text-outer2 {
         font-size: 110%;
     }
@@ -744,10 +744,12 @@ select option:focus {
     #concept-section div h3 {
         font-size: 150%;
     }
+    /*About page*/
     #about-box1 {
         font-size: 120%;
     }
     
+    /*Cafe page*/
     .cafemenu {
         width: 30%;
     }
@@ -755,8 +757,9 @@ select option:focus {
     .cafemenu li {
         font-size: 110%;
     }
-
     
+    /*Events page*/
+    /*Change direction of events divs to display alongside on bigger screens*/
     #event {
         flex-direction: row;
         max-width: 100%;
@@ -768,13 +771,13 @@ select option:focus {
 
 }
 
+/*Breakpoint for xxx large screens or tv*/
 @media screen and (min-width: 1200px) {
 
     #details-container > div { 
         height:17rem;
     }
-    
-    
+    /*About page*/
     #about-box2 {
         width: 30rem;
     }
@@ -787,12 +790,15 @@ select option:focus {
     #sunny-marie {
         margin-top:2rem;
     }
+    /*Cafe page*/
     .cafemenu {
         max-width: 27%;
     }
+    /*Gallery page*/
     .container .gallery-images .box {
         width: 25%;
     }
+    /*event enquiry page*/
     .event-enquiry {
         max-width:35%;
     }
