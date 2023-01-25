@@ -10,25 +10,30 @@
     <meta name="keywords" content="Painting, Paint-In, Cafe, Dublin, Ireland">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Browser Tab Title -->
     <title>Paint-In Cafe</title>
+    <!--Favicon Icon-->
     <link rel="icon" href="assets/favicon/favicon.ico">
 </head>
 
 <body>
-
     <header>
-        <a id="logo" aria-label="logoimage" href="index.html">
+        <!-- Nav Bar Logotitle and image-->
+        <a aria-label="logoimage" href="index.html">
             <img id="logoimage" src="assets/images/paintin-logo.webp" alt="Paint-In Cafe Logoimage">
             <span id="cafelogo">
                 Paint-In Café
             </span>
             <p id="logotext">The spot to eat & paint.</p>
         </a>
+        <!-- Nav bar links and toggler-->
         <nav>
+            <!--Icon for Hamburger Toggler-->
             <label for="check" class="checkbutton">
                 <i class="fa-solid fa-bars"></i>
             </label>
             <input type="checkbox" id="check">
+            <!--Nav Links-->
             <ul id="menu">
                 <li>
                     <a  href="index.html">Home</a>
@@ -47,21 +52,23 @@
                 </li>
             </ul>
         </nav>
+        <!-- For Background Video-->
         <div id="backgroundvideos-outer">
             <div>
                 <video id="background-videos" src="assets/videos/gallery-video.mp4" autoplay muted loop></video>
             </div>
-            
-
         </div>
+        <!--Text overlying background video-->
         <div id="text-outer">   
-            <h1 id="gallery-heading" >Gallery</h1>
-            
+            <h1>Gallery</h1>     
         </div>
         
     </header>
+    <!--Gallery Section-->
     <section class="container">
+        <!--Gallery Heading-->
         <h2>Make memories with us.</h2>
+        <!--Div containing divs that has 4 images each-->
         <div class="gallery-images">
             <div class="box">
                 <img src="assets/gallery_images/3-friends-at-the-cafe.webp" alt="3 girls painting at the cafe">
@@ -101,15 +108,17 @@
             </div>
         </div>
     </section>
+    <!--Scroll-up Button-->
     <a class="scroll-button" aria-label="scroll up" href="gallery.html"><i class="fa-solid fa-circle-arrow-up"></i></a>
-    <footer>
-        <div id="details-container">
 
+    <!--Footer-->
+    <footer>
+        <!--Div containing divs for contact details, location and opening times-->
+        <div id="details-container">
             <div class="details">
                 <h2 id="times"> Opening Times <i class="fa-solid fa-clock"></i> </h2>
                 <p class="details-inner">Friday to Sunday<br>8AM to 8PM</p>
             </div>
-            
             <div id="location-container" class="details">
                 <h2 id="location"> Location <i class="fa-solid fa-location-dot"></i></h2>
                 <p class="details-inner"><i class="fa-solid fa-map-pin"></i> 3 Mayfair Road<br>Dublin 7<br>Ireland<br>Y36 2234<br><br>
@@ -118,13 +127,13 @@
                         target="_blank"><i class="fa-solid fa-map"></i> Maps</a><br>
                 </p>
             </div>
-            
             <div class="details">
                 <h2 id="contact-info"> Contact Us <i class="fa-regular fa-address-book"></i> </h2>
                 <p class="details-inner"><i class="fa-regular fa-envelope"></i>:Paint-inCafe@gmail.com<br><i class="fa-solid fa-phone"></i>:+353823450924</p>
             </div>
         </div>
         <hr>
+        <!--Social Media links-->
         <ul class="social-media">
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener"
@@ -136,11 +145,11 @@
                     aria-label="Visit our Instagram page (opens in a new tab)"><i
                         class="fa-brands fa-square-instagram"></i></a>
             </li>
-
-
         </ul>
+        <!--Copyright statement-->
         <p id="copyright">2022@Paint-InCafe.All rights reserved</p>
     </footer>
+    
     <!--Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/a8dca34502.js" crossorigin="anonymous"></script>
 </body>

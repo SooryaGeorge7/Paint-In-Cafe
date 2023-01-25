@@ -438,11 +438,8 @@ footer {
 }
 
 #cafe-image {
-    
     margin-top: 1rem;
     background: url('../images/cafe-photo.webp')center center /cover no-repeat fixed;
-    
-    
     height: 40rem;
     position: relative;
 }
@@ -486,19 +483,9 @@ footer {
 }
 
 /*gallery*/
-/*.container #gallery-heading {
-    text-shadow: 0 0 3px #8C2323, 0 0 5px  #8C2323;
-    text-align: center;
-}*/
 
-/*.container {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
-}*/
+
+
 .container {
     background-color: #8C2323;
 }
@@ -507,14 +494,12 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
 .container .gallery-images .box {
     display: flex;
     flex-direction: column;
     width: 100%;
-
 }
 
 .container .gallery-images img {
@@ -524,9 +509,6 @@ footer {
     border: 0.5rem solid #FFFFFF;
     margin: 1rem auto;
     border-bottom-width: 2rem;
-    
-
-
 }
 
 .scroll-button {
@@ -547,7 +529,6 @@ footer {
 
 /*Event enquiry page*/
 .event-section h2 {
-    
     color:#8C2323;
 }
 
@@ -558,37 +539,27 @@ footer {
 }
 
 .event-enquiry {
-    
     text-align: center;
     margin: 1rem;
     box-shadow: 0.25rem 0.25rem 0.125rem #C4C3C7;
-    /*border: 0.125rem solid #8c2323;*/
     background-color: #8C2323;
     border-radius: 1rem;
 }
 
 #enquiry-info {
-
     color: #FFFFFF;
-    
     font-size: 120%;
-    /*margin: ;*/
     padding: 2rem;
-
-
 }
 
 #event-photo {
     width: 90%;
-    
     border: 0.5rem solid #FFFFFF;
     margin: 1rem auto;
     border-bottom-width: 2rem;
-    
 }
 
 .enquiry-form {
-    
     color: #FFFFFF;
     border-radius: 1rem;
 }
@@ -598,13 +569,10 @@ legend {
     font-weight: bold;
     padding: 1rem;
     font-family: 'Playfair Display', sans-serif;
-    ;
 }
 
 label {
     font-size: 120%;
-
-
 }
 
 
@@ -614,7 +582,6 @@ select,
 textarea {
     border: 0.125rem solid #FFFFFF;
     padding: 0.5rem;
-    
     margin-bottom: 0.5rem;
     width: 80%;
     
@@ -653,7 +620,6 @@ select option:focus {
 }
 #submit-button {
     font-size: 120%;
-    
     background-color: #FFFFFF;
     color: #8C2323;
     margin-bottom: 1rem;
@@ -827,26 +793,19 @@ select option:focus {
         justify-content: center;
     }
 
-    .container .gallery-images {
-        
+    .container .gallery-images { 
         flex-direction: row;
-        
         flex-wrap: wrap;
     }
 
-    .container .gallery-images .box {
-        
+    .container .gallery-images .box { 
         flex-direction: row;
         width: 50%;
         flex-wrap: wrap;
         justify-content: space-between;
-
     }
 
     #event {
-        /*display: flex;
-        flex-direction: column;
-        justify-content: space-between;*/
         max-width: 70%;
         margin: 0rem auto;
     }
@@ -886,14 +845,12 @@ select option:focus {
     
 
     #event {
-
         flex-direction: row;
         max-width: 100%;
     }
 
     .event-enquiry {
         width: 50%;
-
     }
 
 }
