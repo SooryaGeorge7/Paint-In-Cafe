@@ -19,7 +19,7 @@
 <body>
     <header>
         <!-- Nav Bar Logotitle and image-->
-        <a aria-label="logoimage" href="index.html">
+        <a aria-label="logoimage"  href="index.html">
             <img id="logoimage" src="assets/images/paintin-logo.webp" alt="Paint-In Cafe Logoimage">
             <span id="cafelogo">
                 Paint-In Café
@@ -42,17 +42,25 @@
                     <a  href="about.html">About</a>
                 </li>
                 <li>
-                    <a  href="cafe.html">Cafe</a>
+                    <a class="active" href="cafe.html">Cafe</a>
                 </li>
                 <li>
                     <a href="gallery.html">Gallery</a>
                 </li>
                 <li>
-                    <a class="active" href="event_enquiry.html">Event Enquiry</a>
+                    <a href="event_enquiry.html">Event Enquiry</a>
                 </li>
             </ul>
+            
         </nav>
-        <!-- For Background Video-->
+       
+        
+    </header>
+
+    <!--Cafe section-->
+    <section id="thankyou-section">
+        <!--Section heading-->
+        <!--Div containing Cafe Menu-->
         <div id="backgroundvideos-outer">
             <div>
                 <video id="background-videos" src="assets/videos/event-balloon.mp4" autoplay muted loop></video>
@@ -62,63 +70,11 @@
         <div id="text-outer">   
             <h1>Event Enquiry</h1>       
         </div>
-        
-    </header>
-
-    <!--Event-enquiry section-->
-    <section class="event-section">
-        <!--Section heading-->
-        <h2>Host An Event</h2>
-        <!--Div containing divs that has enquiry form and enquiry information-->
-        <div id="event">
-            <div class="event-enquiry">
-                <p id="enquiry-info">
-                    <strong>Would you like to host an event at our cafe or are you a group of 10+ people(max allowed:
-                        30people in a group)?</strong>,<br><br>
-                    Please fill in the event enquiry form and our staff will contact you with
-                    follow up questions or information!<br><br><strong>NB:Please make sure to submit a form in advance
-                        as there is a limit to 2 events per weekend</strong>
-                </p>
-                <img id="event-photo" src="assets/images/event-photo.webp" alt="4 people celebrating an eventtogether">
-            </div>
-            <div class="event-enquiry">
-                <!--Event enquiry form-->
-                <form method="GET" action="thankyou.html" class="enquiry-form">
-                    <fieldset>
-                        <legend>Event Enquiry Form</legend>
-                        <label for="fullname">Full Name**<br></label>
-                        <input id="fullname" class="text-input" name="full_name" type="text"
-                            placeholder="Your name & surname" required>
-                        <label for="email"><br>Email Address**<br></label>
-                        <input type="email" id="email" class="text-input" name="email_address"
-                            placeholder="Paint-InCafe@gmail.com" required>
-                        <label for="contact-no"><br>Contact Number**<br></label>
-                        <input id="contact-no" class="text-input" name="contact_no" type="text"
-                            placeholder="+353 _ _ _ _ _ _ _ _ _" required>
-                        <label for="people-no"><br>No. of People**<br></label>
-                        <input id="people-no" class="text-input" name="no_of_people" type="text"
-                            placeholder="How many people are coming?" required>
-                        <label for="event-type"><br>Type of Event**<br></label>
-                        <select id="event-type" name="event_type" required>
-                            <option value="">-Events-</option>
-                            <option value="school-outing">School Outing</option>
-                            <option value="bridal-shower">Bridal Shower</option>
-                            <option value="baby-shower">Baby Shower</option>
-                            <option value="team-building">Team Building</option>
-                            <option value="birthday">Birthday</option>
-                            <option value="other">Other</option>
-                        </select>
-                        <label for="special-request" class="request"><br>Special Requests<br></label>
-                        <textarea id="special-request" rows="4" cols="20" name="special_request"
-                            placeholder="Add a message here! :D"></textarea>
-                        <br>
-                        <input id="submit-button" value="Submit Form" type="submit" >
-                    </fieldset>
-                </form>
-            </div>
+        <div>
+            <span>Thank you for submitting, Our staff will be in touch with you soon!</span>
         </div>
+            
     </section>
-
 
     <!--Footer-->
     <footer>
@@ -158,7 +114,6 @@
         <!--Copyright statement-->
         <p id="copyright">2022@Paint-InCafe.All rights reserved</p>
     </footer>
-
     <!--Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/a8dca34502.js" crossorigin="anonymous"></script>
 </body>
