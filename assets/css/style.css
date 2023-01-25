@@ -633,6 +633,10 @@ select option:focus {
     color: #FFFFFF;
     border-style: inset;
 }
+#thankyou {
+    color: #8C2323 !important;
+    text-shadow: none !important;
+}
 
 /* Breakpoint for ipads and tablets*/
 @media screen and (min-width: 481px) {
