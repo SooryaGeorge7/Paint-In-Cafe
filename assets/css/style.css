@@ -636,6 +636,7 @@ select option:focus {
 #thankyou {
     color: #8C2323 !important;
     text-shadow: none !important;
+    font-size: 120% !important;
 }
 
 /* Breakpoint for ipads and tablets*/
