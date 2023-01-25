@@ -52,10 +52,8 @@ h2 {
     padding-top: 1.5rem;
     padding-left: 5rem;
     position: absolute;
-    font-family: 'Playfair Display', sans-serif;
-    
+    font-family: 'Playfair Display', sans-serif; 
     color: #8C2323;
-    /*text-shadow: 0 0 3px #8C2323, 0 0 5px #8C2323;*/
 }
 
 #logoimage {
@@ -73,10 +71,7 @@ h2 {
     font-size: 100%;
     color: #8C2323;
 }
-/*#logo {
-    display:flex;
-    flex-direction: row;
-}*/
+
 /*Naviagtion*/
 nav {
     text-align: center;
@@ -109,12 +104,8 @@ nav {
 }
 
 .checkbutton {
-    /*float:right*/
-    
-    /*margin: 1rem 0.5rem 0.5rem 0.5rem;*/
     padding: 1rem;
     cursor: pointer;
-    /*display: inline;*/
     font-size: 3rem;
     right: 0rem;
     position: absolute;
@@ -159,7 +150,6 @@ nav {
 /*video in main section*/
 #video-outer {
     position: relative;
-    /*width: 100%;*/
     height: 40rem;
     z-index: -1;
 
@@ -172,8 +162,7 @@ nav {
     width: 100%;
     height: 34rem;
     object-fit: cover;
-    position: absolute;
-    
+    position: absolute;   
     bottom: 0;
     border-top: 0.125rem solid #8C2323;
 
@@ -192,15 +181,10 @@ nav {
 }
 
 #text-outer {
-
     width: 16rem;
     height: 16rem;
-    /*background-color: rgba(103, 211, 135, .6);*/
-    
-    /*border-radius: 1rem;*/
     top: 22rem;
     left: 50%;
-    /*border: 0.125rem solid #FFFFFF;*/
     position: absolute;
     margin: 0;
     transform: translate(-50%, -50%);
@@ -220,22 +204,9 @@ nav {
     border: 0.125rem solid #FFFFFF;
     color: #FFFFFF;
 }
-/*#text-outer2 {
-    bottom: 1rem;
-    
-    font-size: 100%;
-    width: 14rem;
-    height: 5rem;
-    position: absolute;
-    padding: 0.5rem;
-    left:0.5rem;
-    
-    /*font-weight: 600;
-    background-color: rgba(123,159,130,.7);
-}*/
+
 #text-outer2 {
     bottom: 1rem;
-    /*font-size: 100%;*/
     width: 100%;
     height: 4rem;
     text-shadow: 0 0 3px #8C2323, 0 0 5px #8C2323;
@@ -257,7 +228,6 @@ hr {
 #concept-heading {
     color: #8C2323;
     border-bottom: 0.125rem solid #8C2323;
-    /*text-shadow: none;*/
 }
 #concept-section {
     margin-top: 1rem;
@@ -278,7 +248,6 @@ hr {
 #concept-section div h3 {
     color: #FFFFFF;
     font-size: 150%;
-    /*text-decoration: solid;*/
     padding-bottom: 0.5rem;
     border-bottom: 0.125rem solid #FFFFFF;
 }
@@ -296,11 +265,7 @@ hr {
 
 #watercolor-outer {
     background: url('../images/painting-conceptpic.webp')center center /cover no-repeat fixed;
-    /*background-size: 150%;*/
-    /*width: 100%;*/
     height: 40rem;
-    /*position: relative;*/
-
 }
 
 /*#watercolor {
@@ -353,17 +318,10 @@ footer {
 }
 .details {
     text-align: center;
-    /*border: 0.125rem solid #FFFFFF;*/
     margin: 1rem;
-    /*background-color: #FFFFFF;*/
-    /*color: #FFFFFF;*/
-    /*font-size: 110%;*/
-    /*box-shadow: 0.25rem 0.25rem 0.125rem #7b9f82;
-    border-radius: 1rem;*/
 }
 
 .details-inner {
-    /*margin-bottom: 2rem;*/
     font-size: 120%;
     color: #FFFFFF;
 }
@@ -404,7 +362,6 @@ footer {
     display: flex;
     justify-content: center;
     margin-bottom: 0.5rem;
-
 }
 
 .social-media li {
@@ -414,8 +371,6 @@ footer {
 .social-media i {
     color: #FFFFFF;
     font-size: 220%;
-
-
 }
 
 .social-media i:hover {
@@ -451,12 +406,6 @@ footer {
     padding-top: 1rem;
     padding-right: 0.5rem;
     font-size: 280%;
-
-    /*font-family: Playfair display, sans-serif;*/
-    /*font-weight: 600;*/
-    /*text-transform: capitalize;*/
-    /*text-align: center;*/
-
 }
 #about-section h2{
     color:#8C2323;
@@ -798,8 +747,7 @@ select option:focus {
 
 @media screen and (min-width: 768px) {
     #text-outer {
-        width: 32rem;
-        
+        width: 32rem;    
     }
 
     #text-outer h1 {
@@ -842,9 +790,7 @@ select option:focus {
 
 
 
-    /*#check {
-        display: none;
-    }*/
+    
 
     #menu li a {
         color: #8C2323;
@@ -865,11 +811,8 @@ select option:focus {
         text-shadow: 0 0 3px #8C2323, 0 0 5px #8C2323;;
     }
 
-    /*#check:checked ~ ul{
-        left:0;
-    }*/
+    
     #details-container {
-        /*display: flex;*/
         flex-direction: row;
     }
     .about {
@@ -985,8 +928,7 @@ select option:focus {
     
     
     
-    #details-container > div {
-        
+    #details-container > div { 
         height:17rem;
     }
     
