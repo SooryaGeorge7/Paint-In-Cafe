@@ -452,8 +452,7 @@ footer {
     flex-direction: column;
 }
 
-.menu {
-
+.cafemenu {
     border: 0.125rem solid #8C2323;
     margin: 1rem;
     background-color: #8C2323;
@@ -463,29 +462,23 @@ footer {
 }
 
 #menu-choice {
-    
-    /*font-weight: bold;*/
     text-align: center;
     font-size: 120%;
 }
 
-.menu li {
-
+.cafemenu li {
     color: #FFFFFF;
     font-size: 120%;
 }
 
-.menu h3 {
-
+.cafemenu h3 {
     color: #FFFFFF;
     margin-bottom: 0.5rem;
     font-size: 200%;
-
 }
 
 .line-between {
     border-top: 0.125rem solid #FFFFFF;
-    
 }
 
 .prices {
@@ -712,7 +705,7 @@ select option:focus {
 
     
 
-    .menu li {
+    .cafemenu li {
         font-size: 120%;
     }
 
@@ -882,12 +875,11 @@ select option:focus {
     }
     
 
-    .menu {
+    .cafemenu {
         width: 30%;
-
     }
 
-    .menu li {
+    .cafemenu li {
         font-size: 110%;
     }
 
@@ -928,7 +920,7 @@ select option:focus {
     #sunny-marie {
         margin-top:2rem;
     }
-    .menu {
+    .cafemenu {
         max-width: 27%;
     }
     .container .gallery-images .box {

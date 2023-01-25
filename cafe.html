@@ -10,25 +10,30 @@
     <meta name="keywords" content="Painting, Paint-In, Cafe, Dublin, Ireland">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Browser Tab Title -->
     <title>Paint-In Cafe</title>
+    <!--Favicon Icon-->
     <link rel="icon" href="assets/favicon/favicon.ico">
 </head>
 
 <body>
-
     <header>
-        <a aria-label="logoimage" id="logo" href="index.html">
+        <!-- Nav Bar Logotitle and image-->
+        <a aria-label="logoimage"  href="index.html">
             <img id="logoimage" src="assets/images/paintin-logo.webp" alt="Paint-In Cafe Logoimage">
             <span id="cafelogo">
                 Paint-In Café
             </span>
             <p id="logotext">The spot to eat & paint.</p>
         </a>
+        <!-- Nav bar links and toggler-->
         <nav>
+            <!--Icon for Hamburger Toggler-->
             <label for="check" class="checkbutton">
                 <i class="fa-solid fa-bars"></i>
             </label>
             <input type="checkbox" id="check">
+            <!--Nav Links-->
             <ul id="menu">
                 <li>
                     <a  href="index.html">Home</a>
@@ -47,24 +52,26 @@
                 </li>
             </ul>
         </nav>
+        <!-- For Background Video-->
         <div id="backgroundvideos-outer">
             <div>
                 <video id="background-videos" src="assets/videos/cafe-video.mp4" autoplay muted loop></video>
             </div>
-            
-
         </div>
+        <!--Text overlying background video-->
         <div id="text-outer">   
-            <h1>Cafe</h1> 
-            
+            <h1>Cafe</h1>         
         </div>
         
     </header>
+
+    <!--Cafe section-->
     <section id="menu-section">
+        <!--Section heading-->
         <h2>Our Menu</h2>
-        
+        <!--Div containing Cafe Menu-->
         <div id="menu-container">
-            <div class="menu">
+            <div class="cafemenu">
                 <h3>Light Meals <i class="fa-solid fa-plate-wheat"></i></h3>
                 <ul>
                     <li>Toasted sandwiches with salad/chips<br><strong>(beef/chicken/veg)</strong><span
@@ -84,7 +91,7 @@
                     <li class="line-between"></li>
                 </ul>
             </div>
-            <div class="menu">
+            <div class="cafemenu">
                 <h3>Bakery <i class="fa-solid fa-cookie"></i></h3>
                 <ul>
                     <li><strong><i>*Subject to change</i></strong></li>
@@ -102,7 +109,7 @@
                     <li class="line-between"></li>
                 </ul>
             </div>
-            <div class="menu">
+            <div class="cafemenu">
                 <h3>Drinks <i class="fa-solid fa-glass-water"></i></h3>
                 <ul>
                     <li>Cappuccino<span class="prices">3.50€</span></li>
@@ -131,9 +138,9 @@
                     <li>Soft drinks<span class="prices">2€</span></li>
                     <li class="line-between"></li>
                 </ul>
-
             </div>
         </div>
+        <!--Extra Menu options div-->
         <div>
             <p id="menu-choice">
                 <strong><i>* Available On Request</i></strong><br>
@@ -141,17 +148,16 @@
                 <i class="fa-solid fa-circle-check"></i> Halaal Options <br>
                 <i class="fa-solid fa-circle-check"></i> Gluten-Free Options
             </p>
-            <div id="cafe-image">
-                
+            <div id="cafe-image">  
             </div>
         </div>
-
     </section>
 
 
 
-
+    <!--Footer-->
     <footer>
+        <!--Div containing divs for contact details, location and opening times-->
         <div id="details-container">
 
             <div class="details">
@@ -174,6 +180,7 @@
             </div>
         </div>
         <hr>
+        <!--Social Media links-->
         <ul class="social-media">
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener"
@@ -188,6 +195,7 @@
 
 
         </ul>
+        <!--Copyright statement-->
         <p id="copyright">2022@Paint-InCafe.All rights reserved</p>
     </footer>
     <!--Font Awesome Kit -->
