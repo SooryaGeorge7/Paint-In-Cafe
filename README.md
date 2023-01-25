@@ -556,3 +556,13 @@ Gallery images
 * [Bakery food](https://www.pexels.com/photo/overhead-shot-of-slices-of-cake-on-saucers-9795914/)
 
 ### Acknowledgement
+
+* I would first like to acknowledge my husband for supporting me through my decision to do this course and through all the late nights and meltdowns so far especially knowing that this will only get worse through the course of the year. :D 
+* My friends ,family and colleagues who have tested my site on their devices to make sure all looks and works well.
+* I would like to acknowledge My Mentor Brian O'Hare for guiding me and giving constructive critism in our 3 mentor sessions so far.
+* I would like to thank youtube, code institue LMS, W3c schools website, slack search engine, for the helping me understand and learn html and css as best as i could.
+* Kera cudmore's readme template helped me get comfortabe in starting my read me without it being too daunting.
+* I want to thank Louise Benson and Szilvia Csernus for giving feedback in peer-code-review channel in Slack.
+* UCD academy novemeber private group in slack for our almost weekly facilitator sessions that have helped in getting some our doubts cleared with regards to the project.
+* Chris Quinn for delivering our facilitator and master classes so far which has helped me to not feel completly alone in this journey.
+* I acknowledge Eli Dimitrova and Lane sawyer thompson for reply to my question regarding mentor session in slack. 

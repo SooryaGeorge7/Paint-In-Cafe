@@ -2,19 +2,23 @@
 <html lang="en">
 
 <head>
+    <!--META TAGS-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A Cafe in which you can paint located in Dublin,Ireland">
     <meta name="keywords" content="Painting, Paint-In, Cafe, Dublin, Ireland">
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Browser Tab Title -->
     <title>Paint-In Cafe</title>
+    <!--Favicon Icon-->
     <link rel="icon" href="assets/favicon/favicon.ico">
 </head>
 
 <body>
-
     <header>
+        <!-- Nav Bar Logotitle and image-->
         <a aria-label="logoimage" id="logo" href="index.html">
             <img id="logoimage" src="assets/images/paintin-logo.webp" alt="Paint-In Cafe Logoimage">
             <span id="cafelogo">
@@ -22,11 +26,14 @@
             </span>
             <p id="logotext">The spot to eat & paint.</p>
         </a>
+        <!-- Nav bar links and toggler-->
         <nav>
+            <!--Icon for Hamburger Toggler-->
             <label for="check" class="checkbutton">
                 <i class="fa-solid fa-bars"></i>
             </label>
             <input type="checkbox" id="check">
+            <!--Nav Links-->
             <ul id="menu">
                 <li>
                     <a class="active" href="index.html">Home</a>
@@ -45,25 +52,27 @@
                 </li>
             </ul>
         </nav>
+        <!-- For Background Video-->
         <div id="video-outer">
             <div>
                 <video id="paintvideo" src="assets/videos/watercolors-background.mp4" autoplay muted loop></video>
             </div>
-            
-
         </div>
+        <!--Text overlying background video-->
         <div id="text-outer">   
             <p><i class="fa-solid fa-magnifying-glass"></i> Have you been searching for a place to be your creative outlet? <br><br><a id="learn" href="#concept">Learn More</a> </p>
-            
         </div>
+        <!--Cafe updates div-->
         <div id="text-outer2">
             <p><i class="fa-solid fa-arrows-rotate"></i> Cafe Update:<br>Now open Friday to Sunday, 8AM to 8PM.</p>
         </div>
     </header>
-    
 
+    <!--Concept Section-->
     <section id="concept">
+        <!--Section Heading-->
         <h2 id="concept-heading">How Does It Work? </h2>
+        <!--Div containing divs explaining the concept-->
         <div id="concept-section">
             <div>
                 <h3>Be Inspired! <i class="fa-solid fa-lightbulb"></i></h3>
@@ -77,7 +86,6 @@
                     All equipment needed for the experience will be provided to you when you have ordered food from the
                     cafe.<br>
                     Equipments provided:<br>watercolor paint, painting paper pad, brushes, glass with water to clean brush, mixing palette and a sponge
-
                 </p>
             </div>
             <div>
@@ -115,22 +123,19 @@
                 </p>
             </div>
         </div>
-
-        <div id="watercolor-outer">
-            
+        <!--Div containing background image which is a fixed image-->
+        <div id="watercolor-outer">         
         </div>
-
     </section>
     
-
+    <!--Footer-->
     <footer>
+        <!--Div containing divs for contact details, location and opening times-->
         <div id="details-container">
-
             <div class="details">
                 <h2 id="times"> Opening Times <i class="fa-solid fa-clock"></i> </h2>
                 <p class="details-inner">Friday to Sunday<br>8AM to 8PM</p>
-            </div>
-            
+            </div>           
             <div id="location-container" class="details">
                 <h2 id="location"> Location <i class="fa-solid fa-location-dot"></i></h2>
                 <p class="details-inner"><i class="fa-solid fa-map-pin"></i> 3 Mayfair Road<br>Dublin 7<br>Ireland<br>Y36 2234<br><br>
@@ -138,14 +143,14 @@
                         href="https://www.google.com/maps/d/viewer?ie=UTF8&oe=UTF8&msa=0&mid=1GCCHReNwHntLxVtHRF9ZdRzdppc&ll=53.58372044690462%2C-7.123224799999996&z=9"
                         target="_blank"><i class="fa-solid fa-map"></i> Maps</a><br>
                 </p>
-            </div>
-            
+            </div> 
             <div class="details">
                 <h2 id="contact-info"> Contact Us <i class="fa-regular fa-address-book"></i> </h2>
                 <p class="details-inner"><i class="fa-regular fa-envelope"></i>:Paint-inCafe@gmail.com<br><i class="fa-solid fa-phone"></i>:+353823450924</p>
             </div>
         </div>
         <hr>
+        <!--Social Media links-->
         <ul class="social-media">
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener"
@@ -157,11 +162,11 @@
                     aria-label="Visit our Instagram page (opens in a new tab)"><i
                         class="fa-brands fa-square-instagram"></i></a>
             </li>
-
-
         </ul>
+        <!--Copyright statement-->
         <p id="copyright">2022@Paint-InCafe.All rights reserved</p>
     </footer>
+    
     <!--Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/a8dca34502.js" crossorigin="anonymous"></script>
 </body>
