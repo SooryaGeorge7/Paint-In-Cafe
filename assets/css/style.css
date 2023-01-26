@@ -512,8 +512,7 @@ label {
 }
 
 
-input[type=text],
-input[type=email],
+.input,
 select,
 textarea {
     border: 0.125rem solid #FFFFFF;
@@ -526,16 +525,14 @@ textarea {
     height: 10rem;
 }
 
-input[type=text]:hover,
-input[type=email]:hover,
+.input:hover,
 select:hover,
 textarea:hover {
     background-color: #C4C3C7;
 
 }
 
-input[type=text]:focus,
-input[type=email]:focus,
+.input:focus,
 select:focus,
 textarea:focus {
     background-color: #FFFFFF;
@@ -622,8 +619,7 @@ select option:focus {
         font-size: 120%;
     }
 
-    input[type=text],
-    input[type=email],
+    .input,
     select,
     textarea {
 
