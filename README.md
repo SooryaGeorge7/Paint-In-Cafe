@@ -341,6 +341,12 @@ To clone the Paint-In-Cafe Repository:
 
 ## Testing
 
+I used chrome developer tools extensively while developing the project for testing.
+
+Once my project was submitted for peer-code-review, the following issues were raised to me: 
+1) When clicking on the logo, the website took you directly to the footer instead of home page.-This was done on purpose initially because i wanted the user to have the details in the footer as easily accessible as possible but my mentor confirmed to changing the href of logo to the home page(index.html) too.
+2) When clicking form submit, the submit button allowed a pop up messaging without validating any of the inputs given by user.-The form method was changed to "GET" and action to "thankyou.html which led you to thank you page once you are able to submit and changing input type and adding required attribute.The "onclick" javascript function was removed from the code as the pop alert message will be shown even with invalid inputs.
+
 ### W3C Validator
 
 I used W3C validator website to validate HTML and CSS of my website. The image links of each page is listed down below:
