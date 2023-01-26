@@ -564,18 +564,24 @@ I did test on a variety of devices as well and displayed below is a table showin
 
 ### BUGS
 #### Known Bugs
-* It was brought to my attention that my fixed images in my home page and cafe page does not work on iphone devices/ IOS devices.I did not have any IOS devices at home and was not aware of it until a friend sent a screenshot to me from her iphone. The images appeared stretched or zoomed in and did not have the effect of a fixed image.My fixed images worked on my laptops, and all the  android devices. I had asked in Slack what could be the reason and was adviced by Grace Mckenna that IOS doesnt support that code and could be outside the scope of project 1. After some intense googling, i had found a solution for future implementation that says you can use javascript for it to work on iphone devices.[Stack overflow solution](https://stackoverflow.com/questions/20443574/fixed-background-image-with-ios7). At this point in my project , i was almost done with the project and testings and the readme file too.In the future i will be aware of it and try and see if i can implement javascript on have the desired effect on IOS devices.
-* It was also brought to my attention that background videos do not work on ios devices because autoplay is not supported by IOS devices, so i did the next best thing- Add a backup image to fall back on using poster attribute for video elements.[Solution found on Google](https://support.shortpoint.com/support/solutions/articles/1000219664-background-video-does-not-work-on-iphone-ipad-devices). In stack overflow i also saw some suggestions but i dont have iphone or ios devices at home so it was very difficult to test these codes 1 day before due date, il definetly try implement and test these solutions in the future. [Stack Overflow solutions](https://stackoverflow.com/questions/59325257/html5-video-background-not-playing-safari-on-iphone)
+
+* It was brought to my attention that my fixed images in my home page and cafe page does not work on iphone devices/ IOS devices.I did not have any IOS devices at home and was not aware of it until a friend sent a screenshot to me from her iphone. The images appeared stretched or zoomed in and did not have the effect of a fixed image.My fixed images worked on my laptops, and all the  android devices. I had asked in Slack what could be the reason and was adviced by Grace Mckenna that IOS doesnt support that code and could be outside the scope of project 1. After some intense googling, i had found a solution for future implementation that says you can use javascript for it to work on iphone devices.[Stack overflow solution](https://stackoverflow.com/questions/20443574/fixed-background-image-with-ios7). At this point in my project , i was almost done with the project  and the readme file too.In the future i will be aware of it and try and see if i can implement javascript to have the desired effect on IOS devices.
+* It was also brought to my attention that background videos do not work on ios devices because autoplay is not supported by IOS devices, so i did the next best thing- Added a backup image to fall back on using poster attribute for video elements.[Solution found on Google](https://support.shortpoint.com/support/solutions/articles/1000219664-background-video-does-not-work-on-iphone-ipad-devices). In stack overflow i also saw some suggestions but i dont have iphone or ios devices at home so it was very difficult to test these codes 1 day before due date, il definetly try implement and test these solutions in the future. [Stack Overflow solutions](https://stackoverflow.com/questions/59325257/html5-video-background-not-playing-safari-on-iphone)
 
 
 #### Solved Bugs
+
 * Making a herovideo that also acts as a background video. I couldnt use the background attribute in css  to add the background videos and make changes in that way. I had to insert video in a div in html and adjust the video using css to make it appear as a background video/gif rather than a video that stands alone.
 * I could not fit navigation links in the smaller screens without it looking too cluttered or the font-size being ineligable.I decided to make a hamburger toggler for smaller screen which will show navigation links when clicked on.
 * My menu of naviagtion links in smaller screens were not displaying properly because all the elements were on the same level, then i used z-index to make my menu higher than the other elements on the screen to make sure menu is displayed ontop of the other elements without the other elements showing through. 
 * The background video did not want to center itself as the screensizes increased or decreased- this was fixed by adding a outer div to video and setting the position of div to relative while you position the video itself to absolute. Set the object-fit of video to cover. Set the bottom attribute of video to be 0.
-* The images in gallery did not have the correct aspect ratio while doing lighthouse testing- I solved this by adding the css attribute object with value of cover to every image in the gallery.
+* The images in gallery did not have the correct aspect ratio while doing lighthouse testing- I solved this by adding the css attribute object-fit with value of cover to every image in the gallery.
+* The form submit button was allowing pop up message to occur without validating inputs given by user. - Changed the method attribute of form to "GET"and action to "thankyou.html" and removed onclick javascript function from input element.
+
+---
 
 ## Credits
+
 ### Code Used
 * [Code used to make hamburger toggler](https://www.codingnepalweb.com/responsive-navigation-menu-bar-html-css/)
 * [Learnt how to make shadow to a section here](https://www.w3schools.com/css/css3_shadows_box.asp)
@@ -583,6 +589,8 @@ I did test on a variety of devices as well and displayed below is a table showin
 * [Got the code to make gallery to display as a flexbox so that it is responsive here](https://www.youtube.com/watch?v=Trw_9lisYVY)
 * [learnt how to center the background video so that the video doesnt shrink according to screensizes here](https://www.youtube.com/watch?v=znqUwx0b0HI&t=8s)
 * [Learnt to add scroll button in gallery using css and html only](https://www.youtube.com/watch?v=Vef9bxTilCU)
+* [Learnt that i should implement fallback images for videos here](https://support.shortpoint.com/support/solutions/articles/1000219664-background-video-does-not-work-on-iphone-ipad-devices)
+
 ### Content
 * All content in the website was written by me but i did draw inspiration from the websites below: 
 
@@ -609,6 +617,11 @@ Fixed images shown in home page and cafe page.
 Other images.
 * [Sunny Marie Photo(fictional owner)](https://www.pexels.com/photo/woman-in-black-sweater-holding-brush-watercolor-set-and-notebook-7181836/)
 * [Paint-in Cafe logo image](https://www.svgrepo.com/)
+* [Backup image for home background video](https://www.pexels.com/photo/blue-white-and-yellow-abstract-painting-4175054/)
+* [Backup image for about background video](https://www.pexels.com/photo/close-up-photo-of-paintbrush-1666756/)
+* [Backup image for cafe background video](https://www.pexels.com/photo/cappuccino-in-black-ceramic-mug-on-white-ceramic-round-plate-3637819/)
+* [Backup image for gallery video](https://www.pexels.com/photo/bunch-of-photo-print-1908066/)
+* [Backup image for event enquiry page video](https://www.pexels.com/photo/low-angle-shot-of-pink-and-red-balloons-226718/)
 
 Gallery images 
 * [Mother helping her child with painting](https://www.pexels.com/photo/a-woman-in-white-long-sleeves-standing-near-her-student-painting-on-white-paper-7898456/)
@@ -630,12 +643,14 @@ Gallery images
 
 ### Acknowledgement
 
-* I would first like to acknowledge my husband for supporting me through my decision to do this course and through all the late nights and meltdowns so far especially knowing that this will only get worse through the course of the year. :D 
+I would like to acknowledge the following people in helping with me project one way or another: 
+
+* My husband for supporting me through my decision to do this course and through all the late nights and meltdowns so far especially knowing that this will only get worse through the course of the year. :D 
 * My friends ,family and colleagues who have tested my site on their devices to make sure all looks and works well.
-* I would like to acknowledge My Mentor Brian O'Hare for guiding me and giving constructive critism in our 3 mentor sessions so far.
-* I would like to thank youtube, code institue LMS, W3c schools website, slack search engine, for the helping me understand and learn html and css as best as i could.
+* My Mentor Brian O'Hare for guiding me and giving constructive critism in our 3 mentor sessions so far.
 * Kera cudmore's readme template helped me get comfortabe in starting my read me without it being too daunting.
 * I want to thank Louise Benson and Szilvia Csernus for giving feedback in peer-code-review channel in Slack.
+* I acknowledge Mckenna Grace for replying to my question about a bug on ask-anything slack group.
 * UCD academy novemeber private group in slack for our almost weekly facilitator sessions that have helped in getting some our doubts cleared with regards to the project.
 * Chris Quinn for delivering our facilitator and master classes so far which has helped me to not feel completly alone in this journey.
-* I acknowledge Eli Dimitrova and Lane sawyer thompson for reply to my question regarding mentor session in slack. 
+* I acknowledge Eli Dimitrova and Lane sawyer thompson for reply to my question regarding mentor sessions in slack. 
