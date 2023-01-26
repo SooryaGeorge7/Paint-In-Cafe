@@ -194,6 +194,7 @@ In addition to the general features of all page , the about page has the followi
 ---
 
 #### Cafe Page
+
 This page has the food menu for the cafe. It will also show information that shows that halaal, vegan and gluten free options are available on request.Costs are shown so that the user can be prepared before coming into the cafe. Image of a section of the Cafe is included.
 
 In addition to the general features of all page , the about page has the following:
@@ -209,12 +210,14 @@ In addition to the general features of all page , the about page has the followi
 ---
 
 #### Gallery Page
+
 This page has images of paintings, people and food inorder to attract potential customers to visit the cafe.These are placed in the gallery to inspire potential customers to share the cafe website to their family or friends.
 
 
 In addition to the general features of all page , the about page has the following:
 * It has a background video with text overlying that specifies that this is the `Gallery` page which contains the title **Make Memories**.
 ![Gallery page background](documentation/gallery-backgroundvideo.png)
+
 * It has a section contains all the photos i have saved from [Pexels](https://www.pexels.com/search/paintbrushes/) with heading.
 
 ![Gallery section heading](documentation/gallery-heading.png)
@@ -232,8 +235,10 @@ This page has a form that should be filled in if you want to host an event at th
 
 
 In addition to the general features of all page , the about page has the following:
+
 * It has a background video with text overlying that specifies that this is the `Event Enquiry` page.
 ![Events page backgroundvideo](documentation/events-background.png)
+
 * The main section with heading and 2  divs , one containing information on when and how to send enquiry on the form and the other containing the form itself where certain information needs to be filled in or selected to submit form.
 
 ![Events section heading](documentation/events-heading.png)
@@ -242,21 +247,30 @@ In addition to the general features of all page , the about page has the followi
 
 ![Events section submit button](documentation/submit-button.png)
 
+Once you have submitted the form by clicking the submit button, The website will lead you to a thank you page where you can still navigate back to home page if needed.
+You can have a look at the thank you page here.
+* [Thank you page](documentation/thankyou-page.png)
+
 ---
 
 ### Future Implementation
+
 * I really wanted to make a slideshow of pictures in the home page and events page but learnt that i would need to use javascript inroder to do so.
-* I wanted to make another "Thank you"html page that the submit button in enquiry form redirects you towards instead  of using Onclick function to have a pop up message but i ran out of time to do this. The thankyou.html will display the message "Thank you for submitting our event enquiry form, Our staff will be intouch with you in less than 24hours!"
-* Id add shadowing around all the images that has border to look like polaroid photos to make the images stand out more. Unfortunately my colors that chose in my color palette wasnt dark enough to cause enough contrast in dark more so i opted to remove the gray shadowing i had initially.
+* I would implement making the gallery images in gallery page clickable and to appear full size when clicked on.
+* I would use javascript for my fixed images in my website to work properly on IOS devices. See more in [Known Bugs](#known-bugs)
+
 If this was a real cafe:-
-* Id want to implement google reviews in the website so that website visitors would be able to understand the experience from the customer's point of view.
+* I'd want to implement google reviews in the website so that website visitors would be able to understand the experience from the customer's point of view.
 * Change the gallery page outlay to display previous customer's artwork, returning customers will be able to go check out their painting in the gallery.
 * Implement a share button inorder for site visitors to share the website with others. 
 * I would have liked to include a video of the cafe's concept to help the user understand better.
 * I would also include an art class page for customers who actually want to sign up for evening art classes.
 * It would also be intersting to have best artwork of the month awards section in the home page.
 
+---
+
 ### Accessibility
+
 These are the ways i have ensured to provide accessibility to users:
 * Used HTML semantics.
 * Provided navigation links to access other pages.
@@ -265,16 +279,19 @@ These are the ways i have ensured to provide accessibility to users:
 * Ensured Colour Contrast so that the websites are easily readable in light and dark mode.
 * Provided alt for images incase images do not load.
 * Provided information for icons where no text was provided.
-* Provided a submit button in the contact form which will then give out a pop up message. 
+* Provided a submit button in the contact form which will then direct you to a thank you page with navigation links still displayed so that you can navigate around the website more if needed. 
 * Aria labels and aria properties were implemented.
 * Google font "Playfair display" was chosen carefully and i chose the pairing to this font "Open Sans" here [Playfair display pairing](https://typ.io/fonts/playfair_display#:~:text=Playfair%20Display%20is%20a%20serif,Work%20Sans%2C%20Circular%20and%20Georgia.).
 
 ---
 
 ## Technologies Used
+
 ### Languages Used
 HTML and CSS was mainly used to build this website. Javascript was only used for On click function for submit form.
+
 ### Frameworks, Libraries and Programs Used
+
 * [Balsamiq](https://balsamiq.com/) - For Wireframes for planning of design.
 * [Gitpod](https://www.gitpod.io/) - To edit code/ code editor.
 * [GitHub](https://github.com/) - for version control, storage and deployment
@@ -303,6 +320,7 @@ To create a live website of Paint-In Cafe, deployment was done using github page
 6. Now click save and wait a few minutes.
 7. Refresh the page, and the url for your live website will be shown under the heading, GitHub Pages.
 8. Deployment is now complete.
+
 ### Local Development
 #### How to Fork
 To fork the Paint-In-Cafe Repository: 
