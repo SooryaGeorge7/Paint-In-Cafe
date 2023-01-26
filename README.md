@@ -1,7 +1,10 @@
 # Paint-in Cafe
-This website is built for all the residents or tourists of Ireland(ROI) looking to do a creative activity in Dublin,Ireland.The website is based on a fictional cafe that allows you the unique experience of painting with watercolors while also eating from the cafe.This website is designed to be responsive to allow users from any location to view the cafe website on any device.
+This website is built for all the residents or tourists of Ireland(ROI) looking to do a creative activity in Dublin,Ireland.The website is based on a fictional cafe that allows you the unique experience of painting with watercolors while also eating from the cafe.This website is designed for code institute full stack program portfolio project 1 and it is built to be responsive to allow users from any browser to view the cafe website on any device.
 
 ![Website shown in different devices](documentation/am-i-responsive-final.png)
+
+---
+
 ## CONTENT
 * [User Experience(UX)](#user-experience(ux))
   * [Brief](#brief)
@@ -40,15 +43,17 @@ This website is built for all the residents or tourists of Ireland(ROI) looking 
   * [Media](#media)
   * [Acknowledgement](#acknowledgement)
 
+---
+
 ## User Experience(UX)
 ### Brief
 Paint-In Cafe is a Cafe based in Dublin, Ireland. Visitors of the cafe are provided with the necessory stationaries to paint with watercolors while having the option to order from our food menu as well.It is the place to go to when you want to do a creative activity to do with any number of people.This website is created for any users/ first time visitors to understand the cafe's concept, get contact details, find location of the cafe or send in an inquiry to the "paint-in cafe's " staff inorder to accomodate their specific needs.
 ### Key information 
-* The cost involved (Cafe and experience)
+* The cost involved (Cafe and experience).
 * Do you need prior experience in painting?
 * Is there an age limit?
 * Do i need to book?
-* Opening times and location
+* Opening times and location.
 * Contact details incase you need to get clarification on a specific problem.
 * Extras included in cafe food, veg and vegan options?
 * Is the food halaal?
@@ -56,36 +61,45 @@ Paint-In Cafe is a Cafe based in Dublin, Ireland. Visitors of the cafe are provi
 * Any updates on the cafe?
 
 ### User Stories
-#### Website Owner's Goals
-* To be able to view the site on different device sizes.
+
+#### Owner's Goals
+* To be able to allow the users to view the website on different devices.
 * To allow potential customers to find out about Paint-In Cafe and where its located.
-* To allow potential customers about the concept of the cafe and understand what they need to do to visit.
+* To allow potential customers learn about the concept of the cafe and understand what they need to do to visit.
 * To ensure visitors have access to contact details incase they have any questions with regards to the cafe.
 * To ensure customers know exactly what they get out of the experience.
 * To allow customers to be able to book tables in case of events.
-* To provide the visitors all the information they need before visiting the cafe for the first time.
 * To be able to view the site in dark or lightmode with ease.
-* To ensure that the visitor can easily naviagte through the site.
+* To ensure that the visitor can easily navigate through the site and give good user experience.
+* To ensure visitors can access the site's social media pages.
+* To generate traffic to website.
+* To allow website visitors to submit form succesfully and for the user to recieve feeback on submission.
 
 #### First Time Visitor Goals
-* To be able to navigate around the website with ease to find any information.
-* To ensure that the visitor can find the enquiry form to submit in the case of wanting to book a table for an event.
-* To allow visitors to see gallery pictures of the cafe and paintings done at the cafe.
-* To allow visitors to view the menu of the cafe on the site to see their options for food and prices.
-* To allow visitors to have contact information incase they have any questions. 
-* Ensure visitors can find out about location and opening times.
+* To be able to find any information that is needed before visiting cafe.
+* To find the enquiry form to submit in the case of wanting to book a table for an event.
+* To be able to view gallery pictures of the cafe and paintings done at the cafe.
+* To  view the menu of the cafe on the site to see their options for food and prices.
+* To find out about prices.
+* To  have contact information incase they have any questions. 
+* To find out about location and opening times.
+
 
 #### Returning Visitor Goals
 * To be able to find any updates about the cafe on the home page.
 * Find contact details of Cafe in case they have any questions with regarding to their experience at the cafe.
 * To be able to find their own pictures in the gallery.
+* To find social media pages of the website.
+
+---
 
 ## Design
+
 ### Color Scheme
-![Inserting paint-In cafe color palette](documentation/paint-in-caf%C3%A9-color-palette.png)
-I initially inserted the color palette above thinking that the colors appear the same(atleast almost) on all devices.After finishing the website and i checking my website on other devices i realised that my colors looked very different from my own laptop. 
+*[Initial Paint-In cafe color palette](documentation/paint-in-caf%C3%A9-color-palette.png)
+I initially inserted the color palette above thinking that the colors appear the same(atleast almost) on all devices.After finishing the website and checking my website on other devices i realised that my colors looked very different from my own laptop. 
 I thought the color **#67D387** was a pastel mint green color but it appeared bright green on other devices.The **#7B9F82** was supposed to be a grey color which turned out to be a shade of green on other devices. I decided to change these two colors to accomodate my device and other devices. I tested the color **#C4C3C7** and **#ADD0B3** below and they looked more like the colors i wanted in all the other devices.
-I used pastel green color because i find green to be a calming color and i found that a lot of art websites used **pastel** colors. I thought the dark red gives a good contrast to the pastel green and it may also be reminscent of the cafe interior and dark furniture. The white and grey helps with the flow and balance of the two contrast colors.I decided againt using the **#F0996A** because the color ddnt flow nicely with the design and i ddnt know how to incorporate without it clashing with the other colors.
+I used pastel green color because i find green to be a calming color and i found that a lot of art websites used **pastel** colors. I thought the dark red(**#8C2323**) gives a good contrast to the pastel green and it may also be reminscent of the cafe interior and dark furniture. The white and grey helps with the flow and balance of the two contrast colors.I decided againt using the **#F0996A** because the color ddnt flow nicely with the design and i ddnt know how to incorporate without it clashing with the other colors.
 
 **Final Color Palette**
 ![Inserting changed color palette](documentation/final-color-palette.png)
@@ -94,7 +108,9 @@ I used pastel green color because i find green to be a calming color and i found
 ---
 
 ### Typography
+
 I used these two Google Fonts for headings and other texts because they pair well together.
+I used [Typ.io](https://typ.io/) to help with pairing.
 * [Playfair Display](https://fonts.google.com/specimen/Playfair+Display)-This is a transitional serif typeface and i used this for headings.
 * [Open Sans](https://fonts.google.com/specimen/Open+Sans)-This is a humanist sans serif typeface and i used this for paragraphs and other texts.
 
@@ -102,6 +118,9 @@ I used these two Google Fonts for headings and other texts because they pair wel
 All images in the website were taken from a free image source called Pexels.I have included the links to the images in [Credits](#credits) section.
 * [Pexels website](https://www.pexels.com/)-Used for all images and videos in website.
 * [svgrepo](https://www.svgrepo.com/svg/105795/paintbrush-and-palette)-Used for the logo and favicon.
+* [TinyPNG](https://www.tinypng.com/)-Used to compress images.
+* [Birme](https://www.birme.net/)-Used to change formating to increase accessibility.
+
 ### Wireframes
 Wireframes for mobile, tablet and desktop view
 * **HOME PAGE**![Home page wireframe](documentation/home-wireframe.png)
@@ -109,7 +128,6 @@ Wireframes for mobile, tablet and desktop view
 * **CAFE PAGE** ![Cafe page wireframe](documentation/cafe-wireframe.png)
 * **GALLERY PAGE** ![Gallery page wireframe](documentation/gallery-wireframe.png)
 * **EVENTS ENQUIRY PAGE**![Event enquiry page wireframe](documentation/event-enquiry-wireframe.png)
-
 The final designs look very different to initial wireframe designs because i started thinking more and more about user experience and design flow and realized i had to change a lot.
 ---
 ## Features
