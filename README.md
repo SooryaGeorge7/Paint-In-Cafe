@@ -128,13 +128,15 @@ Wireframes for mobile, tablet and desktop view
 * **CAFE PAGE** ![Cafe page wireframe](documentation/cafe-wireframe.png)
 * **GALLERY PAGE** ![Gallery page wireframe](documentation/gallery-wireframe.png)
 * **EVENTS ENQUIRY PAGE**![Event enquiry page wireframe](documentation/event-enquiry-wireframe.png)
-The final designs look very different to initial wireframe designs because i started thinking more and more about user experience and design flow and realized i had to change a lot.
+
+
+The final designs look very different to initial wireframe designs because i started thinking more and more about user experience and design flow and realized i had to change a lot.I have also added a Thank you page for after user submits form.
 ---
 ## Features
 
 ### General Features Per Page
 
-The website has 5 pages in total. The pages `Home`, `About`,`Cafe`, `Gallery`,`Event Enquiry` are placed as navigation links on the first page on the top rightside if the website is displayed on desktop, laptop or tablet. The navgation links to these pages are removed and placed as a hamburger toggler button when viewed on a mobile.This is done to to save space avoid looking cluttered in mobile-view.Each page will have the header element and footer element that will be consistent thoughout the pages.The website is designed to be easy to navigate for first time visitors on the site.The texts on the pages will appear more centerd in smaller devices like mobile and will move horizontally when in bigger devices.
+The website has 5 main pages and 1 thank you page that appears once you click submit on the form. The pages `Home`, `About`,`Cafe`, `Gallery`,`Event Enquiry` are placed as navigation links on the first/home page on the top rightside if the website is displayed on bigger screens. The navgation links to these pages are removed and placed as a hamburger toggler button when viewed on a mobile.This is done to to save space avoid looking cluttered in mobile-view.Each page will have the header element  and footer element that will be consistent thoughout the pages.The website is designed to be easy to navigate for first time visitors on the site.The texts and boxes on the pages will appear more centerd in smaller devices like mobile and will move horizontally when in bigger devices.
 
 
 #### General Features 
@@ -142,7 +144,7 @@ The website has 5 pages in total. The pages `Home`, `About`,`Cafe`, `Gallery`,`E
 ![Header](documentation/header-bigscreens.png)
 ![Header mobile view](documentation/headertop-smallscreens.png)
 * For all the pages there will be a header consisting of navigation links that allow you to move from one page to another.
-* The header element will also have Cafe's logo and name on far left. When hovered over, the cursor becomes pointer and allows you to press the logo and name which then takes you directly to the footer of the page where location , opening times and contact details are shown.  
+* The header element will also have Cafe's logo and name on far left. When hovered over, the cursor becomes pointer and allows you to press the logo and name which then takes you directly to return to home page of cafe website.
 * For smaller screen the navigation links appear when you press on toggler button that is displayed as 3 red bars top right on the smaller screen.
 
 ![Nav links](documentation/navlinks-smallscreen.png)
@@ -152,23 +154,26 @@ The website has 5 pages in total. The pages `Home`, `About`,`Cafe`, `Gallery`,`E
 
 ![Footer small screen](documentation/footer-smallscreen.png)
 ![Footer](documentation/footer-layout.png)
-* The footer contains social media links, opening times, contact details, and location of cafe.
+* The footer contains social media links, copyright statement, opening times, contact details, and location of cafe.
 * The maps button takes you directly to google maps.
 * The social media links take you directly to facebook and instagram.
 * When hovered on the social media links and maps button, the color changes to #ADD0B3, allowing the user to know that they can be clicked on.
 ---
-#### Home Page
+#### Home Page features
 This page should attract first time visitors and want them to keep navigating through the website.It has colourful images and 
- a background video . Easy to read information about the cafe's concept and how it works- This is broken down into different blocks so that the information isnt too overwhelming and easy to find. The information is layed out in a way so that the common infomration that the first-time users may be looking for can be found without hassle.It also Shows contact details, Location and opening times as well as social media part as part of the footer.
+ a background video . Easy to read information about the cafe's concept and how it works- This is broken down into different blocks so that the information isnt too overwhelming and easy to find. The information is layed out in a way so that the common infomration that the first-time users may be looking for can be found without hassle.It also Shows contact details, location and opening times as well as social media links as part of the footer.
 
  
 In addition to header and footer, the home page shows the following:
-* A background video with text overlying with a button-When hovered on it turns the same color as the nav links.This button takes you to the main section of home page which tells the user about the concept of cafe and all the information that they might look for when visiting the site. 
+
+* A background video with text overlying with a `Learn More`button-When hovered on it turns the same color as the nav links.This button takes you to the main section of home page which tells the user about the concept of cafe and all the information that they might look for when visiting the site. 
 ![Home page background features](documentation/home-page-video-feature.png)
 ![Home page Learn More Button](documentation/learn-more-feature.png)
+
 * There is a cafe updates feature just below the background video that shows and updates.
 ![Home page cafe updates feature](documentation/cafe-updates-feature.png)
-* The main section of the page is divided into divs. Each div contains information that would be useful to the user, one of the div also allows you to access event enquiry page directly by allowing you to click on the text that says event enquiry page. 
+
+* The main section of the page is divided into divs. Each div contains information that would be useful to the user, one of the div also allows you to access event enquiry page directly by allowing you to click on the text that says **Event Enquiry** page. 
 ![Home page main section with heading](documentation/concept-feature.png)
 
  ---
@@ -178,8 +183,10 @@ In addition to header and footer, the home page shows the following:
 This page shows how Paint-in cafe came about, information about when it was built, A deep dive into the background story of the owner and even more details about the cafe. 
 
 In addition to the general features of all page , the about page has the following:
+
 * It has a background video with text overlying that specifies that this is the `About` page.
 ![About page background video](documentation/about-backgroundvideo-feature.png)
+
 * A section with heading and 2 divs that serves the user information in **bite** size portions. The picture of owner is included(fictional charector) in this section.
 ![About page section heading](documentation/about-heading-feature.png)
 ![About page section ](documentation/about-content-feature.png)
@@ -190,9 +197,11 @@ In addition to the general features of all page , the about page has the followi
 This page has the food menu for the cafe. It will also show information that shows that halaal, vegan and gluten free options are available on request.Costs are shown so that the user can be prepared before coming into the cafe. Image of a section of the Cafe is included.
 
 In addition to the general features of all page , the about page has the following:
-* It has a background video with text overlying that specifies that this is the `Cafe` page which contains the Cafe Menu.
+* It has a background video with text overlying that specifies that this is the `Cafe` page
 ![Cafe page backgroundvideo feature](documentation/cafe-backgroundvideo-feature.png)
+
 * It has a section containing 3 blocks that has the menu for the cafe and optional extras text below the menu as well.
+
 ![Cafe section heading](documentation/cafe-heading-feature.png)
 ![Cafe page menu feature](documentation/menu-options-feature.png)
 ![Cafe page optional extras](documentation/cafeextra-options-feature.png)
