@@ -259,7 +259,7 @@ You can have a look at the thank you page here.
 * I would implement making the gallery images in gallery page clickable and to appear full size when clicked on.
 * I would use javascript for my fixed images in my website to work properly on IOS devices. See more in [Known Bugs](#known-bugs)
 
-If this was a real cafe:-
+If this website was based on a real cafe:-
 * I'd want to implement google reviews in the website so that website visitors would be able to understand the experience from the customer's point of view.
 * Change the gallery page outlay to display previous customer's artwork, returning customers will be able to go check out their painting in the gallery.
 * Implement a share button inorder for site visitors to share the website with others. 
@@ -298,7 +298,7 @@ HTML and CSS was mainly used to build this website. Javascript was only used for
 * [Font Awesome](https://fontawesome.com/) - For icons in all the pages.
 * [Typ.io](https://typ.io/) - To choose pairing of fonts.
 * [Google Fonts](https://fontawesome.com/v4/icons/) - To choose Heading font and body font.
-* [Dev Tools](https://developer.chrome.com/docs/devtools/) - To help with troubleshoot, testing , checking for responsiveness and styling.
+* [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - To help with troubleshoot, testing , checking for responsiveness and styling.
 * [Am I Responsive](https://ui.dev/amiresponsive) - To show a display of website on a variety of devices.
 * [Favicon](https://favicon.io/favicon-converter/) - To generate favicon
 * [Birme](https://www.birme.net/) - To change image format to webp
@@ -425,7 +425,7 @@ Final Lighthouse score of Home page:
  ![Gallery page final lighthouse score for desktop(light and dark mode)](documentation/galler-desktop-final.png)
  * Mobile(Light & Dark mode)-
  
- ![Gallery page final lighthouse score for mobile(light and dark mode)](documentation/)
+ ![Gallery page final lighthouse score for mobile(light and dark mode)](documentation/gallery-mobile-lighthouse.png)
 
  #### Event Enquiry page
 
@@ -442,6 +442,19 @@ Final Lighthouse score of Home page:
  * Mobile(Light & Dark mode)-
  
  ![Event enquiry page final lighthouse score for mobile(light and dark mode)](documentation/events-mobile-final.png)
+
+ #### Thank You Page
+
+ I tested the thank you page once and had really great results, and did not have any suggestions.
+
+ Lighthouse score of Thank you page:
+ * Desktop(Light & Dark mode)-
+
+ ![Thank you page lighthouse score for desktop(light and dark mode)](documentation/thankyou-desktop-lighthouse.png)
+
+ * Mobile(Light & Dark mode)-
+
+ ![Thank you page lighthouse score for mobile(light and dark mode)](documentation/thankyou-mobile-lighthouse.png)
 #### Wave
 
 ---
