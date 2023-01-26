@@ -280,9 +280,9 @@ These are the ways i have ensured to provide accessibility to users:
 * Provided alt for images incase images do not load.
 * Provided information for icons where no text was provided.
 * Provided a submit button in the contact form which will then direct you to a thank you page with navigation links still displayed so that you can navigate around the website more if needed. 
-* Aria labels and aria properties were implemented.
+* Aria labels were implemented.
 * Google font "Playfair display" was chosen carefully and i chose the pairing to this font "Open Sans" here [Playfair display pairing](https://typ.io/fonts/playfair_display#:~:text=Playfair%20Display%20is%20a%20serif,Work%20Sans%2C%20Circular%20and%20Georgia.).
-
+* I have added in backup images for background videos when backgroundvideos dont play or load. See [Solved Bugs](#solved-bugs).
 ---
 
 ## Technologies Used
@@ -466,22 +466,26 @@ Final Lighthouse score of Home page:
 ---
 
 ### Manual Testing
+
 #### Testing User Stories(UX)
 
 #### Owner's Goals
 * To be able to view the site on different device sizes.
   * Responsiveness was achieved though media queries and chrome dev tools were used to help inspect the site in varying sizes.
 * To allow potential customers to find out about Paint-In Cafe and where its located.
-  * The footer contains information about location.The location section in the footer also has a maps button that will direct you to google maps location. The home page has a text overlying the background video that asks the site visitor a question and the button below says "learn more". If you click on the button, the site will take the visitor to the concept section of home page where the visitor can learn more about Paint-in Cafe.
+  * The footer contains information about location.The location section in the footer also has a maps button that will direct you to google maps location. 
+  * Social media links allows the website to reach more customers.
 * To allow potential customers learnabout the concept of the cafe and understand what they need to do to visit.
+  * The home page has a text overlying the background video that asks the site visitor a question and the button below says "learn more". If you click on the button, the site will take the visitor to the concept section of home page where the visitor can learn more about Paint-in Cafe.
   * In the section under the heading "How does it work?", There are 6 divs that contain headings and information that the website visitor most likely would want to know more about. Eg: Bookings, experience, cafe. 
   * Gallery shows a few images from the cafe and experience so that the visitors know what to expect before visiting.
 * To ensure visitors have access to contact details incase they have any questions with regards to the cafe.
   * Contact details are shown in footer of each page of website.
 * To ensure customers know exactly what they get out of the experience.
-  * Provide sufficient information about the experience, price of everything and also allow images of cafe and experence to be seen by potential customer.
-* To allow customers to be able to book tables in case of events.
+  * Provide sufficient information about the experience, price of everything and also allow images of cafe and experence to be seen by potential customer.This is shown in the concept section in Home page, menu section in cafe page and from the images in gallery page.
+* To allow customers to be able to book tables in case of events or are a group of 10+ people.
   * The navigation bar has an `Event Enquiry` page which takes visitors to a page that allows customers to fill in a form and submit the form. The page also has information as to when booking's are required.
+  * 
 * To be able to view the site in dark or lightmode with ease.
   * The colors chosen for website have sufficient contrast and the website was tested for lighthouse score in darkmode as well. 
 * To ensure that the visitor can easily navigate through the site.
@@ -522,18 +526,19 @@ Final Lighthouse score of Home page:
 #### Full Testing
 
 1. When the site opens in your device, the home page is displayed.
-2. The home page consists of a header that has a logo on top left side and navigation links `Home` `About` `Cafe` `Gallery` `Event enquiry` on the top right side.
+2. The home page consists of a header that has a logo on top left corner, navigation links `Home` `About` `Cafe` `Gallery` `Event enquiry` on the top right corner and background video with overlying text.
 3. The header is consistent through all the pages of the site.
 4. The logo can be clicked on any page and the site will direct you back to home page.
 5. The navigation links on top right corner are clicked to jump between the different pages of the website.
 6. If a naviagtion link is hovered over or focused on, the color of the naviagtion link changes. The link you clicked on will direct you to the specific page that you want to go to.
-7. If you look at the main home page, there is a background video with text overlying it with a button that says "learn more" which can be clicked on to be directed to the main section of home page.
-8. The main section has a 6 boxes, 1 box called bookings has events enquiry link that can be clicked on to be directed to the event enquiry page directly.This link should work.
-9. If you scroll down to the footer of page, the location div has a button that can be clicked on for you to be directed to Google maps.
-10. The footer also has facebook and instagram icons which can be accessed when clicked on. The color of the icons and button in footer should change when hovered on and focused on.
-11. Once on the `About` page or `Cafe` page  , it has same layout like the home page.The pages contain the logo, navigation links and footer containing opening times, location, and contact details. Check these links and buttons in the `About` and `Cafe` page.Both pages have a section inbetween the footer and header.The headers also contain a background video and overlying text.
-12. The `Gallery` page has the same links as the home page, with the addition of a scroll button. When clicked up, it should direct you back to the top of the page.
-13. The `Event Enquiry` page has the same links ,and buttons as homepage except for the "learn more" button.Click all to see if they work. The event page also has a event enquiry form. The form has 3 text input types, 1 email input type, 1 submit input type , a textarea and select input type. Test each of these input fields to see if required attribute works.(The text area does not have required attribute).CLick submit button to see if you will be directed towards a page that is code institute's form dump page.
+7. If you look at the main home page, there is a background video with text overlying it with a button that says **"learn more"** which can be clicked on to be directed to the main section of home page.
+8. The main section of home page has a 6 boxes or divs, 1 box called bookings has an **Events Enquiry** link that can be clicked on to be directed to the event enquiry page directly.This link should work.
+9. If you scroll down even further, You will get to the footer of the page.It consists of opening times, contact details and location of cafe.These are displayed in 3 divs as flexbox. The footer is consistent through all the pages. .
+10. The location div has a button that can be clicked on for you to be directed to Google maps.The footer also has facebook and instagram icons which can be accessed when clicked on. The color of the icons and button in footer should change when hovered on and focused on.
+11. Once on the `About` page or `Cafe` page  , it has same layout like the home page.The pages contain the logo, navigation links and footer containing opening times, location, and contact details. Check these links and buttons in the `About` and `Cafe` page.Both pages have a section inbetween the footer and header.The headers also contain a background video and overlying text(heading).
+12. The `Gallery` page has the same links as the home page, with the addition of a scrollup button. When clicked, it should direct you back to the top of the page.
+13. The `Event Enquiry` page has the same layout,links and buttons as the other pages.Click all to see if they work. The event page also has a event enquiry form. The form has 1 text input type, 1 tel input type, 1 number input type, 1 email input type, 1 submit input type , a textarea and select element. Test each of these input fields to see if required attribute works.(The text area does not have required attribute).Click submit button to see if you will be directed towards the thankyou page.The thank you page has the same layout as events page except the section contains the background video with heading.
+14. The thank you page still allows you to navigate back towards any of the other pages.
 
 I did full testing of all the links, buttons, the form on a number of browsers and i have displayed the results of each of them below:
 
@@ -541,9 +546,9 @@ I did full testing of all the links, buttons, the form on a number of browsers a
 
 |                 | Microsoft Edge | Google Chrome | Mozilla firefox | Safari |
 | :---:           | :---| :--- | :--- | :---|
-| Home Page | *Links - &check; <br>*Buttons - &check;<br>*Form - &check;<br>*Appearance -&check; |*Links - &check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links -&check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links - &check;<br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |
+| Home Page | *Links - &check; <br>*Buttons - &check;<br>*Form - &check;<br>*Appearance -&check; |*Links - &check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links -&check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links - &check;<br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; except fixed image |
 | About Page | *Links - &check; <br>*Buttons - &check;<br>*Form - &check;<br>*Appearance -&check; |*Links - &check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links -&check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links - &check;<br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |
-| Cafe Page | *Links - &check; <br>*Buttons - &check;<br>*Form - &check;<br>*Appearance -&check; |*Links - &check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links -&check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links - &check;<br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |
+| Cafe Page | *Links - &check; <br>*Buttons - &check;<br>*Form - &check;<br>*Appearance -&check; |*Links - &check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links -&check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links - &check;<br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; except fixed image |
 | Gallery Page | *Links - &check; <br>*Buttons - &check;<br>*Form - &check;<br>*Appearance -&check; |*Links - &check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links -&check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links - &check;<br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |
 | Event Enquiry Page | *Links - &check; <br>*Buttons - &check;<br>*Form - &check;<br>*Appearance -&check; |*Links - &check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links -&check; <br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |*Links - &check;<br>*Buttons -&check; <br>*Form - &check;<br>*Appearance -&check; |
 
@@ -551,15 +556,16 @@ I did test on a variety of devices as well and displayed below is a table showin
 
 |                 | S20 ultra | iPhone 12 Pro | Dell inspiron 3593 | Lenovo Thinkpad W541 |
 | :---:           | :---| :--- | :--- | :---|
-| Home Page | *Appearance -&check; |*Appearance -&check; |*Appearance -&check; |*Appearance -&check; |
+| Home Page | *Appearance -&check; |*Appearance -&check; except fixed image |*Appearance -&check; |*Appearance -&check; |
 | About Page | *Appearance -&check; |*Appearance -&check; |*Appearance -&check; |*Appearance -&check; |
-| Cafe Page | *Appearance -&check; |*Appearance -&check; |*Appearance -&check; |*Appearance -&check; |
+| Cafe Page | *Appearance -&check; |*Appearance -&check; except fixed image |*Appearance -&check; |*Appearance -&check; |
 | Gallery Page | *Appearance -&check; |*Appearance -&check; |*Appearance -&check; |*Appearance -&check; |
 | Event Enquiry Page | *Appearance -&check; |*Appearance -&check; |*Appearance -&check; |*Appearance -&check; |
 
 ### BUGS
 #### Known Bugs
-* 
+* It was brought to my attention that my fixed images in my home page and cafe page does not work on iphone devices/ IOS devices.I did not have any IOS devices at home and was not aware of it until a friend sent a screenshot to me from her iphone. The images appeared stretched or zoomed in and did not have the effect of a fixed image.My fixed images worked on my laptops, and all the  android devices. I had asked in Slack what could be the reason and was adviced by Grace Mckenna that IOS doesnt support that code and could be outside the scope of project 1. After some intense googling, i had found a solution for future implementation that says you can use javascript for it to work on iphone devices.[Stack overflow solution](https://stackoverflow.com/questions/20443574/fixed-background-image-with-ios7). At this point in my project , i was almost done with the project and testings and the readme file too.In the future i will be aware of it and try and see if i can implement javascript on have the desired effect on IOS devices.
+* It was also brought to my attention that background videos do not work on ios devices because autoplay is not supported by IOS devices, so i did the next best thing- Add a backup image to fall back on using poster attribute for video elements.[Solution found on Google](https://support.shortpoint.com/support/solutions/articles/1000219664-background-video-does-not-work-on-iphone-ipad-devices). In stack overflow i also saw some suggestions but i dont have iphone or ios devices at home so it was very difficult to test these codes 1 day before due date, il definetly try implement and test these solutions in the future. [Stack Overflow solutions](https://stackoverflow.com/questions/59325257/html5-video-background-not-playing-safari-on-iphone)
 
 
 #### Solved Bugs
