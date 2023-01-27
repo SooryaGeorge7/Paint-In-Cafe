@@ -1,7 +1,11 @@
 # Paint-in Cafe
 This website is built for all the residents or tourists of Ireland(ROI) looking to do a creative activity in Dublin,Ireland.The website is based on a fictional cafe that allows you the unique experience of painting with watercolors while also eating from the cafe.This website is designed for code institute full stack program portfolio project 1 and it is built to be responsive to allow users from any browser to view the cafe website on any device.
 
+
 ![Website shown in different devices](documentation/am-i-responsive-final.png)
+
+### Live Link to website 
+[View Paint-in Cafe website on Github pages](https://sooryageorge7.github.io/Paint-In-Cafe/index.html)
 
 ---
 
@@ -45,9 +49,11 @@ This website is built for all the residents or tourists of Ireland(ROI) looking 
 
 ---
 
-## User Experience(UX)
+
 ### Brief
-Paint-In Cafe is a Cafe based in Dublin, Ireland. Visitors of the cafe are provided with the necessory stationaries to paint with watercolors while having the option to order from our food menu as well.It is the place to go to when you want to do a creative activity to do with any number of people.This website is created for any users/ first time visitors to understand the cafe's concept, get contact details, find location of the cafe or send in an inquiry to the "paint-in cafe's " staff inorder to accomodate their specific needs.
+Paint-In Cafe is a Cafe based in Dublin, Ireland. Visitors of the cafe are provided with the necessory equipment to paint with watercolors while having the option to order from our food menu as well.It is the place to go to when you want to do a creative activity to do with any number of people.This website is created for any users/ first time visitors to understand the cafe's concept, get contact details, find location of the cafe or send in an inquiry to the "paint-in cafe's " staff inorder to accomodate their specific needs.
+
+## User Experience(UX)
 
 ### Key information 
 * The cost involved (Cafe and experience).
@@ -287,7 +293,7 @@ These are the ways i have ensured to provide accessibility to users:
 * Provided alt for images incase images do not load.
 * Provided information for icons where no text was provided.
 * Provided a submit button in the contact form which will then direct you to a thank you page with navigation links still displayed so that you can navigate around the website more if needed. 
-* Aria labels were implemented for links and videos.
+* Aria labels were implemented for links and videos.[Learnt you can use aria-labels for videos here](https://www.w3.org/WAI/PF/HTML/wiki/Media_Alt_Technologies)
 * Google font "Playfair display" was chosen carefully and i chose the pairing to this font "Open Sans" here [Playfair display pairing](https://typ.io/fonts/playfair_display#:~:text=Playfair%20Display%20is%20a%20serif,Work%20Sans%2C%20Circular%20and%20Georgia.).
 
 ---
@@ -302,7 +308,7 @@ HTML and CSS was mainly used to build this website.
 * [Balsamiq](https://balsamiq.com/) - For Wireframes for planning of design.
 * [Gitpod](https://www.gitpod.io/) - To edit code/ code editor.
 * [GitHub](https://github.com/) - for version control, storage and deployment
-* [Font Awesome](https://fontawesome.com/) - For icons in all the pages.
+* [Font Awesome](https://fontawesome.com/) - For all the icons in all the pages.
 * [Typ.io](https://typ.io/) - To choose pairing of fonts.
 * [Google Fonts](https://fontawesome.com/v4/icons/) - To choose Heading font and body font.
 * [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - To help with troubleshoot, testing , checking for responsiveness and styling.
@@ -348,11 +354,11 @@ To clone the Paint-In-Cafe Repository:
 
 ## Testing
 
-I used chrome developer tools extensively while developing the project for testing.
+I used chrome developer tools extensively while developing the project.
 
 Once my project was submitted for peer-code-review, the following issues were raised to me: 
 1) When clicking on the logo, the website took you directly to the footer instead of home page.-This was done on purpose initially because i wanted the user to have the details in the footer as easily accessible as possible but my mentor confirmed to changing the href of logo to the home page(index.html) too.
-2) When clicking form submit, the submit button allowed a pop up messaging without validating any of the inputs given by user.-The form method was changed to "GET" and action to "thankyou.html which led you to thank you page once you are able to submit and changing input type and adding required attribute.The "onclick" javascript function was removed from the code as the pop alert message will be shown even with invalid inputs.
+2) When clicking form submit button, the submit button allowed a pop up messaging without validating any of the inputs given by user.-The form method was changed to "GET" and action to "thankyou.html which led you to thank you page once you are able to submit and changing input type and adding required attribute.The "onclick" javascript function was removed from the code as the pop alert message will be shown even with invalid inputs.
 
 ### W3C Validator
 
@@ -550,7 +556,7 @@ Final Lighthouse score of Home page:
 13. The `Event Enquiry` page has the same layout,links and buttons as the other pages.Click all to see if they work. The event page also has a event enquiry form. The form has 1 text input type, 1 tel input type, 1 number input type, 1 email input type, 1 submit input type , a textarea and select element. Test each of these input fields to see if required attribute works.(The text area does not have required attribute).Click submit button to see if you will be directed towards the thankyou page.The thank you page has the same layout as events page except the section contains the background video with heading.
 14. The thank you page still allows you to navigate back towards any of the other pages.
 
-####Browser and Responsiveness tests
+#### Browser and Responsiveness tests
 
 I did full testing of all the links, buttons, the form on a number of browsers and i have displayed the results of each of them below:
 
@@ -579,7 +585,7 @@ See [Known Bugs](#known-bugs) for explanation of appearance for IOS device and S
 ### BUGS
 #### Known Bugs
 
-* It was brought to my attention that my fixed images(Images with style attribute position with value "fixed") in my home page and cafe page does not work on iphone devices/ IOS devices.I did not have any IOS devices at home and was not aware of it until a friend sent a screenshot to me from her iphone. The images appeared stretched or zoomed in and did not have the effect of a fixed image.My fixed images worked on my laptops, and all the  android devices. I had asked in Slack what could be the reason and was adviced by Grace Mckenna that IOS doesnt support that code and could be outside the scope of project 1. After some intense googling, i had found a solution for future implementation that says you can use javascript for it to work on iphone devices.[Stack overflow solution](https://stackoverflow.com/questions/20443574/fixed-background-image-with-ios7). At this point in my project , i was almost done with the project  and the readme file too.In the future i will be aware of it and try and see if i can implement javascript to have the desired effect on IOS devices.
+* It was brought to my attention that my fixed images(Images with style attribute position with value "fixed") in my home page and cafe page does not work on iphone devices/ IOS devices and safari browsers.I did not have any IOS devices at home and was not aware of it until a friend sent a screenshot to me from her iphone. The images appeared stretched or zoomed in and did not have the effect of a fixed image.My fixed images worked on my laptops, and all the  android devices. I had asked in Slack what could be the reason and was adviced by Grace Mckenna that IOS doesnt support that code and could be outside the scope of project 1. After some intense googling, i had found a solution for future implementation that says you can use javascript for it to work on iphone devices.[Stack overflow solution](https://stackoverflow.com/questions/20443574/fixed-background-image-with-ios7). At this point in my project , i was almost done with the project  and the readme file too.In the future i will be aware of it and try and see if i can implement javascript to have the desired effect on IOS devices.
 
 
 
