@@ -48,6 +48,7 @@ This website is built for all the residents or tourists of Ireland(ROI) looking 
 ## User Experience(UX)
 ### Brief
 Paint-In Cafe is a Cafe based in Dublin, Ireland. Visitors of the cafe are provided with the necessory stationaries to paint with watercolors while having the option to order from our food menu as well.It is the place to go to when you want to do a creative activity to do with any number of people.This website is created for any users/ first time visitors to understand the cafe's concept, get contact details, find location of the cafe or send in an inquiry to the "paint-in cafe's " staff inorder to accomodate their specific needs.
+
 ### Key information 
 * The cost involved (Cafe and experience).
 * Do you need prior experience in painting?
@@ -282,13 +283,13 @@ These are the ways i have ensured to provide accessibility to users:
 * Provided a submit button in the contact form which will then direct you to a thank you page with navigation links still displayed so that you can navigate around the website more if needed. 
 * Aria labels were implemented.
 * Google font "Playfair display" was chosen carefully and i chose the pairing to this font "Open Sans" here [Playfair display pairing](https://typ.io/fonts/playfair_display#:~:text=Playfair%20Display%20is%20a%20serif,Work%20Sans%2C%20Circular%20and%20Georgia.).
-* I have added in backup images for background videos when backgroundvideos dont play or load. See [Solved Bugs](#solved-bugs).
+
 ---
 
 ## Technologies Used
 
 ### Languages Used
-HTML and CSS was mainly used to build this website. Javascript was only used for On click function for submit form.
+HTML and CSS was mainly used to build this website. 
 
 ### Frameworks, Libraries and Programs Used
 
@@ -475,7 +476,7 @@ Final Lighthouse score of Home page:
 * To allow potential customers to find out about Paint-In Cafe and where its located.
   * The footer contains information about location.The location section in the footer also has a maps button that will direct you to google maps location. 
   * Social media links allows the website to reach more customers.
-* To allow potential customers learnabout the concept of the cafe and understand what they need to do to visit.
+* To allow potential customers to learn about the concept of the cafe and understand what they need to do to visit.
   * The home page has a text overlying the background video that asks the site visitor a question and the button below says "learn more". If you click on the button, the site will take the visitor to the concept section of home page where the visitor can learn more about Paint-in Cafe.
   * In the section under the heading "How does it work?", There are 6 divs that contain headings and information that the website visitor most likely would want to know more about. Eg: Bookings, experience, cafe. 
   * Gallery shows a few images from the cafe and experience so that the visitors know what to expect before visiting.
@@ -485,7 +486,8 @@ Final Lighthouse score of Home page:
   * Provide sufficient information about the experience, price of everything and also allow images of cafe and experence to be seen by potential customer.This is shown in the concept section in Home page, menu section in cafe page and from the images in gallery page.
 * To allow customers to be able to book tables in case of events or are a group of 10+ people.
   * The navigation bar has an `Event Enquiry` page which takes visitors to a page that allows customers to fill in a form and submit the form. The page also has information as to when booking's are required.
-  * 
+  * The concept section in home page has an events enquiry link in the div that contains bookings.
+  * The about page contains an event enquiry link in the information section as well.
 * To be able to view the site in dark or lightmode with ease.
   * The colors chosen for website have sufficient contrast and the website was tested for lighthouse score in darkmode as well. 
 * To ensure that the visitor can easily navigate through the site.
@@ -500,6 +502,8 @@ Final Lighthouse score of Home page:
   * The home page has all the information that visitors would need.For example, concept, price, bookings etc.
 * To find the enquiry form to submit in the case of wanting to book a table for an event.
   * The navigation link on top has a link t event enquiry page where there is a form to submit incase of bookings needed.
+  * The concept section in home page has an events enquiry link in the div that contains bookings.
+  * The about page contains an event enquiry link in the information section as well.
 * To be able to view gallery pictures of the cafe and paintings done at the cafe.
   * The images from the cafe are displayed in gallery page which can be viewed from the naviagtion links.
 * To  view the menu of the cafe on the site to see their options for food and prices.
@@ -540,6 +544,8 @@ Final Lighthouse score of Home page:
 13. The `Event Enquiry` page has the same layout,links and buttons as the other pages.Click all to see if they work. The event page also has a event enquiry form. The form has 1 text input type, 1 tel input type, 1 number input type, 1 email input type, 1 submit input type , a textarea and select element. Test each of these input fields to see if required attribute works.(The text area does not have required attribute).Click submit button to see if you will be directed towards the thankyou page.The thank you page has the same layout as events page except the section contains the background video with heading.
 14. The thank you page still allows you to navigate back towards any of the other pages.
 
+####Browser and Responsiveness tests
+
 I did full testing of all the links, buttons, the form on a number of browsers and i have displayed the results of each of them below:
 
 &check;- Works correctly.
@@ -562,11 +568,13 @@ I did test on a variety of devices as well and displayed below is a table showin
 | Gallery Page | *Appearance -&check; |*Appearance -&check; |*Appearance -&check; |*Appearance -&check; |
 | Event Enquiry Page | *Appearance -&check; |*Appearance -&check; |*Appearance -&check; |*Appearance -&check; |
 
+See [Known Bugs](#known-bugs) for explanation of appearance for IOS device and Safari browsers.
+
 ### BUGS
 #### Known Bugs
 
 * It was brought to my attention that my fixed images in my home page and cafe page does not work on iphone devices/ IOS devices.I did not have any IOS devices at home and was not aware of it until a friend sent a screenshot to me from her iphone. The images appeared stretched or zoomed in and did not have the effect of a fixed image.My fixed images worked on my laptops, and all the  android devices. I had asked in Slack what could be the reason and was adviced by Grace Mckenna that IOS doesnt support that code and could be outside the scope of project 1. After some intense googling, i had found a solution for future implementation that says you can use javascript for it to work on iphone devices.[Stack overflow solution](https://stackoverflow.com/questions/20443574/fixed-background-image-with-ios7). At this point in my project , i was almost done with the project  and the readme file too.In the future i will be aware of it and try and see if i can implement javascript to have the desired effect on IOS devices.
-* It was also brought to my attention that background videos do not work on ios devices because autoplay is not supported by IOS devices, so i did the next best thing- Added a backup image to fall back on using poster attribute for video elements.[Solution found on Google](https://support.shortpoint.com/support/solutions/articles/1000219664-background-video-does-not-work-on-iphone-ipad-devices). In stack overflow i also saw some suggestions but i dont have iphone or ios devices at home so it was very difficult to test these codes 1 day before due date, il definetly try implement and test these solutions in the future. [Stack Overflow solutions](https://stackoverflow.com/questions/59325257/html5-video-background-not-playing-safari-on-iphone)
+
 
 
 #### Solved Bugs
@@ -577,7 +585,7 @@ I did test on a variety of devices as well and displayed below is a table showin
 * The background video did not want to center itself as the screensizes increased or decreased- this was fixed by adding a outer div to video and setting the position of div to relative while you position the video itself to absolute. Set the object-fit of video to cover. Set the bottom attribute of video to be 0.
 * The images in gallery did not have the correct aspect ratio while doing lighthouse testing- I solved this by adding the css attribute object-fit with value of cover to every image in the gallery.
 * The form submit button was allowing pop up message to occur without validating inputs given by user. - Changed the method attribute of form to "GET"and action to "thankyou.html" and removed onclick javascript function from input element.
-
+* It was brought to my attention that background videos do not work on ios devices because autoplay is not supported by IOS devices, so i tried to find answers online and found a solution in stack overflow [Stack Overflow solutions](https://stackoverflow.com/questions/59325257/html5-video-background-not-playing-safari-on-iphone).I added playsinline attribute to my video elements and they seemed to help IOS devices to play the background video.I unfortunately do not have an ios device, my friend reassured me that the video worked on her phone after my changes.
 ---
 
 ## Credits
@@ -589,7 +597,7 @@ I did test on a variety of devices as well and displayed below is a table showin
 * [Got the code to make gallery to display as a flexbox so that it is responsive here](https://www.youtube.com/watch?v=Trw_9lisYVY)
 * [learnt how to center the background video so that the video doesnt shrink according to screensizes here](https://www.youtube.com/watch?v=znqUwx0b0HI&t=8s)
 * [Learnt to add scroll button in gallery using css and html only](https://www.youtube.com/watch?v=Vef9bxTilCU)
-* [Learnt that i should implement fallback images for videos here](https://support.shortpoint.com/support/solutions/articles/1000219664-background-video-does-not-work-on-iphone-ipad-devices)
+* [Learnt how to play backgroundvideos in IOS devices here](https://stackoverflow.com/questions/59325257/html5-video-background-not-playing-safari-on-iphone)
 
 ### Content
 * All content in the website was written by me but i did draw inspiration from the websites below: 
@@ -617,11 +625,7 @@ Fixed images shown in home page and cafe page.
 Other images.
 * [Sunny Marie Photo(fictional owner)](https://www.pexels.com/photo/woman-in-black-sweater-holding-brush-watercolor-set-and-notebook-7181836/)
 * [Paint-in Cafe logo image](https://www.svgrepo.com/)
-* [Backup image for home background video](https://www.pexels.com/photo/blue-white-and-yellow-abstract-painting-4175054/)
-* [Backup image for about background video](https://www.pexels.com/photo/close-up-photo-of-paintbrush-1666756/)
-* [Backup image for cafe background video](https://www.pexels.com/photo/cappuccino-in-black-ceramic-mug-on-white-ceramic-round-plate-3637819/)
-* [Backup image for gallery video](https://www.pexels.com/photo/bunch-of-photo-print-1908066/)
-* [Backup image for event enquiry page video](https://www.pexels.com/photo/low-angle-shot-of-pink-and-red-balloons-226718/)
+
 
 Gallery images 
 * [Mother helping her child with painting](https://www.pexels.com/photo/a-woman-in-white-long-sleeves-standing-near-her-student-painting-on-white-paper-7898456/)
@@ -653,4 +657,4 @@ I would like to acknowledge the following people in helping with me project one 
 * I acknowledge Mckenna Grace for replying to my question about a bug on ask-anything slack group.
 * UCD academy novemeber private group in slack for our almost weekly facilitator sessions that have helped in getting some our doubts cleared with regards to the project.
 * Chris Quinn for delivering our facilitator and master classes so far which has helped me to not feel completly alone in this journey.
-* I acknowledge Eli Dimitrova and Lane sawyer thompson for reply to my question regarding mentor sessions in slack. 
+* I acknowledge Will Griffiths for replying to my question regarding background colors in slack. 
