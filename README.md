@@ -98,6 +98,7 @@ Paint-In Cafe is a Cafe based in Dublin, Ireland. Visitors of the cafe are provi
 
 ### Color Scheme
 *[Initial Paint-In cafe color palette](documentation/paint-in-caf%C3%A9-color-palette.png)
+
 I initially inserted the color palette above thinking that the colors appear the same(atleast almost) on all devices.After finishing the website and checking my website on other devices i realised that my colors looked very different from my own laptop. 
 I thought the color **#67D387** was a pastel mint green color but it appeared bright green on other devices.The **#7B9F82** was supposed to be a grey color which turned out to be a shade of green on other devices. I decided to change these two colors to accomodate my device and other devices. I tested the color **#C4C3C7** and **#ADD0B3** below and they looked more like the colors i wanted in all the other devices.
 I used pastel green color because i find green to be a calming color and i found that a lot of art websites used **pastel** colors. I thought the dark red(**#8C2323**) gives a good contrast to the pastel green and it may also be reminscent of the cafe interior and dark furniture. The white and grey helps with the flow and balance of the two contrast colors.I decided againt using the **#F0996A** because the color ddnt flow nicely with the design and i ddnt know how to incorporate without it clashing with the other colors.
@@ -131,7 +132,9 @@ Wireframes for mobile, tablet and desktop view
 * **EVENTS ENQUIRY PAGE**![Event enquiry page wireframe](documentation/event-enquiry-wireframe.png)
 
 
-The final designs look very different to initial wireframe designs because i started thinking more and more about user experience and design flow and realized i had to change a lot.I have also added a Thank you page for after user submits form.
+
+* The final designs look very different to initial wireframe designs because i started thinking more and more about user experience and design flow and realized i had to change a lot.I have also added a Thank you page for after user submits form.
+
 ---
 ## Features
 
@@ -146,7 +149,7 @@ The website has 5 main pages and 1 thank you page that appears once you click su
 ![Header mobile view](documentation/headertop-smallscreens.png)
 * For all the pages there will be a header consisting of navigation links that allow you to move from one page to another.
 * The header element will also have Cafe's logo and name on far left. When hovered over, the cursor becomes pointer and allows you to press the logo and name which then takes you directly to return to home page of cafe website.
-* For smaller screen the navigation links appear when you press on toggler button that is displayed as 3 red bars top right on the smaller screen.
+* For smaller screen the navigation links appear when you press on toggler button that is displayed as 3 bars or hamburger toggler top right on the smaller screen.
 
 ![Nav links](documentation/navlinks-smallscreen.png)
 ![Nav links](documentation/navlinks-largescreens.png)
@@ -183,7 +186,7 @@ In addition to header and footer, the home page shows the following:
 #### About Page
 This page shows how Paint-in cafe came about, information about when it was built, A deep dive into the background story of the owner and even more details about the cafe. 
 
-In addition to the general features of all page , the about page has the following:
+In addition to the general features of all pages , the about page has the following:
 
 * It has a background video with text overlying that specifies that this is the `About` page.
 ![About page background video](documentation/about-backgroundvideo-feature.png)
@@ -216,10 +219,10 @@ This page has images of paintings, people and food inorder to attract potential 
 
 
 In addition to the general features of all page , the about page has the following:
-* It has a background video with text overlying that specifies that this is the `Gallery` page which contains the title **Make Memories**.
+* It has a background video with text overlying that specifies that this is the `Gallery` page which contains the title **Gallery**.
 ![Gallery page background](documentation/gallery-backgroundvideo.png)
 
-* It has a section contains all the photos i have saved from [Pexels](https://www.pexels.com/search/paintbrushes/) with heading.
+* It has a section that contains all the photos i have saved from [Pexels] and a heading.(https://www.pexels.com/search/paintbrushes/) with heading.
 
 ![Gallery section heading](documentation/gallery-heading.png)
 ![Images in gallery with heading](documentation/images-gallery.png)
@@ -249,6 +252,9 @@ In addition to the general features of all page , the about page has the followi
 ![Events section submit button](documentation/submit-button.png)
 
 Once you have submitted the form by clicking the submit button, The website will lead you to a thank you page where you can still navigate back to home page if needed.
+
+#### Thank you page
+
 You can have a look at the thank you page here.
 * [Thank you page](documentation/thankyou-page.png)
 
@@ -262,7 +268,7 @@ You can have a look at the thank you page here.
 
 If this website was based on a real cafe:-
 * I'd want to implement google reviews in the website so that website visitors would be able to understand the experience from the customer's point of view.
-* Change the gallery page outlay to display previous customer's artwork, returning customers will be able to go check out their painting in the gallery.
+* Change the gallery page outlay to display previous customer's artwork, returning customers will be able to go check out their paintings in the gallery.
 * Implement a share button inorder for site visitors to share the website with others. 
 * I would have liked to include a video of the cafe's concept to help the user understand better.
 * I would also include an art class page for customers who actually want to sign up for evening art classes.
@@ -281,7 +287,7 @@ These are the ways i have ensured to provide accessibility to users:
 * Provided alt for images incase images do not load.
 * Provided information for icons where no text was provided.
 * Provided a submit button in the contact form which will then direct you to a thank you page with navigation links still displayed so that you can navigate around the website more if needed. 
-* Aria labels were implemented.
+* Aria labels were implemented for links and videos.
 * Google font "Playfair display" was chosen carefully and i chose the pairing to this font "Open Sans" here [Playfair display pairing](https://typ.io/fonts/playfair_display#:~:text=Playfair%20Display%20is%20a%20serif,Work%20Sans%2C%20Circular%20and%20Georgia.).
 
 ---
@@ -462,7 +468,7 @@ Final Lighthouse score of Home page:
  * Mobile(Light & Dark mode)-
 
  ![Thank you page lighthouse score for mobile(light and dark mode)](documentation/thankyou-mobile-lighthouse.png)
-#### Wave
+
 
 ---
 
@@ -573,7 +579,7 @@ See [Known Bugs](#known-bugs) for explanation of appearance for IOS device and S
 ### BUGS
 #### Known Bugs
 
-* It was brought to my attention that my fixed images in my home page and cafe page does not work on iphone devices/ IOS devices.I did not have any IOS devices at home and was not aware of it until a friend sent a screenshot to me from her iphone. The images appeared stretched or zoomed in and did not have the effect of a fixed image.My fixed images worked on my laptops, and all the  android devices. I had asked in Slack what could be the reason and was adviced by Grace Mckenna that IOS doesnt support that code and could be outside the scope of project 1. After some intense googling, i had found a solution for future implementation that says you can use javascript for it to work on iphone devices.[Stack overflow solution](https://stackoverflow.com/questions/20443574/fixed-background-image-with-ios7). At this point in my project , i was almost done with the project  and the readme file too.In the future i will be aware of it and try and see if i can implement javascript to have the desired effect on IOS devices.
+* It was brought to my attention that my fixed images(Images with style attribute position with value "fixed") in my home page and cafe page does not work on iphone devices/ IOS devices.I did not have any IOS devices at home and was not aware of it until a friend sent a screenshot to me from her iphone. The images appeared stretched or zoomed in and did not have the effect of a fixed image.My fixed images worked on my laptops, and all the  android devices. I had asked in Slack what could be the reason and was adviced by Grace Mckenna that IOS doesnt support that code and could be outside the scope of project 1. After some intense googling, i had found a solution for future implementation that says you can use javascript for it to work on iphone devices.[Stack overflow solution](https://stackoverflow.com/questions/20443574/fixed-background-image-with-ios7). At this point in my project , i was almost done with the project  and the readme file too.In the future i will be aware of it and try and see if i can implement javascript to have the desired effect on IOS devices.
 
 
 
@@ -615,6 +621,7 @@ All videos were downloaded from free open source [pexels](https://www.pexels.com
 * [Cafe background video](https://www.pexels.com/video/coffee-making-art-by-a-bartender-2909914/)
 * [Gallery background video](https://www.pexels.com/video/playing-morning-music-view-4306403/)
 * [Event enquiry background video](https://www.pexels.com/video/bouquet-of-helium-colored-balloons-3905909/)
+* [Thank you background video](https://www.pexels.com/video/bouquet-of-helium-colored-balloons-3905909/)
 #### Images 
 All images were downloaded fromm free open source [pexels](https://www.pexels.com/), the exception being the logo image that appears in top left corner of every page which was downloaded from [SVG repo](https://www.svgrepo.com/)
 
